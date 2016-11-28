@@ -45,7 +45,7 @@ markdown: kramdown
 kramdown:
   input: GFM 
   
-highlighter: true
+highlighter: rouge
 
 collections:
   tools:
