@@ -1,0 +1,28 @@
+// ============================================
+// FONT VARIABLE
+// ============================================
+
+$f-sansserif: 'Rubik', sans-serif;
+
+// ===========================================
+// COLOR VARIABLE
+// ===========================================
+
+$c-black: #56502B;
+$c-yellow: #FFEE7D;
+$c-purple: #534C98;
+$c-red: #F38181;
+$c-white: #FEFAEC;
+$c-blue: #A9EEE6;
+
+// ===========================================
+// SUSY SETTING
+// ===========================================
+
+$susy: (
+	column-width: 65px,
+  	columns: 12,
+  	gutters: 30/65,
+  	math: fluid,
+  	gutter-position: split
+);

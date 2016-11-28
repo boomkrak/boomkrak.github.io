@@ -1,0 +1,30 @@
+<header>
+	<div class="container">
+		<div class="logo"><a href="{{ site.baseurl }}/">Boomkrak</a></div>
+		{% assign pages = site.pages | sort:"weight"  %}
+		<ul class="header__menu">
+		{% for p in pages %}
+	  		{% if p.type == 'page' %}
+			<li>
+				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+				{{ p.title }}
+				</a>
+		    </li>
+		    {% endif %}
+		{% endfor %}
+			<li><a href="#" class="btn-subscribe ion-android-mail">Subscribe</a></li>
+		</ul>
+	</div>
+</header>
+
+<section class="banner">
+	<div class="container">
+		<div class="banner__text">
+			{% if page.bannertext %}
+				{{ page.bannertext }} 
+			{% else %}
+				{{ page.title }}
+			{% endif %}
+		</div>
+	</div>
+</section>

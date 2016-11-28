@@ -1,0 +1,37 @@
+/* =============================== 
+* MODULAR TYPOGRAPHY START HERE!!!
+=============================== */
+
+$ms-base: 16px, 125px;
+$ms-ratio: $golden;
+$ms-maxvar: 6;
+
+$magic-number: 10px;
+
+@mixin ms-var {
+  @for $i from -1 through $ms-maxvar {
+  	.ms#{$i}{
+  		font-size: ms($i);
+  		margin-top: 0;
+		// Pro tip: You can multiply the calculated value,
+		// for example to arrive at a suitable line-height.
+		line-height: ms($i) * 1.35;
+		@if $i > 1{
+			margin-bottom: $i * $magic-number;
+		} @else {
+			margin-bottom: 2 * $magic-number;
+		}
+
+		@include bp-small{
+			@if $i < 1{
+				font-size: ms($i);
+				line-height: ms($i) * 1.35;	
+			} @else {
+				font-size: ms($i - 1);
+				line-height: ms($i - 1) * 1.35;
+			}
+		}
+  	}
+  }
+}
+

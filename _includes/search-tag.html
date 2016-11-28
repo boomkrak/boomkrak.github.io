@@ -1,0 +1,13 @@
+{% assign resources = site.data.resources.resources %}
+<ul class="tag__list">
+  	{% for resource in resources %}
+		{% for article in resource.content %}
+			{% if article.articleTag contains page.name %}
+			<li>
+				<h6><a href="{{ article.articleUrl }}" target="_blank">{{ article.articleTitle }}</a></h6>
+				<p>An article by {{ article.articleAuthor }}</p>
+			</li>
+			{% endif %}
+		{% endfor %}
+  	{% endfor %}
+</ul>

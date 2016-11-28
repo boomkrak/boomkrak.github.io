@@ -1,0 +1,18 @@
+---
+layout: default
+title: Tools
+type: page
+weight: 10
+bannertext: To a general advertiser outdoor advertising is worthy of consideration. Outdoor advertising is considered as the oldest.
+---
+
+<ul class="collections">
+  {% for tool in site.tools %}
+    <li>
+		<a {% if tool.url == page.url %}class="active"{% endif %} href="{{ tool.url }}">
+			<span class="collections__image" style="background: #{{ tool.colColor }}"><img src="{{ tool.imgUrl }}" alt="{{ tool.title }}"></span>
+			<span class="collections__title">{{ tool.title }}</span>
+		</a>
+    </li>
+  {% endfor %}
+</ul>

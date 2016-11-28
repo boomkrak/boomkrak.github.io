@@ -1,0 +1,179 @@
+body{
+	color: $c-black;
+	background: $c-white;
+}
+
+header{
+	background: $c-yellow;
+	.logo{
+		a{
+			color: $c-red;
+		}
+	}
+	a{
+		color: $c-black;
+		&:hover,
+		&.active{
+			color: $c-red;
+		}
+	}
+}
+
+.btn-subscribe{
+	background: $c-blue;
+	box-shadow: -1px 3px 0 $c-purple;
+	border: 1px solid $c-purple;
+	color: rgba(black, 0.75);
+	&:hover{
+		color: rgba(black, 0.55);
+		background: $c-red;
+	}
+	&.ion-android-mail:before{
+		color: rgba(black, 0.55);
+		border-right: 1px solid rgba(black, 0.55);
+	}
+}
+
+.banner{
+	background: $c-purple;
+	color: #fff;
+
+}
+
+.content{
+	border-bottom: 1px solid rgba($c-black, 0.25);
+	&__right{
+		background: white;
+		transition: 400ms;
+		&:hover{
+			box-shadow: 0 3px 20px rgba($c-black, 0.15);	
+		}
+	}
+}
+
+.collections{
+	li{
+		background: white;
+		//border: 1px solid rgba($c-black, 0.25);
+		transition: 400ms;
+		&:hover{
+			box-shadow: 0 3px 20px rgba($c-black, 0.2);
+		}
+	}
+	&__image{
+		background: $c-purple;
+	}
+	&__title{
+		color: rgba(black, 0.55);
+	}
+}
+
+.collection{
+	&__list{
+		a{
+			color: $c-red;
+		}
+	}
+}
+
+.resource{
+	&__list{
+		> li{
+			padding-bottom: 3 * $magic-number;
+			border-bottom: 1px solid rgba(black, 0.1);
+		}
+		h5{
+			color: $c-purple;
+			&:after{
+				background: $c-red;
+			}
+		}
+		h6{
+			a{
+				color: $c-black;
+				background: $c-yellow;
+			}
+		}
+	}
+	&__tag{
+		a{
+			border: 1px solid $c-red;
+			color: $c-red;
+			&:hover{
+				background: $c-red;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.tag{
+	&__list{
+		h6{
+			a{
+				color: $c-black;
+				background: $c-yellow;
+			}
+		}
+	}
+}
+
+.sidebar{
+	h6{
+		color: $c-purple;
+	}
+	&__menu{
+		a{
+			color: $c-black;
+			&:hover{
+				color: $c-red;
+			}
+			&.active{
+				color: $c-red;
+				font-weight: 500;
+				.col-color{
+					box-shadow: 0 0 8px rgba($c-red, 1);
+				}
+			}
+		}
+		&.tag-list{
+			a{
+				border: 1px solid $c-red;
+				color: $c-red;
+				&:hover{
+					background: $c-red;
+					color: #fff;
+				}
+			}
+		}
+	}
+	&__subscribe{
+		background: $c-blue;
+		transition: 400ms;
+		&:hover{
+			box-shadow: 0 3px 20px rgba($c-black, 0.15);	
+		}
+		label{
+			color: rgba(black, 0.75);
+		}
+		input[type="submit"]{
+			border: none;
+			background: $c-purple;
+			color: #fff;
+			width: 120px;
+			height: 30px;
+		}
+	}
+}
+.col-color{
+	background: $c-purple;
+}
+
+footer{
+	a{
+		color: $c-red;
+		&:hover{
+			color: $c-black;
+		}
+	}
+}

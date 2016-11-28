@@ -1,0 +1,48 @@
+{ 
+	"tag": [
+		{
+			"name": "business",
+			"color": "EB55BF"
+		},
+		{
+			"name": "collaboration",
+			"color": "986EAD"
+		},
+		{
+			"name": "ui",
+			"color": "74D2FF"
+		},
+		{
+			"name": "ux",
+			"color": "57D131"
+		},
+		{
+			"name": "learning",
+			"color": "F0B775"
+		},
+		{
+			"name": "typography",
+			"color": "2D4059"
+		},
+		{
+			"name": "case study",
+			"color": "2D4059"
+		},
+		{
+			"name": "content strategy",
+			"color": "2D4059"
+		},
+		{
+			"name": "branding",
+			"color": "2D4059"
+		},
+		{
+			"name": "productivity",
+			"color": "2D4059"
+		},
+		{
+			"name": "essay",
+			"color": "2D4059"
+		}
+	]
+}

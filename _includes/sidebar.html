@@ -1,0 +1,15 @@
+<div class="sidebar">
+	{% assign pages = site.tools | sort:"weight"  %}
+	<ul class="sidebar__menu">
+	  {% for tool in site.tools %}
+	    <li>
+			<a {% if tool.url == page.url %}class="active"{% endif %} href="{{ tool.url }}">
+				<span class="col-color" style="background: #{{ tool.colColor }}"></span>
+				{{ tool.title }}
+			</a>
+	    </li>
+	  {% endfor %}
+	</ul>
+
+	{% include subscribe-form.html %}
+</div>

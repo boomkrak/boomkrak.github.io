@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+html {
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-size: 100%;
+}
+body{
+	overflow-x: hidden;
+}
+
+img{
+	max-width: 100%;
+}
+
+.container{
+	@include container();
+}
+
+@include ms-var;
+
+h1{
+	@extend .ms6;
+}
+h2{
+	@extend .ms5;
+}
+h3{
+	@extend .ms4;
+}
+h4{
+	@extend .ms3;
+}
+h5{
+	@extend .ms2;
+}
+h6{
+	@extend .ms1;
+}
+p{
+	@extend .ms0;	
+}
+
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,267 @@
+html{
+	font-size: 100%;
+	font-size: 14px;
+}
+body{
+	font-family: $f-sansserif;
+}
+
+// HEADER
+header{
+	.logo{
+		@include span(3);
+		font-size: ms(3);
+		text-transform: uppercase;
+		font-weight: 700;
+		line-height: 1.5;
+	}
+}
+.header{
+	&__menu{
+		@include span(6 last);
+		text-align: right;
+		li{
+			@include inline-block;
+			margin-left: 2 * $magic-number;
+		}
+		a{
+			padding: 5px 10px;
+		}
+	}
+}
+
+.btn-subscribe{
+	&.ion-android-mail:before{
+		margin-right: 10px;
+		padding-right: 10px;
+	}
+}
+
+.banner{
+	font-size: ms(4);
+	text-align: center;
+	font-weight: 700;
+	padding: 5 * $magic-number;
+	margin-bottom: 3 * $magic-number;
+	&__text{
+		@include span(10);
+		@include push(1);
+	}
+}
+
+.content{
+	padding-bottom: 2 * $magic-number;
+	&__left{
+		@include span(3.5);
+	}
+	&__right{
+		@include span(8);
+		@include push(0.5);
+		padding: $magic-number;
+	}
+}
+
+.collections{
+	@include container();
+	li{
+		@include span(3);
+		list-style: none;
+		margin-bottom: 2 * gutter();
+		text-align: center;
+		span{
+			display: block;
+		}
+	}
+	&__image{
+		padding: 5 * $magic-number 2 * $magic-number;
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	&__title{
+		padding: $magic-number;
+		font-size: ms(0);
+	}
+}
+
+.collection{
+	ul{
+		padding: 0 0 0 5 * $magic-number;
+		margin: 0;
+	}
+	&__list{
+		list-style-type: decimal-leading-zero;
+		padding: $magic-number;
+		font-size: ms(2);
+		a{
+			@include inline-block;
+			margin-bottom: $magic-number;
+			font-size: ms(1);
+			> img{
+				position: relative;
+				top: 1px;
+			}
+		}
+	}
+}
+
+.resource{
+	margin-bottom: 5 * $magic-number;
+	&__list{
+		list-style: none;
+		padding: $magic-number;
+		margin: 0;
+		> li{
+			margin-bottom: 3 * $magic-number;
+			ul{
+				li{
+					margin-bottom: 1.5 * $magic-number;
+				}
+			}
+		}
+		ul{
+			list-style-type: decimal-leading-zero;
+			padding: 0 0 0 5 * $magic-number;
+			margin: 0;
+		}
+		h5, h6{
+			font-weight: normal;
+		}
+		h5{
+			position: relative;
+			@include inline-block;
+			border-left: 4px solid $c-red;
+			padding-left: 25px;
+			&:after{
+				//content: "";
+				display: block;
+				width: 50px;
+				height: 5px;
+				position: absolute;
+				bottom: -5px;
+				right: 0;
+			}
+		}
+		h6{
+			margin-bottom: 0.5 * $magic-number;
+		}
+		p{
+			font-size: 14px;
+			margin-bottom: 5px;
+		}
+	}
+	&__tag{
+		a{
+			@include inline-block;
+			padding: 3px 5px;
+			font-size: ms(-1);
+		}
+	}
+}
+
+.tag{
+	&__list{
+		list-style-type: decimal-leading-zero;
+		padding: $magic-number $magic-number $magic-number 3 * $magic-number;
+		margin: 0;
+		li{
+			margin-bottom: 2 * $magic-number;
+		}
+		h6{
+			font-weight: normal;
+		}
+		h6{
+			margin-bottom: 0.5 * $magic-number;
+		}
+		p{
+			font-size: 14px;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.sidebar{
+	h6{
+		font-weight: normal;
+		margin-bottom: $magic-number;
+	}
+	&__menu{
+		list-style: none;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 2 * $magic-number;
+		li{
+			padding: $magic-number 0;
+			font-size: ms(0);
+		}
+		&.tag-list{
+			li{
+				@include inline-block;
+				padding: 0;
+				margin-bottom: 8px;
+				a{
+					padding: 3px 5px;
+					font-size: ms(-1);
+				}
+			}
+		}
+	}
+	&__subscribe{
+		padding: 2 * $magic-number;
+		text-align: center;
+		margin-bottom: 3 * $magic-number;
+		label{
+			display: block;
+			text-align: center;
+			margin-bottom: 2 * $magic-number;
+		}
+		input[type="email"]{
+			width: 100%;
+			height: 30px;
+			padding: 0 $magic-number;
+			margin-bottom: $magic-number;
+			text-align: left;
+		}
+	}
+}
+.col-color{
+	@include inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	position: relative;
+	top: 2px;
+	margin-right: 0.5 * $magic-number;
+}
+
+.resources{
+	padding: $magic-number;
+	margin: 0;
+}
+
+footer{
+	margin-top: 3 * $magic-number;
+	padding: 2 * $magic-number 0;
+	.logo{
+		@include span(3);
+		font-size: ms(1);
+		font-weight: 700;
+		span{
+			font-weight: normal;
+			display: block;
+			font-size: ms(-1);
+		}
+	}
+}
+.footer{
+	&__links{
+		@include span(6 last);
+		list-style: none;
+		text-align: right;
+		li{
+			@include inline-block;
+			margin-left: 2 * $magic-number;
+		}
+	}
+}

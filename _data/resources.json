@@ -1,0 +1,42 @@
+{"resources": [
+	{
+		"date": "Nov 7",
+		"content": [
+			{
+			"articleTitle":"The Distribution of Users’ Computer Skills: Worse Than You Think",
+	        "articleUrl":"https://www.nngroup.com/articles/computer-skill-levels/?ref=boomkrak",
+	        "articleAuthor": "Jakob Nielson",
+	        "articleTag": "content strategy"	
+			},
+			{
+			"articleTitle":"How to Use Animation to Improve UX",
+	        "articleUrl":"https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.84b3m022s?ref=boomkrak",
+	        "articleAuthor": "Nick Babich",
+	        "articleTag": "ux, motion"
+			},
+			{
+			"articleTitle":"How Display Post on Jekyll",
+	        "articleUrl":"https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.84b3m022s?ref=boomkrak",
+	        "articleAuthor": "Rizqi Nizamil",
+	        "articleTag": "jekyll, data"
+			}
+		]
+	},
+	{
+		"date": "Nov 15",
+		"content": [
+			{
+			"articleTitle":" 7 Things Every Designer Needs to Know about Accessibility",
+	        "articleUrl":"https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b#.5pgg5014x?ref=boomkrak",
+	        "articleAuthor": "Jesse Hausler",
+	        "articleTag": "ux, motion, typography"	
+			},
+			{
+			"articleTitle":"Get the most out of your research with storytelling",
+	        "articleUrl":"https://blog.intercom.com/get-the-most-out-of-your-research-storytelling/?ref=boomkrak",
+	        "articleAuthor": "Jillian Wells",
+	        "articleTag": "branding, collaboration"
+			}
+		]
+	}
+]}

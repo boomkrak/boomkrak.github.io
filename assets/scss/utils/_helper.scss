@@ -1,0 +1,89 @@
+// ===============================
+//  HELPER CLASS
+// ================================
+
+.left-text{
+    text-align: left;
+}
+.right-text{
+    text-align: right;
+}
+.center-text{
+    text-align: center;
+}
+.vertical-align{
+    &--relative{
+        @include vertical-align($position: relative);
+    }
+    &--absolute{
+        @include vertical-align($position: absolute);
+    }
+}
+.display-table{
+    display: table;
+}
+.valign-middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+.position{
+    &--relative{
+        position: relative;
+    }
+    &--absolute{
+        position: absolute;
+    }
+    &--static{
+        position: static;
+    }
+    &--fixed{
+        position: fixed;
+    }
+}
+
+.gradhov{
+    &:after{
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        opacity: 0.7;
+        //background: linear-gradient(to left bottom, #F1D6F8 0, #ADDBF4 45%, #88D8F0 75%, #4DA6DE 100%);
+        @include background-gradient-animation(
+            #f4a6e1, // color one
+            #88d8f0, // color two
+            #63acef, // colour three
+            #88d8f0, // colour four
+            35deg, // background angle
+            30s, // length
+            infinite // iteration
+        );
+        mix-blend-mode: multiply;
+        /*
+        opacity: 0;
+        transition: .4s;
+        */
+    }
+}
+
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+
+%clearfix{
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after{
+        clear: both;
+    }
+}

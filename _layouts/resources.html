@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="content container">
+    	<div class="content__left">
+			{% include sidebar-resources.html %}    		
+    	</div>
+        <div class="content__right resource">
+        	<!--
+        	<h4> {{ page.title }}</h4>
+        	-->
+        	{{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+
+  </body>
+</html>
+
