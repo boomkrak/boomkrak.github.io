@@ -1,0 +1,14 @@
+<ul>
+	{% for tool in site.data[include.title].tools %}
+	<li class="collection__list">
+		<p>
+			<a href="{{ tool.url }}" title="{{ tool.title }}" target="_blank">
+				<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+				{{ tool.title }}
+			</a>
+			<br>
+			{{ tool.desc }}
+		</p>
+	</li>
+	{% endfor %}
+</ul>

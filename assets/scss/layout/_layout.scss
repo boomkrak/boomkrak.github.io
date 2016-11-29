@@ -46,6 +46,7 @@ header{
 	&__text{
 		@include span(10);
 		@include push(1);
+		text-transform: capitalize;
 	}
 }
 
@@ -82,6 +83,7 @@ header{
 	&__title{
 		padding: $magic-number;
 		font-size: ms(0);
+		text-transform: capitalize;
 	}
 }
 
@@ -194,6 +196,7 @@ header{
 		li{
 			padding: $magic-number 0;
 			font-size: ms(0);
+			text-transform: capitalize;
 		}
 		&.tag-list{
 			li{

@@ -480,6 +480,7 @@ header .logo {
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
   margin-left: 9.649122807%;
+  text-transform: capitalize;
 }
 
 .content {
@@ -540,6 +541,7 @@ header .logo {
 .collections__title {
   padding: 10px;
   font-size: 16px;
+  text-transform: capitalize;
 }
 
 .collection ul {
@@ -670,6 +672,7 @@ header .logo {
 .sidebar__menu li {
   padding: 10px 0;
   font-size: 16px;
+  text-transform: capitalize;
 }
 
 .sidebar__menu.tag-list li {
@@ -900,8 +903,7 @@ header a:hover, header a.active {
 }
 
 .sidebar__menu.tag-list a:hover {
-  background: #F38181;
-  color: #fff;
+  background: #fff !important;
 }
 
 .sidebar__subscribe {

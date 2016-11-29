@@ -141,8 +141,8 @@ header{
 				border: 1px solid $c-red;
 				color: $c-red;
 				&:hover{
-					background: $c-red;
-					color: #fff;
+					background: #fff !important;
+					//color: #fff !important;
 				}
 			}
 		}

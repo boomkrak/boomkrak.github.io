@@ -23,7 +23,7 @@
 			{% if page.bannertext %}
 				{{ page.bannertext }} 
 			{% else %}
-				{{ page.title }}
+				{{ page.title | replace: '-', ' ' }}
 			{% endif %}
 		</div>
 	</div>
