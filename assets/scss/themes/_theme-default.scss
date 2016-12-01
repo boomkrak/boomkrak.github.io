@@ -24,6 +24,7 @@ header{
 	box-shadow: -1px 3px 0 $c-purple;
 	border: 1px solid $c-purple;
 	color: rgba(black, 0.75);
+	transition: 400ms;
 	&:hover{
 		color: rgba(black, 0.55);
 		background: $c-red;
@@ -119,6 +120,11 @@ header{
 }
 
 .sidebar{
+	&.stuck{
+		position: fixed;
+		top: 2 * $magic-number;
+		width: span(3);
+	}
 	h6{
 		color: $c-purple;
 	}
@@ -156,12 +162,17 @@ header{
 		label{
 			color: rgba(black, 0.75);
 		}
+		input[type="email"]{
+			&:focus{
+				outline: none;
+				box-shadow: 0 0 8px $c-red;
+				border: 1px solid rgba($c-black, 0.1);
+			}
+		}
 		input[type="submit"]{
-			border: none;
+			border: 1px solid rgba(black, 0.25);
 			background: $c-purple;
 			color: #fff;
-			width: 120px;
-			height: 30px;
 		}
 	}
 }
@@ -169,11 +180,43 @@ header{
 	background: $c-purple;
 }
 
+#mc_embed_signup input.mce_inline_error{
+	border: 1px solid $c-red !important;
+}
+#mc_embed_signup div.mce_inline_error{
+	background: none !important;
+	color: $c-red !important;
+	font-weight: normal !important;
+}
+
 footer{
 	a{
 		color: $c-red;
 		&:hover{
 			color: $c-black;
+		}
+	}
+}
+
+.popup{
+	background: rgba($c-black, 0.8);
+}
+
+.typeform-share{
+	background: $c-red;
+	color: #fff;
+	font-weight: 500;
+	border: 1px solid darken($c-red, 55%);
+	transition: 400ms;
+	&:before{
+		border-right: 1px solid rgba(black, 0.55);
+		color: #fff;
+		transition: 400ms;
+	}
+	&:hover{
+		color: rgba(black, 0.55);
+		&:before{
+			color: rgba(black, 0.55);
 		}
 	}
 }
