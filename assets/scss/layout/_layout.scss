@@ -74,7 +74,10 @@ header{
 		}
 	}
 	&__image{
-		padding: 5 * $magic-number 2 * $magic-number;
+		padding: 7 * $magic-number 2 * $magic-number;
+		&:before{
+			font-size: ms(6);
+		}
 		img{
 			display: block;
 			margin: 0 auto;
@@ -118,7 +121,10 @@ header{
 			margin-bottom: 3 * $magic-number;
 			ul{
 				li{
-					margin-bottom: 1.5 * $magic-number;
+					margin-bottom: 3 * $magic-number;
+					&:last-child{
+						margin-bottom: 0;
+					}
 				}
 			}
 		}

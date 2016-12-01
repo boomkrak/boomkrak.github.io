@@ -15,7 +15,7 @@
 	<ul class="sidebar__menu tag-list">
 	  	{% for tag in tag_list %}
 			<li>
-				<a href="{{ site.baseurl }}/tag/{{ tag.name |  replace: ' ', '-'}}" style="border-color: #{{tag.color}}; color: #{{tag.color}}">
+				<a href="{{ site.baseurl }}/tag/{{ tag.name |  replace: ' ', '-'}}" style="border-color: #{{tag.color}}; color: #{{tag.color}}" {% if tag.url == page.url %}class="active"{% endif %}>
 					{{ tag.name | replace: '-', ' '}}
 				</a>
 			</li>
