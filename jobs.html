@@ -1,6 +1,27 @@
 ---
-layout: default
+layout: jobs
 title: Jobs
 type: page
 weight: 12
 ---
+
+{% assign jobs = site.data.jobs.jobs | sort:"date" %}
+<ul class="job__list">
+  	{% for job in jobs %}
+    <li>
+		<div class="job__list__left">
+			<h6><a href="{{ job.url }}" target="_blank">{{ job.position }}</a></h6>
+			<div class="resource__tag">
+				{% assign tags = job.tag | split:", " %}
+				{% for tag in tags %}
+					<a href="{{ site.baseurl }}/job/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="job__list__right">
+			<p>{{ job.company }}</p>
+			<small><time>{{ job.date | timeago }}</time></small>
+		</div>
+    </li>
+  	{% endfor %}
+</ul>

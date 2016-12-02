@@ -1,16 +1,5 @@
 <div class="sidebar">
 	<h6>Browse tag</h6>
-	<!---
-	<ul class="sidebar__menu tag-list">
-	  {% for tag in site.data.resourcetag.tag %}
-	    <li>
-			<a href="{{ site.baseurl }}/tag/{{ tag.name | replace: ' ','-'}}">
-				{{ tag.name }}
-			</a>
-	    </li>
-	  {% endfor %}
-	</ul>
-	-->
 	{% assign tag_list = site.tag %}
 	<ul class="sidebar__menu tag-list">
 	  	{% for tag in tag_list %}

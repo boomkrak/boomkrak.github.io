@@ -54,6 +54,9 @@ header{
 	padding-bottom: 2 * $magic-number;
 	&__left{
 		@include span(3.5);
+		&.is_stuck{
+			margin-top: 2 * $magic-number;
+		}
 	}
 	&__right{
 		@include span(8);
@@ -168,7 +171,8 @@ header{
 	}
 }
 
-.tag{
+.tag,
+.job{
 	&__list{
 		list-style-type: decimal-leading-zero;
 		padding: $magic-number $magic-number $magic-number 3 * $magic-number;
@@ -184,6 +188,33 @@ header{
 		}
 		p{
 			font-size: 14px;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.job{
+	&__list{
+		list-style: none;
+		padding: $magic-number $magic-number $magic-number;
+		&__left{
+			@include span(9);
+		}
+		&__right{
+			@include span(3);
+			text-align: right;
+			p{
+				margin-bottom: 0;
+			}
+		}
+		li{
+			@extend %clearfix;
+			margin-bottom: 3 * $magic-number;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		h6{
 			margin-bottom: 5px;
 		}
 	}

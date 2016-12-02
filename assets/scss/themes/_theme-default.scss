@@ -125,6 +125,17 @@ header{
 	}
 }
 
+.job{
+	&__list{
+		h6{
+			a{
+				color: $c-purple;	
+			}
+			
+		}
+	}
+}
+
 .sidebar{
 	&.stuck{
 		position: fixed;
@@ -208,7 +219,7 @@ footer{
 }
 
 .popup{
-	background: rgba($c-black, 0.8);
+	background: rgba(black, 0.85);
 }
 
 .typeform-share{

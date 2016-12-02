@@ -47,10 +47,16 @@ kramdown:
   
 highlighter: rouge
 
+jekyll_timeago:
+  depth: 1
+
 collections:
   tools:
     output: true
     permalink: /:collection/:path/
   tag:
+    output: true
+    permalink: /:collection/:path/
+  jobs:
     output: true
     permalink: /:collection/:path/

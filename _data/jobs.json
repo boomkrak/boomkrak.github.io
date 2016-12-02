@@ -1,0 +1,16 @@
+{"jobs": [
+	{
+		"date": "22/10/2016",
+		"company": "Lieur Co",
+		"position": "Backend Developer at Lieur Company",
+		"url": "http://lieur.co/backend-dev",
+		"tag": "full time, back-end"
+	},
+	{
+		"date": "1/12/2016",
+		"company": "Lieur Co",
+		"position": "Front-end Developer at Lieur Company",
+		"url": "http://lieur.co/front-end-dev",
+		"tag": "full time, front-end"
+	}
+]}

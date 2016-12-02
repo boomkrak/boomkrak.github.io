@@ -1,0 +1,22 @@
+{% assign jobs = site.data.jobs.jobs %}
+<ul class="job__list">
+  	{% for job in jobs %}
+		{% if job.tag contains page.name %}
+		<li>
+			<div class="job__list__left">
+				<h6><a href="{{ job.url }}" target="_blank">{{ job.position }}</a></h6>
+				<div class="resource__tag">
+					{% assign tags = job.tag | split:", " %}
+					{% for tag in tags %}
+						<a href="{{ site.baseurl }}/jobs/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="job__list__right">
+				<p>{{ job.company }}</p>
+				<small><time>{{ job.date | date: "%B %-d, %Y" }}</time></small>
+			</div>
+	    </li>
+		{% endif %}
+  	{% endfor %}
+</ul>
