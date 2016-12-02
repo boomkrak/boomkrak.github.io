@@ -4,6 +4,8 @@ title: boomkrak
 description: Senstional bookmark delight from Lieur Co
 tagline: Get your resource here
 url: boomkrak.github.io
+twitter:
+  username: lieurco
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: app
@@ -49,6 +51,7 @@ highlighter: rouge
 
 gems:
   - jekyll-timeago
+  - jekyll-seo-tag
 
 jekyll_timeago:
   depth: 1
