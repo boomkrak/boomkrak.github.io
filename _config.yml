@@ -47,6 +47,9 @@ kramdown:
   
 highlighter: rouge
 
+gems:
+  - jekyll-timeago
+
 jekyll_timeago:
   depth: 1
 
