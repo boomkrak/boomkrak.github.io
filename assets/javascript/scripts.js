@@ -14,4 +14,14 @@ $(document).ready(function(){
 	$('.popup__backdrop').click(function(){
 		$('.popup').fadeOut();
 	});
+
+	$('.job__list li').each(function(){
+		var jobdate = $(this).find('.jobdate').val();
+		var timeago = moment(jobdate, 'DD/MM/YYYY').startOf('day').fromNow();
+		$(this).find('.timeago').html(timeago);
+	})
+	
+	
+	//console.log(timeago);
+
 })

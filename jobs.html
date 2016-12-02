@@ -20,7 +20,8 @@ weight: 12
 		</div>
 		<div class="job__list__right">
 			<p>{{ job.company }}</p>
-			<small><time>{{ job.date | timeago }}</time></small>
+			<input type="hidden" value="{{ job.date }}" class="jobdate">
+			<small><time class="timeago"></time></small>
 		</div>
     </li>
   	{% endfor %}

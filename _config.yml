@@ -50,7 +50,6 @@ kramdown:
 highlighter: rouge
 
 gems:
-  - jekyll-timeago
   - jekyll-seo-tag
 
 jekyll_timeago:
