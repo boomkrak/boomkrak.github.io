@@ -16,6 +16,9 @@ header{
 		&.active{
 			color: $c-red;
 		}
+		&.active{
+			font-weight: 700;
+		}
 	}
 }
 

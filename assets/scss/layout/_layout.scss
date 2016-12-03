@@ -13,7 +13,7 @@ header{
 		font-size: ms(3);
 		text-transform: uppercase;
 		font-weight: 700;
-		line-height: 1.5;
+		line-height: 1.3;
 	}
 }
 .header{
@@ -25,15 +25,17 @@ header{
 			margin-left: 2 * $magic-number;
 		}
 		a{
-			padding: 5px 10px;
+			padding: 3px 10px;
 		}
 	}
 }
 
 .btn-subscribe{
+	font-weight: 500;
 	&.ion-android-mail:before{
 		margin-right: 10px;
 		padding-right: 10px;
+		font-weight: normal;
 	}
 }
 
@@ -166,7 +168,7 @@ header{
 		a{
 			@include inline-block;
 			padding: 3px 5px;
-			font-size: ms(-1);
+			font-size: 12px;
 		}
 	}
 }
@@ -239,10 +241,11 @@ header{
 			li{
 				@include inline-block;
 				padding: 0;
-				margin-bottom: 8px;
+				margin-right: 3px;
+				margin-bottom: 10px;
 				a{
 					padding: 3px 5px;
-					font-size: ms(-1);
+					font-size: 12px;
 				}
 			}
 		}
