@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: boomkrak
-description: Senstional bookmark delight from Lieur Co
-tagline: Get your resource here
+title: Boomkrak
+description: Your favorite bookmark resource
+tagline: Your favorite bookmark resource
 url: boomkrak.github.io
 twitter:
   username: lieurco

@@ -5,6 +5,9 @@ html{
 body{
 	font-family: $f-sansserif;
 }
+title{
+	text-transform: uppercase;
+}
 
 // HEADER
 header{
@@ -32,6 +35,7 @@ header{
 
 .btn-subscribe{
 	font-weight: 500;
+	text-transform: uppercase;
 	&.ion-android-mail:before{
 		margin-right: 10px;
 		padding-right: 10px;
@@ -74,6 +78,7 @@ header{
 		list-style: none;
 		margin-bottom: 2 * gutter();
 		text-align: center;
+		font-weight: 500;
 		span{
 			display: block;
 		}
@@ -111,6 +116,30 @@ header{
 			> img{
 				position: relative;
 				top: 1px;
+			}
+		}
+		> p{
+			position: relative;
+		}
+		.ion-android-open{
+			@include vertical-align($position: absolute);
+			right: 20px;
+			padding: 5px $magic-number;
+			&:before{
+				position: relative;
+				z-index: 5;
+				transition: 400ms;
+			}
+			&:after{
+				content: "";
+				display: block;
+				width: 33px;
+				height: 33px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				transition: 300ms;
+				transform: scale(0);
 			}
 		}
 	}
@@ -255,6 +284,7 @@ header{
 		text-align: center;
 		margin-bottom: 3 * $magic-number;
 		label{
+			font-size: ms(0);
 			display: block;
 			text-align: center;
 			margin-bottom: 2 * $magic-number;
@@ -313,6 +343,9 @@ footer{
 			display: block;
 			font-size: ms(-1);
 		}
+		a{
+			font-weight: 700;
+		}
 	}
 }
 .footer{
@@ -354,6 +387,7 @@ footer{
 	@include inline-block;
 	padding: 5px 10px 8px;
 	margin-bottom: 2 * $magic-number;
+	text-transform: uppercase;
 	&:before{
 		padding-right: $magic-number;
 		margin-right: $magic-number;

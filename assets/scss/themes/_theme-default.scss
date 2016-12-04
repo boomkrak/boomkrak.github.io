@@ -80,6 +80,18 @@ header{
 		a{
 			color: $c-red;
 		}
+		.ion-android-open{
+			border: 1px solid $c-yellow;
+			&:after { background: $c-yellow; }
+			&:hover{
+				&:before{
+					color: rgba(black, 0.45);
+				}
+				&:after{
+					transform: scale(1);
+				}
+			}
+		}
 	}
 }
 

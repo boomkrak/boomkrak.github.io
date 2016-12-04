@@ -443,6 +443,10 @@ body {
   font-family: "freight-sans-pro", sans-serif;
 }
 
+title {
+  text-transform: uppercase;
+}
+
 header .logo {
   width: 22.3684210526%;
   float: left;
@@ -476,6 +480,7 @@ header .logo {
 
 .btn-subscribe {
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .btn-subscribe.ion-android-mail:before {
@@ -545,6 +550,7 @@ header .logo {
   list-style: none;
   margin-bottom: 2.6315789474%;
   text-align: center;
+  font-weight: 500;
 }
 
 .collections li span {
@@ -593,6 +599,40 @@ header .logo {
 .collection__list a > img {
   position: relative;
   top: 1px;
+}
+
+.collection__list > p {
+  position: relative;
+}
+
+.collection__list .ion-android-open {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 20px;
+  padding: 5px 10px;
+}
+
+.collection__list .ion-android-open:before {
+  position: relative;
+  z-index: 5;
+  -webkit-transition: 400ms;
+          transition: 400ms;
+}
+
+.collection__list .ion-android-open:after {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 300ms;
+          transition: 300ms;
+  -webkit-transform: scale(0);
+          transform: scale(0);
 }
 
 .resource {
@@ -768,6 +808,7 @@ header .logo {
 }
 
 .sidebar__subscribe label {
+  font-size: 16px;
   display: block;
   text-align: center;
   margin-bottom: 20px;
@@ -841,6 +882,10 @@ footer .logo span {
   font-size: 11px;
 }
 
+footer .logo a {
+  font-weight: 700;
+}
+
 .footer__links {
   width: 47.3684210526%;
   float: right;
@@ -893,6 +938,7 @@ footer .logo span {
   *display: inline;
   padding: 5px 10px 8px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .typeform-share:before {
@@ -990,6 +1036,23 @@ header a.active {
 
 .collection__list a {
   color: #F38181;
+}
+
+.collection__list .ion-android-open {
+  border: 1px solid #FFEE7D;
+}
+
+.collection__list .ion-android-open:after {
+  background: #FFEE7D;
+}
+
+.collection__list .ion-android-open:hover:before {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.collection__list .ion-android-open:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .resource__list > li {
