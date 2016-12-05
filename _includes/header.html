@@ -9,6 +9,13 @@
 				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
 				{{ p.title }}
 				</a>
+				{% if p.submenuTools %}
+					<ul class="submenu">
+						{% for toolPage in site.tools %}
+						<li><a href="{{ toolPage.url }}" style="color: #{{ toolPage.colColor }}">{{ toolPage.title | replace: '-', ' ' }}</a></li>
+						{% endfor %}
+					</ul>
+				{% endif %}
 		    </li>
 		    {% endif %}
 		{% endfor %}
@@ -22,6 +29,8 @@
 		<div class="banner__text">
 			{% if page.bannertext %}
 				{{ page.bannertext }} 
+			{% elsif page.url contains "tools" %}
+				Tools – {{ page.title | replace: '-', ' ' }} 
 			{% else %}
 				{{ page.title | replace: '-', ' ' }}
 			{% endif %}

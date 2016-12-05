@@ -22,6 +22,16 @@ header{
 	}
 }
 
+.header{
+	&__menu{
+		li{
+			.submenu{
+				background: #fff;
+			}
+		}
+	}
+}
+
 .btn-subscribe{
 	background: $c-blue;
 	box-shadow: -1px 3px 0 $c-purple;
@@ -92,6 +102,13 @@ header{
 				}
 			}
 		}
+		&.sponsored{
+			background: rgba($c-yellow, 0.15);
+			&:after{
+				background: $c-yellow;
+				color: rgba(black, 0.55);
+			}
+		}
 	}
 }
 
@@ -100,6 +117,13 @@ header{
 		> li{
 			padding-bottom: 3 * $magic-number;
 			border-bottom: 1px solid rgba(black, 0.1);
+			.sponsored{
+				background: rgba($c-yellow, 0.15);
+				&:after{
+					background: $c-yellow;
+					color: rgba(black, 0.55);
+				}
+			}
 		}
 		h5{
 			color: $c-purple;
@@ -110,7 +134,15 @@ header{
 		h6{
 			a{
 				color: $c-black;
-				background: $c-yellow;
+				&:hover{
+					color: rgba(black, 0.5);
+				}
+				&:before{
+					background: $c-yellow;
+				}
+				&:after{
+					background: $c-blue;
+				}
 			}
 		}
 	}
@@ -118,6 +150,7 @@ header{
 		a{
 			border: 1px solid $c-red;
 			color: $c-red;
+			transition: 300ms;
 			&:hover{
 				background: $c-red;
 				color: #fff;

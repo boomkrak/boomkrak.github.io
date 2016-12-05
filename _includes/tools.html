@@ -1,15 +1,29 @@
 <ul>
 	{% for tool in site.data[include.title].tools %}
-	<li class="collection__list">
-		<p>
-			<a href="{{ tool.url }}" title="{{ tool.title }}" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
-				{{ tool.title }}
-			</a>
-			<br>
-			{{ tool.desc }}
-			<a href="{{ tool.url }}" target="_blank" class="ion-android-open"></a>
-		</p>
-	</li>
+		{% if tool.promo == "true" %}
+			<li class="collection__list sponsored">
+				<p>
+					<a href="{{ tool.url }}" title="{{ tool.title }}" target="_blank">
+						<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+						{{ tool.title }}
+					</a>
+					<br>
+					{{ tool.desc }}
+					<a href="{{ tool.url }}" target="_blank" class="ion-android-open"></a>
+				</p>
+			</li>
+		{% else %}
+			<li class="collection__list">
+				<p>
+					<a href="{{ tool.url }}" title="{{ tool.title }}" target="_blank">
+						<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+						{{ tool.title }}
+					</a>
+					<br>
+					{{ tool.desc }}
+					<a href="{{ tool.url }}" target="_blank" class="ion-android-open"></a>
+				</p>
+			</li>
+		{% endif %}
 	{% endfor %}
 </ul>

@@ -6,7 +6,8 @@
 			"articleTitle":"The Distribution of Users’ Computer Skills: Worse Than You Think",
 	        "articleUrl":"https://www.nngroup.com/articles/computer-skill-levels/?ref=boomkrak",
 	        "articleAuthor": "Jakob Nielson",
-	        "articleTag": "content strategy"	
+	        "articleTag": "content strategy",
+	        "promo": "true"
 			},
 			{
 			"articleTitle":"How to Use Animation to Improve UX",

@@ -25,10 +25,46 @@ header{
 		text-align: right;
 		li{
 			@include inline-block;
+			position: relative;
 			margin-left: 2 * $magic-number;
-		}
-		a{
-			padding: 3px 10px;
+			.submenu{
+				//display: none;
+				opacity: 0;
+				visibility: hidden;
+				width: 150px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				padding: 5px 0;
+				text-align: left;
+				transition: 300ms;
+				&:hover{
+					opacity: 1;
+					visibility: visible;
+					top: 30px;
+				}
+				li{
+					display: block;
+					text-transform: capitalize;
+					padding: 5px $magic-number;
+					margin-left: 0;
+					a:hover{
+						color: $c-red !important;
+					}
+				}
+			}
+			> a{
+				padding: 1.5*$magic-number 10px;
+				font-weight: 500;
+				&.btn-subscribe{
+					padding: 5px 10px;
+				}
+				&:hover + .submenu{
+					opacity: 1;
+					visibility: visible;
+					top: 30px;
+				}
+			}
 		}
 	}
 }
@@ -118,6 +154,19 @@ header{
 				top: 1px;
 			}
 		}
+		&.sponsored{
+			position: relative;
+			&:after{
+				content: "sponsored";
+				text-transform: uppercase;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				padding: 3px 8px;
+				font-size: ms(-1);
+				font-weight: 500;				
+			}
+		}
 		> p{
 			position: relative;
 		}
@@ -161,6 +210,20 @@ header{
 					}
 				}
 			}
+			.sponsored{
+				position: relative;
+				padding: $magic-number;
+				&:after{
+					content: "sponsored";
+					text-transform: uppercase;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+					padding: 3px 8px;
+					font-size: ms(-1);
+					font-weight: 500;				
+				}
+			}
 		}
 		ul{
 			list-style-type: decimal-leading-zero;
@@ -187,6 +250,33 @@ header{
 		}
 		h6{
 			margin-bottom: 0.5 * $magic-number;
+			a{
+				@include inline-block;
+				position: relative;
+				span{
+					position: relative;
+					z-index: 2;
+				}
+				&:before,
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					left: 0;
+					top: 0;
+					transition: 300ms;
+				}
+				&:after{
+					transform: scaleX(0);
+				}
+				&:hover{
+					&:after{
+						transform: scaleX(1);		
+					}
+				}
+			}
 		}
 		p{
 			font-size: 14px;
