@@ -14,7 +14,7 @@ weight: 12
 			<div class="resource__tag">
 				{% assign tags = job.tag | split:", " %}
 				{% for tag in tags %}
-					<a href="{{ site.baseurl }}/job/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
+					<a href="{{ site.baseurl }}/jobs/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
 				{% endfor %}
 			</div>
 		</div>

@@ -574,6 +574,10 @@ footer{
 		left: 50%;
 		margin-left: -(span(3)/2);
 		z-index: 9;
+		@include susy-breakpoint($small-range, $susy-small){
+			width: span(4);
+			margin-left: -(span(4)/2);
+		}
 	}
 	&__backdrop{
 		position: absolute;
