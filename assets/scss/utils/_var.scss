@@ -4,6 +4,8 @@
 
 //$f-sansserif: 'Rubik', sans-serif;
 $f-sansserif:  "freight-sans-pro",sans-serif;
+$f-bungee: "bungee",sans-serif;
+$f-vista: "vista-slab",sans-serif;
 
 // ===========================================
 // COLOR VARIABLE
@@ -27,3 +29,20 @@ $susy: (
   	math: fluid,
   	gutter-position: split
 );
+
+$susy-small: (
+	columns: 4,
+	gutters: 30/65,
+  	math: fluid,
+  	gutter-position: split
+);
+
+// ===========================================
+// BREAKPOINT
+// ===========================================
+
+$small-range:   (0em 47.9375em);       /* 0, 640px */
+$medium-range:  (48em 64em);  /* 641px, 1024px */
+$large-range:   (64.063em 90em);  /* 1025px, 1440px */
+$xlarge-range:  (90.063em 120em); /* 1441px, 1920px */
+$xxlarge-range: (120.063em);       /* 1921px */

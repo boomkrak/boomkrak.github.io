@@ -27,6 +27,7 @@ header{
 		li{
 			.submenu{
 				background: #fff;
+				box-shadow: 0 3px 20px rgba($c-black, 0.15);	
 			}
 		}
 	}
@@ -45,13 +46,16 @@ header{
 	&.ion-android-mail:before{
 		color: rgba(black, 0.55);
 		border-right: 1px solid rgba(black, 0.55);
+		@include susy-breakpoint($small-range, $susy-small){
+			border: none;
+		}
 	}
 }
 
 .banner{
 	background: $c-purple;
 	color: #fff;
-
+	font-family: $f-vista;
 }
 
 .content{

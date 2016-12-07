@@ -10,12 +10,17 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
-    {% elsif site.tools %}
-      {{ page.title | capitalize | replace: '-', ' '}} Tools &middot; {{ site.title }}
+    {% elsif page.url contains "tools" %}
+      Tools – {{ page.title | capitalize | replace: '-', ' '}} // {{ site.title }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} // {{ site.title }}
     {% endif %}
   </title>
+
+  <!-- typekit -->
+  <script src="https://use.typekit.net/fcu8lkl.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <!-- endtypekit -->
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
@@ -28,7 +33,6 @@
   <!-- build:css /assets/stylesheets/style.min.css -->
   <link rel="stylesheet" href="/assets/stylesheets/style.css">
   <!-- endbuild -->
-  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/touch/apple-touch-icon-144-precomposed.png">

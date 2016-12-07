@@ -1,6 +1,7 @@
 html{
 	font-size: 100%;
 	font-size: 14px;
+	transition: opacity 400ms;
 }
 body{
 	font-family: $f-sansserif;
@@ -9,30 +10,62 @@ title{
 	text-transform: uppercase;
 }
 
+.wf-loading {
+  visibility: hidden;
+  opacity: 0;
+}
+.wf-active {
+  visibility: visible;
+  opacity: 1;
+}
+
 // HEADER
 header{
 	.logo{
 		@include span(3);
+		font-family: $f-bungee;
 		font-size: ms(3);
 		text-transform: uppercase;
-		font-weight: 700;
-		line-height: 1.3;
+		line-height: 1.55;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			text-align: center;
+		}
 	}
 }
 .header{
 	&__menu{
 		@include span(6 last);
 		text-align: right;
+		padding-left: 0;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			text-align: center;
+		}
 		li{
 			@include inline-block;
 			position: relative;
 			margin-left: 2 * $magic-number;
+			&:first-child{
+				margin-left: 0;
+			}
+			@include susy-breakpoint($small-range, $susy-small){
+				margin-left: 0;
+				margin-right: 1.5 * $magic-number;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+			@include susy-breakpoint($medium-range){
+				margin-left: 1.5 * $magic-number;
+			}
 			.submenu{
 				//display: none;
 				opacity: 0;
 				visibility: hidden;
 				width: 150px;
 				position: absolute;
+				z-index: 9;
 				left: 0;
 				top: 0;
 				padding: 5px 0;
@@ -46,10 +79,22 @@ header{
 				li{
 					display: block;
 					text-transform: capitalize;
-					padding: 5px $magic-number;
 					margin-left: 0;
+					a{
+						display: block;
+						padding: 5px $magic-number;
+					}
+					a:before{
+						@include inline-block;
+						width: 12px;
+						height: 12px;
+						position: relative;
+						top: 1px;
+						margin-right: 5px;
+						text-align: center;
+					}
 					a:hover{
-						color: $c-red !important;
+						color: $c-black !important;
 					}
 				}
 			}
@@ -76,6 +121,15 @@ header{
 		margin-right: 10px;
 		padding-right: 10px;
 		font-weight: normal;
+		@include susy-breakpoint($small-range, $susy-small){
+			margin-right: 0;
+			padding-right: 0;
+		}
+	}
+	@include susy-breakpoint($small-range, $susy-small){
+		span{
+			display: none;
+		}
 	}
 }
 
@@ -85,10 +139,18 @@ header{
 	font-weight: 700;
 	padding: 5 * $magic-number;
 	margin-bottom: 3 * $magic-number;
+	@include susy-breakpoint($small-range, $susy-small){
+		padding: $magic-number;
+		font-size: ms(2);
+	}
 	&__text{
 		@include span(10);
 		@include push(1);
 		text-transform: capitalize;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			@include push(0);
+		}
 	}
 }
 
@@ -96,31 +158,46 @@ header{
 	padding-bottom: 2 * $magic-number;
 	&__left{
 		@include span(3.5);
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+		}
 		&.is_stuck{
-			margin-top: 2 * $magic-number;
+			margin-top: $magic-number;
 		}
 	}
 	&__right{
-		@include span(8);
+		@include span(8 last);
 		@include push(0.5);
 		padding: $magic-number;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			margin-bottom: 2 * $magic-number;
+		}
 	}
 }
 
 .collections{
 	@include container();
+	padding-left: 0;
 	li{
 		@include span(3);
 		list-style: none;
 		margin-bottom: 2 * gutter();
 		text-align: center;
 		font-weight: 500;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(2);
+			margin-bottom: 2 * gutter();
+		}
 		span{
 			display: block;
 		}
 	}
 	&__image{
 		padding: 7 * $magic-number 2 * $magic-number;
+		@include susy-breakpoint($small-range, $susy-small){
+			padding: 3 * $magic-number 2 * $magic-number;
+		}
 		&:before{
 			font-size: ms(6);
 		}
@@ -145,6 +222,10 @@ header{
 		list-style-type: decimal-leading-zero;
 		padding: $magic-number;
 		font-size: ms(2);
+		font-variant-numeric: lining-nums;
+  		-moz-font-feature-settings: "lnum";
+  		-webkit-font-feature-settings: "lnum";
+  		font-feature-settings: "lnum";
 		a{
 			@include inline-block;
 			margin-bottom: $magic-number;
@@ -156,12 +237,13 @@ header{
 		}
 		&.sponsored{
 			position: relative;
+			padding-top: 2.5 * $magic-number;
 			&:after{
 				content: "sponsored";
 				text-transform: uppercase;
 				position: absolute;
-				bottom: 0;
-				right: 0;
+				top: 0;
+				left: 0;
 				padding: 3px 8px;
 				font-size: ms(-1);
 				font-weight: 500;				
@@ -172,8 +254,11 @@ header{
 		}
 		.ion-android-open{
 			@include vertical-align($position: absolute);
-			right: 20px;
+			right: 0;
 			padding: 5px $magic-number;
+			@include susy-breakpoint($small-range, $susy-small){
+				display: none;
+			}
 			&:before{
 				position: relative;
 				z-index: 5;
@@ -212,13 +297,13 @@ header{
 			}
 			.sponsored{
 				position: relative;
-				padding: $magic-number;
+				padding: 3 * $magic-number $magic-number $magic-number;
 				&:after{
 					content: "sponsored";
 					text-transform: uppercase;
 					position: absolute;
-					bottom: 0;
-					right: 0;
+					top: 0;
+					left: 0;
 					padding: 3px 8px;
 					font-size: ms(-1);
 					font-weight: 500;				
@@ -229,6 +314,9 @@ header{
 			list-style-type: decimal-leading-zero;
 			padding: 0 0 0 5 * $magic-number;
 			margin: 0;
+			@include susy-breakpoint($small-range, $susy-small){
+				padding: 0 0 0 2 * $magic-number;
+			}
 		}
 		h5, h6{
 			font-weight: normal;
@@ -345,26 +433,41 @@ header{
 	h6{
 		font-weight: normal;
 		margin-bottom: $magic-number;
+		@include susy-breakpoint($small-range, $susy-small){
+			display: none;
+		}
 	}
 	&__menu{
 		list-style: none;
 		padding: 0;
 		margin-top: 0;
 		margin-bottom: 2 * $magic-number;
+		@include susy-breakpoint($small-range, $susy-small){
+			display: none;
+		}
 		li{
 			padding: $magic-number 0;
 			font-size: ms(0);
 			text-transform: capitalize;
+		}
+		[class*="ion-"]{
+			@include inline-block;
+			margin-right: 5px;
+			width: 15px;
+			height: 15px;
+			border-radius: 100%;
+			text-align: center;
 		}
 		&.tag-list{
 			li{
 				@include inline-block;
 				padding: 0;
 				margin-right: 3px;
-				margin-bottom: 10px;
+				margin-bottom: 5px;
 				a{
+					@include inline-block;
 					padding: 3px 5px;
-					font-size: 12px;
+					font-size: ms(0);
 				}
 			}
 		}
@@ -428,6 +531,10 @@ footer{
 		@include span(3);
 		font-size: ms(1);
 		font-weight: 700;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			text-align: center;
+		}
 		span{
 			font-weight: normal;
 			display: block;
@@ -443,6 +550,10 @@ footer{
 		@include span(6 last);
 		list-style: none;
 		text-align: right;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			text-align: left;
+		}
 		li{
 			@include inline-block;
 			margin-left: 2 * $magic-number;

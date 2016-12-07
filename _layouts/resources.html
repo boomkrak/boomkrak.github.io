@@ -8,14 +8,11 @@
     {% include header.html %}
 
     <div class="content container">
-    	<div class="content__left">
-			{% include sidebar-resources.html %}    		
-    	</div>
         <div class="content__right resource">
-        	<!--
-        	<h4> {{ page.title }}</h4>
-        	-->
         	{{ content }}
+        </div>
+        <div class="content__left">
+            {% include sidebar-resources.html %}            
         </div>
     </div>
 
