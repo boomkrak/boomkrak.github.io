@@ -53,9 +53,11 @@ header{
 }
 
 .banner{
-	background: $c-purple;
+	background-color: $c-purple;
+	background-image: url(../images/header-pattern.png);
+	background-repeat: repeat;
 	color: #fff;
-	font-family: $f-vista;
+	font-family: $f-malaga;
 }
 
 .content{

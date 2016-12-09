@@ -741,7 +741,7 @@ header .logo {
 }
 
 .collections__image {
-  padding: 70px 20px;
+  padding: 50px 20px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -751,7 +751,13 @@ header .logo {
 }
 
 .collections__image:before {
-  font-size: 68px;
+  font-size: 110px;
+}
+
+@media (min-width: 0em) and (max-width: 47.9375em) {
+  .collections__image:before {
+    font-size: 68px;
+  }
 }
 
 .collections__image img {
@@ -1332,9 +1338,11 @@ header a.active {
 }
 
 .banner {
-  background: #534C98;
+  background-color: #534C98;
+  background-image: url(../images/header-pattern.png);
+  background-repeat: repeat;
   color: #fff;
-  font-family: "vista-slab", sans-serif;
+  font-family: "malaga", sans-serif;
 }
 
 .content {

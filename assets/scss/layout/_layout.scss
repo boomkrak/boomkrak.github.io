@@ -194,12 +194,15 @@ header{
 		}
 	}
 	&__image{
-		padding: 7 * $magic-number 2 * $magic-number;
+		padding: 5 * $magic-number 2 * $magic-number;
 		@include susy-breakpoint($small-range, $susy-small){
 			padding: 3 * $magic-number 2 * $magic-number;
 		}
 		&:before{
-			font-size: ms(6);
+			font-size: ms(8);
+			@include susy-breakpoint($small-range, $susy-small){
+				font-size: ms(6);
+			}
 		}
 		img{
 			display: block;
