@@ -21,6 +21,9 @@ title{
 
 // HEADER
 header{
+	.container{
+		padding: 5px 0;
+	}
 	.logo{
 		@include span(3);
 		font-family: $f-bungee;
@@ -134,18 +137,18 @@ header{
 }
 
 .banner{
-	font-size: ms(4);
+	font-size: ms(13);
 	text-align: center;
 	font-weight: 700;
-	padding: 5 * $magic-number;
-	margin-bottom: 3 * $magic-number;
+	padding: 5*$magic-number 0 10*$magic-number;
+	margin-bottom: 5 * $magic-number;
 	@include susy-breakpoint($small-range, $susy-small){
-		padding: $magic-number;
-		font-size: ms(2);
+		padding: $magic-number $magic-number 9*$magic-number;
+		font-size: ms(6);
 	}
 	&__text{
-		@include span(10);
-		@include push(1);
+		@include span(8);
+		@include push(2);
 		text-transform: capitalize;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
@@ -185,6 +188,7 @@ header{
 		margin-bottom: 2 * gutter();
 		text-align: center;
 		font-weight: 500;
+		border-radius: 15px;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(2);
 			margin-bottom: 2 * gutter();
@@ -194,14 +198,15 @@ header{
 		}
 	}
 	&__image{
-		padding: 5 * $magic-number 2 * $magic-number;
+		padding: 4 * $magic-number 2 * $magic-number;
+		border-radius: 15px 15px 0 0;
 		@include susy-breakpoint($small-range, $susy-small){
 			padding: 3 * $magic-number 2 * $magic-number;
 		}
 		&:before{
-			font-size: ms(8);
+			font-size: ms(22);
 			@include susy-breakpoint($small-range, $susy-small){
-				font-size: ms(6);
+				font-size: ms(18);
 			}
 		}
 		img{
@@ -213,6 +218,7 @@ header{
 		padding: $magic-number;
 		font-size: ms(0);
 		text-transform: capitalize;
+		border-radius: 0 0 15px 15px;
 	}
 }
 
@@ -229,13 +235,14 @@ header{
   		-moz-font-feature-settings: "lnum";
   		-webkit-font-feature-settings: "lnum";
   		font-feature-settings: "lnum";
+  		position: relative;
 		a{
 			@include inline-block;
 			margin-bottom: $magic-number;
 			font-size: ms(1);
 			> img{
 				position: relative;
-				top: 1px;
+				top: 2px;
 			}
 		}
 		&.sponsored{
@@ -253,11 +260,12 @@ header{
 			}
 		}
 		> p{
+			width: span(10);
 			position: relative;
 		}
 		.ion-android-open{
 			@include vertical-align($position: absolute);
-			right: 0;
+			right: 2 * $magic-number;
 			padding: 5px $magic-number;
 			@include susy-breakpoint($small-range, $susy-small){
 				display: none;
@@ -531,9 +539,11 @@ footer{
 	margin-top: 3 * $magic-number;
 	padding: 2 * $magic-number 0;
 	.logo{
-		@include span(3);
-		font-size: ms(1);
-		font-weight: 700;
+		@include span(2);
+		font-family: $f-bungee;
+		font-size: ms(3);
+		text-transform: uppercase;
+		line-height: 1.55;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			text-align: center;
@@ -550,16 +560,37 @@ footer{
 }
 .footer{
 	&__links{
-		@include span(6 last);
+		@include span(3);
 		list-style: none;
-		text-align: right;
+		padding: $magic-number 0;
+		margin-top: 0;
+		margin-bottom: 0;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
-			text-align: left;
+			text-align: center;
 		}
 		li{
 			@include inline-block;
 			margin-left: 2 * $magic-number;
+			&:first-child{
+				margin-left: 0;
+			}
+			a{
+				color: $c-black;
+			}
+		}
+	}
+	&__maker{
+		@include span(3 last);
+		text-align: right;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+			text-align: center;
+		}
+		img{
+			width: 35px;
+			position: relative;
+			top: 5px;
 		}
 	}
 }

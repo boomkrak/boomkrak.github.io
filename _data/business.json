@@ -1,80 +1,75 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Adobe Sign",
+			"url": "https://acrobat.adobe.com/us/en/sign.html",
+			"desc": "Adobe Sign (formerly EchoSign) in Adobe Document Cloud provides trusted electronic and digital signature solutions that allow you to run business processes five times faster."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Bamboo HR",
+			"url": "https://www.bamboohr.com",
+			"desc": "BambooHR's easy-to-use human resource software for small and medium businesses."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
-			"promo": "true"
+			"title": "Drip",
+			"url": "https://www.drip.co",
+			"desc": "Marketing automation software helps improve business outcomes, but most of them are too complicated, time consuming, and expensive. See why Drip is different."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Evernote",
+			"url": "https://evernote.com/",
+			"desc": "Collect, nurture, and share ideas across desktop and mobile platforms with Evernote. Your thoughts are always with you, always accessible, always in sync."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Good Data",
+			"url": "https://www.gooddata.com/",
+			"desc": "Powered by advanced business intelligence tools &amp; technology, the GoodData platform leads the industry in SaaS Business Intelligence &amp; data visualization tools."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Google Analytics",
+			"url": "https://www.google.com/analytics/",
+			"desc": "Google Analytics Solutions offer free and enterprise analytics tools to measure website, app, digital and offline data to gain customer insights.",
+			"promo": "false"
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Gusto",
+			"url": "https://gusto.com/",
+			"desc": "Gusto (formerly ZenPayroll). Get online payroll, health benefits, and workers&#39; comp in one integrated product."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Hello Sign",
+			"url": "https://www.hellosign.com",
+			"desc": "Sign with confidence! HelloSign&#039;s secure electronic signatures are business-caliber, easy-to-use, and legally binding. See the difference today!"
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Intercom",
+			"url": "https://www.intercom.com",
+			"desc": "We make customer messaging apps for sales, marketing, and support, connected on one platform. Our mission is to make business personal again."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Mailchimp",
+			"url": "https://mailchimp.com/",
+			"desc": "MailChimp provides email marketing for more than 14 million people globally. Send better emails, connect your e-commerce store, and sell more stuff."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Omnifocus",
+			"url": "https://www.omnigroup.com/omnifocus/",
+			"desc": "OmniFocus for Mac, iPad, and iPhone is designed to quickly capture your thoughts and ideas to store, manage, and help you process them into actionable to do lists. Perfect for anyone."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "WORKetc",
+			"url": "https://www.worketc.com/",
+			"desc": "WORKetc is the best small business CRM with project management, billing, and helpdesk with powerful integrations with G Suite, Outlook, Evernote, QBO."
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"title": "Xero",
+			"url": "https://www.xero.com",
+			"desc": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping &amp; more. Start a free trial today!"
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
-		},
-		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
-		}
+			"title": "Zoho",
+			"url": "https://www.zoho.com/",
+			"desc": "Run your entire business with Zoho's suite of online productivity tools and SaaS applications. Over 20 million users trust us worldwide.Try our Forever Free Plan!"
+		}	
 	]
 }

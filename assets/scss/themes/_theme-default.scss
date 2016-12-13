@@ -4,14 +4,14 @@ body{
 }
 
 header{
-	background: $c-yellow;
+	background: $c-purple url('../images/header-bg.png') repeat center;
 	.logo{
 		a{
 			color: $c-red;
 		}
 	}
 	a{
-		color: $c-black;
+		color: white;
 		&:hover,
 		&.active{
 			color: $c-red;
@@ -34,9 +34,9 @@ header{
 }
 
 .btn-subscribe{
-	background: $c-blue;
-	box-shadow: -1px 3px 0 $c-purple;
-	border: 1px solid $c-purple;
+	background: $c-yellow;
+	box-shadow: 2px 3px 0 $c-red;
+	//border: 1px solid $c-purple;
 	color: rgba(black, 0.75);
 	transition: 400ms;
 	&:hover{
@@ -54,14 +54,22 @@ header{
 
 .banner{
 	background-color: $c-purple;
-	background-image: url(../images/header-pattern.png);
-	background-repeat: repeat;
+	background-image: url(../images/header-bg-2.jpg), url(../images/header-bg.png);
+	background-position: bottom center, top center;
+	background-repeat: repeat-x, repeat;
+	//background-size: 160px 100px, auto;
 	color: #fff;
 	font-family: $f-malaga;
+	@include susy-breakpoint($small-range){
+		//background-size: 160px 25px, auto;
+	}
+	@include susy-breakpoint($medium-range){
+		//background-size: 160px 160px, auto;
+	}
 }
 
 .content{
-	border-bottom: 1px solid rgba($c-black, 0.25);
+	border-bottom: 1px solid rgba($c-black, 0.15);
 	&__right{
 		background: white;
 		transition: 400ms;
@@ -83,7 +91,7 @@ header{
 	&__image{
 		background: $c-purple;
 		&:before{
-			color: rgba(black, 0.55);
+			color: #fff;
 		}
 	}
 	&__title{
