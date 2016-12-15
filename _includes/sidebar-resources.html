@@ -1,16 +1,18 @@
 <div class="sidebar">
-	<h6>Browse tag</h6>
-	{% assign tag_list = site.tag %}
-	<ul class="sidebar__menu tag-list">
-	  	{% for tag in tag_list %}
-			<li>
-				<a href="{{ site.baseurl }}/tag/{{ tag.name |  replace: ' ', '-'}}" style="border-color: #{{tag.color}}; color: #{{tag.color}}" {% if tag.url == page.url %}class="active"{% endif %}>
-					{{ tag.name | replace: '-', ' '}}
-				</a>
-			</li>
-	  	{% endfor %}
-	</ul>
-	<a class="typeform-share link ion-settings" href="https://lieurco.typeform.com/to/BrWhB5" data-mode="1" target="_blank">Suggest resource</a>
+	<div class="bordered">
+		<h4>Browse tag</h4>
+		{% assign tag_list = site.tag %}
+		<ul class="sidebar__menu tag-list">
+		  	{% for tag in tag_list %}
+				<li>
+					<a href="{{ site.baseurl }}/tag/{{ tag.name |  replace: ' ', '-'}}" style="border-color: #{{tag.color}}; color: #{{tag.color}}" {% if tag.url == page.url %}class="active"{% endif %}>
+						{{ tag.name | replace: '-', ' '}}
+					</a>
+				</li>
+		  	{% endfor %}
+		</ul>
+		<a class="typeform-share link ion-settings" href="https://lieurco.typeform.com/to/BrWhB5" data-mode="1" target="_blank">Suggest resource</a>
+	</div>
 	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
 	{% include subscribe-form.html %}

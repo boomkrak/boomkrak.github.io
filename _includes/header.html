@@ -12,7 +12,12 @@
 				{% if p.submenuTools %}
 					<ul class="submenu">
 						{% for toolPage in site.tools %}
-						<li><a href="{{ toolPage.url }}" style="color: #{{ toolPage.colColor }}" class="{{ toolPage.icon }}">{{ toolPage.title | replace: '-', ' ' }}</a></li>
+						<li>
+							<a href="{{ toolPage.url }}">
+								<span style="color: #{{ toolPage.colColor }}" class="{{ toolPage.icon }}"></span>
+								{{ toolPage.title | replace: '-', ' ' }}
+							</a>
+						</li>
 						{% endfor %}
 					</ul>
 				{% endif %}

@@ -28,6 +28,12 @@ header{
 			.submenu{
 				background: #fff;
 				box-shadow: 0 3px 20px rgba($c-black, 0.15);	
+				a{
+					color: $c-black;
+					&:hover{
+						color: $c-red;
+					}
+				}
 			}
 		}
 	}
@@ -72,7 +78,6 @@ header{
 	border-bottom: 1px solid rgba(black, 0.1);
 	&__right{
 		//background: white;
-		border-left: 1px solid rgba(black, 0.1);
 		transition: 400ms;
 		&:hover{
 			//box-shadow: 0 3px 20px rgba($c-black, 0.15);	
@@ -205,7 +210,10 @@ header{
 		top: 2 * $magic-number;
 		width: span(3);
 	}
-	h6{
+	.bordered{
+		border-right: 1px solid rgba(black, 0.1);
+	}
+	h4{
 		color: $c-purple;
 	}
 	&__menu{
@@ -224,7 +232,7 @@ header{
 		}
 		&.tag-list{
 			a{
-				border: 1px solid $c-red;
+				border: 2px solid $c-red;
 				color: $c-red;
 				&:hover{
 					background: #fff !important;

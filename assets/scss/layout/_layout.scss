@@ -85,10 +85,11 @@ header{
 					text-transform: capitalize;
 					margin-left: 0;
 					a{
+						font-weight: 400;
 						display: block;
 						padding: 5px $magic-number;
 					}
-					a:before{
+					[class*="ion-"]{
 						@include inline-block;
 						width: 12px;
 						height: 12px;
@@ -96,9 +97,6 @@ header{
 						top: 1px;
 						margin-right: $magic-number;
 						text-align: center;
-					}
-					a:hover{
-						color: $c-black !important;
 					}
 				}
 			}
@@ -186,6 +184,7 @@ header{
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			margin-bottom: 2 * $magic-number;
+			padding: 0;
 		}
 	}
 }
@@ -238,7 +237,7 @@ header{
 		padding: 0 0 0 5 * $magic-number;
 		margin: 0;
 		@include susy-breakpoint($small-range, $susy-small){
-			padding: 0 0 0 3 * $magic-number;
+			padding: 0 0 0 2 * $magic-number;
 		}
 	}
 	&__list{
@@ -471,7 +470,10 @@ header{
 }
 
 .sidebar{
-	h6{
+	.bordered{
+		margin-bottom: 2 * $magic-number;
+	}
+	h4{
 		font-weight: normal;
 		margin-bottom: $magic-number;
 		@include susy-breakpoint($small-range, $susy-small){
@@ -484,7 +486,7 @@ header{
 		margin-top: 0;
 		margin-bottom: 2 * $magic-number;
 		@include susy-breakpoint($small-range, $susy-small){
-			display: none;
+			//display: none;
 		}
 		li{
 			padding: $magic-number 0;
@@ -507,8 +509,9 @@ header{
 				margin-bottom: 5px;
 				a{
 					@include inline-block;
-					padding: 3px 5px;
+					padding: 5px 10px;
 					font-size: ms(1);
+					border-radius: 5px;
 				}
 			}
 		}
@@ -665,7 +668,6 @@ footer{
 .typeform-share{
 	@include inline-block;
 	padding: 5px 10px 8px;
-	margin-bottom: 2 * $magic-number;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 	font-size: ms(0);

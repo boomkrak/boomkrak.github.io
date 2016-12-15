@@ -573,11 +573,12 @@ header .logo {
 }
 
 .header__menu li .submenu li a {
+  font-weight: 400;
   display: block;
   padding: 5px 10px;
 }
 
-.header__menu li .submenu li a:before {
+.header__menu li .submenu li [class*="ion-"] {
   display: -moz-inline-stack;
   display: inline-block;
   *zoom: 1;
@@ -588,10 +589,6 @@ header .logo {
   top: 1px;
   margin-right: 10px;
   text-align: center;
-}
-
-.header__menu li .submenu li a:hover {
-  color: #56502B !important;
 }
 
 .header__menu li > a {
@@ -720,6 +717,7 @@ header .logo {
     margin-left: 3.9473684211%;
     margin-right: 3.9473684211%;
     margin-bottom: 20px;
+    padding: 0;
   }
 }
 
@@ -802,7 +800,7 @@ header .logo {
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
   .collection ul {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 20px;
   }
 }
 
@@ -1097,13 +1095,17 @@ header .logo {
   margin-bottom: 5px;
 }
 
-.sidebar h6 {
+.sidebar .bordered {
+  margin-bottom: 20px;
+}
+
+.sidebar h4 {
   font-weight: normal;
   margin-bottom: 10px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
-  .sidebar h6 {
+  .sidebar h4 {
     display: none;
   }
 }
@@ -1113,12 +1115,6 @@ header .logo {
   padding: 0;
   margin-top: 0;
   margin-bottom: 20px;
-}
-
-@media (min-width: 0em) and (max-width: 47.9375em) {
-  .sidebar__menu {
-    display: none;
-  }
 }
 
 .sidebar__menu li {
@@ -1154,8 +1150,9 @@ header .logo {
   display: inline-block;
   *zoom: 1;
   *display: inline;
-  padding: 3px 5px;
+  padding: 5px 10px;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 .sidebar__subscribe {
@@ -1371,7 +1368,6 @@ footer .logo a {
   *zoom: 1;
   *display: inline;
   padding: 5px 10px 8px;
-  margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 16px;
@@ -1416,6 +1412,14 @@ header a.active {
   box-shadow: 0 3px 20px rgba(86, 80, 43, 0.15);
 }
 
+.header__menu li .submenu a {
+  color: #56502B;
+}
+
+.header__menu li .submenu a:hover {
+  color: #F38181;
+}
+
 .btn-subscribe {
   background: #FFE546;
   box-shadow: 2px 3px 0 #F38181;
@@ -1454,7 +1458,6 @@ header a.active {
 }
 
 .content__right {
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: 400ms;
           transition: 400ms;
 }
@@ -1580,7 +1583,11 @@ header a.active {
   width: 22.3684210526%;
 }
 
-.sidebar h6 {
+.sidebar .bordered {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h4 {
   color: #534C98;
 }
 
@@ -1602,7 +1609,7 @@ header a.active {
 }
 
 .sidebar__menu.tag-list a {
-  border: 1px solid #F38181;
+  border: 2px solid #F38181;
   color: #F38181;
 }
 

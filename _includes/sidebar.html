@@ -1,16 +1,18 @@
 <div class="sidebar">
-	<ul class="sidebar__menu">
-	  {% for tool in site.tools %}
-	    <li>
-			<a {% if tool.url == page.url %}class="active"{% endif %} href="{{ tool.url }}">
-				<span class="{{ tool.icon }}" style="color: #{{ tool.colColor }}"></span>
-				{{ tool.title | replace: '-', ' '}}
-			</a>
-	    </li>
-	  {% endfor %}
-	</ul>
-
-	<a class="typeform-share link ion-settings" href="https://lieurco.typeform.com/to/qzxPk3" data-mode="1" target="_blank">Suggest tool</a>
+	<div class="bordered">
+		<ul class="sidebar__menu">
+		  {% for tool in site.tools %}
+		    <li>
+				<a {% if tool.url == page.url %}class="active"{% endif %} href="{{ tool.url }}">
+					<span class="{{ tool.icon }}" style="color: #{{ tool.colColor }}"></span>
+					{{ tool.title | replace: '-', ' '}}
+				</a>
+		    </li>
+		  {% endfor %}
+		</ul>
+		
+		<a class="typeform-share link ion-settings" href="https://lieurco.typeform.com/to/qzxPk3" data-mode="1" target="_blank">Suggest tool</a>
+	</div>
 	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
 	{% include subscribe-form.html %}
