@@ -446,9 +446,15 @@ a:hover {
 
 html {
   font-size: 100%;
-  font-size: 14px;
+  font-size: 18px;
   -webkit-transition: opacity 400ms;
           transition: opacity 400ms;
+}
+
+@media (min-width: 0em) and (max-width: 47.9375em) {
+  html {
+    font-size: 16px;
+  }
 }
 
 body {
@@ -479,7 +485,7 @@ header .logo {
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
   font-family: "bungee", sans-serif;
-  font-size: 22px;
+  font-size: 31px;
   text-transform: uppercase;
   line-height: 1.55;
 }
@@ -495,12 +501,14 @@ header .logo {
 }
 
 .header__menu {
-  width: 47.3684210526%;
+  width: 64.0350877193%;
   float: right;
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
   text-align: right;
   padding-left: 0;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -529,10 +537,6 @@ header .logo {
 @media (min-width: 0em) and (max-width: 47.9375em) {
   .header__menu li {
     margin-left: 0;
-    margin-right: 15px;
-  }
-  .header__menu li:last-child {
-    margin-right: 0;
   }
 }
 
@@ -582,7 +586,7 @@ header .logo {
   height: 12px;
   position: relative;
   top: 1px;
-  margin-right: 5px;
+  margin-right: 10px;
   text-align: center;
 }
 
@@ -596,7 +600,7 @@ header .logo {
 }
 
 .header__menu li > a.btn-subscribe {
-  padding: 5px 10px;
+  padding: 8px 18px;
 }
 
 .header__menu li > a:hover + .submenu {
@@ -608,6 +612,7 @@ header .logo {
 .btn-subscribe {
   font-weight: 500;
   text-transform: uppercase;
+  font-size: 16px;
 }
 
 .btn-subscribe.ion-android-mail:before {
@@ -633,14 +638,14 @@ header .logo {
   font-size: 54px;
   text-align: center;
   font-weight: 700;
-  padding: 50px 0 100px;
+  padding: 50px 0 120px;
   margin-bottom: 50px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
   .banner {
     padding: 10px 10px 90px;
-    font-size: 28px;
+    font-size: 31px;
   }
 }
 
@@ -660,6 +665,19 @@ header .logo {
     margin-left: 3.9473684211%;
     margin-right: 3.9473684211%;
     margin-left: 3.9473684211%;
+  }
+}
+
+.banner__text__pp {
+  font-size: 23px;
+  font-family: "freight-sans-pro", sans-serif;
+  text-transform: uppercase;
+  color: #FFE546;
+}
+
+@media (min-width: 0em) and (max-width: 47.9375em) {
+  .banner__text__pp {
+    font-size: 18px;
   }
 }
 
@@ -688,11 +706,10 @@ header .logo {
 }
 
 .content__right {
-  width: 64.0350877193%;
+  width: 68.201754386%;
   float: right;
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
-  margin-left: 5.4824561404%;
   padding: 10px;
 }
 
@@ -727,7 +744,6 @@ header .logo {
   list-style: none;
   margin-bottom: 2.6315789474%;
   text-align: center;
-  font-weight: 500;
   border-radius: 15px;
 }
 
@@ -773,9 +789,10 @@ header .logo {
 
 .collections__title {
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: capitalize;
   border-radius: 0 0 15px 15px;
+  font-weight: 500;
 }
 
 .collection ul {
@@ -783,8 +800,14 @@ header .logo {
   margin: 0;
 }
 
+@media (min-width: 0em) and (max-width: 47.9375em) {
+  .collection ul {
+    padding: 0 0 0 30px;
+  }
+}
+
 .collection__list {
-  list-style-type: decimal-leading-zero;
+  list-style: none;
   padding: 10px;
   font-size: 19px;
   font-variant-numeric: lining-nums;
@@ -804,8 +827,9 @@ header .logo {
 }
 
 .collection__list a > img {
-  position: relative;
-  top: 2px;
+  position: absolute;
+  top: 7px;
+  left: -30px;
 }
 
 .collection__list.sponsored {
@@ -820,13 +844,27 @@ header .logo {
   top: 0;
   left: 0;
   padding: 3px 8px;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 500;
 }
 
 .collection__list > p {
   width: 80.701754386%;
   position: relative;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+@media (min-width: 0em) and (max-width: 47.9375em) {
+  .collection__list > p {
+    width: 92.1052631579%;
+    font-size: 16px;
+  }
+}
+
+.collection__list > p > a {
+  font-family: "malaga", sans-serif;
+  font-size: 23px;
 }
 
 .collection__list .ion-android-open {
@@ -899,7 +937,7 @@ header .logo {
   top: 0;
   left: 0;
   padding: 3px 8px;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -920,13 +958,16 @@ header .logo {
 }
 
 .resource__list h5 {
-  position: relative;
   display: -moz-inline-stack;
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  font-size: 28px;
+  margin-bottom: 30px;
+  position: relative;
   border-left: 4px solid #F38181;
   padding-left: 25px;
+  line-height: 1.5;
 }
 
 .resource__list h5:after {
@@ -951,6 +992,7 @@ header .logo {
 }
 
 .resource__list h6 a span {
+  font-family: "malaga", sans-serif;
   position: relative;
   z-index: 2;
 }
@@ -1081,7 +1123,7 @@ header .logo {
 
 .sidebar__menu li {
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: capitalize;
 }
 
@@ -1113,17 +1155,18 @@ header .logo {
   *zoom: 1;
   *display: inline;
   padding: 3px 5px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .sidebar__subscribe {
   padding: 20px;
   text-align: center;
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
 .sidebar__subscribe label {
-  font-size: 16px;
+  font-size: 18px;
   display: block;
   text-align: center;
   margin-bottom: 20px;
@@ -1213,6 +1256,14 @@ footer .logo a {
   font-weight: 700;
 }
 
+.footer__feedback {
+  width: 97.3684210526%;
+  float: left;
+  margin-left: 1.3157894737%;
+  margin-right: 1.3157894737%;
+  margin-bottom: 50px;
+}
+
 .footer__links {
   width: 22.3684210526%;
   float: left;
@@ -1222,6 +1273,10 @@ footer .logo a {
   padding: 10px 0;
   margin-top: 0;
   margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -1256,6 +1311,7 @@ footer .logo a {
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
   text-align: right;
+  font-size: 16px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -1317,6 +1373,9 @@ footer .logo a {
   padding: 5px 10px 8px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .typeform-share:before {
@@ -1329,7 +1388,7 @@ footer .logo a {
 
 body {
   color: #56502B;
-  background: #FEFAEC;
+  background: #F9F9F9;
 }
 
 header {
@@ -1337,7 +1396,7 @@ header {
 }
 
 header .logo a {
-  color: #F38181;
+  color: #FFE546;
 }
 
 header a {
@@ -1345,7 +1404,7 @@ header a {
 }
 
 header a:hover, header a.active {
-  color: #F38181;
+  color: #FFE546;
 }
 
 header a.active {
@@ -1358,7 +1417,7 @@ header a.active {
 }
 
 .btn-subscribe {
-  background: #FFEE7D;
+  background: #FFE546;
   box-shadow: 2px 3px 0 #F38181;
   color: rgba(0, 0, 0, 0.75);
   -webkit-transition: 400ms;
@@ -1367,7 +1426,7 @@ header a.active {
 
 .btn-subscribe:hover {
   color: rgba(0, 0, 0, 0.55);
-  background: #F38181;
+  background: #f9d600;
 }
 
 .btn-subscribe.ion-android-mail:before {
@@ -1391,17 +1450,13 @@ header a.active {
 }
 
 .content {
-  border-bottom: 1px solid rgba(86, 80, 43, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .content__right {
-  background: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: 400ms;
           transition: 400ms;
-}
-
-.content__right:hover {
-  box-shadow: 0 3px 20px rgba(86, 80, 43, 0.15);
 }
 
 .collections li {
@@ -1431,11 +1486,11 @@ header a.active {
 }
 
 .collection__list .ion-android-open {
-  border: 1px solid #FFEE7D;
+  border: 1px solid #FFE546;
 }
 
 .collection__list .ion-android-open:after {
-  background: #FFEE7D;
+  background: #FFE546;
 }
 
 .collection__list .ion-android-open:hover:before {
@@ -1448,11 +1503,11 @@ header a.active {
 }
 
 .collection__list.sponsored {
-  background: rgba(255, 238, 125, 0.15);
+  background: rgba(255, 229, 70, 0.15);
 }
 
 .collection__list.sponsored:after {
-  background: #FFEE7D;
+  background: #FFE546;
   color: rgba(0, 0, 0, 0.55);
 }
 
@@ -1462,11 +1517,11 @@ header a.active {
 }
 
 .resource__list > li .sponsored {
-  background: rgba(255, 238, 125, 0.15);
+  background: rgba(255, 229, 70, 0.15);
 }
 
 .resource__list > li .sponsored:after {
-  background: #FFEE7D;
+  background: #FFE546;
   color: rgba(0, 0, 0, 0.55);
 }
 
@@ -1487,7 +1542,7 @@ header a.active {
 }
 
 .resource__list h6 a:before {
-  background: #FFEE7D;
+  background: #FFE546;
 }
 
 .resource__list h6 a:after {
@@ -1508,7 +1563,7 @@ header a.active {
 
 .tag__list h6 a {
   color: #56502B;
-  background: #FFEE7D;
+  background: #FFE546;
 }
 
 .tag__list h6 a.active {
@@ -1556,7 +1611,7 @@ header a.active {
 }
 
 .sidebar__menu.tag-list a.active {
-  background: #FFEE7D;
+  background: #FFE546;
 }
 
 .sidebar__subscribe {

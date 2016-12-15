@@ -1,7 +1,10 @@
 html{
 	font-size: 100%;
-	font-size: 14px;
+	font-size: ms(1);
 	transition: opacity 400ms;
+	@include susy-breakpoint($small-range){
+		font-size: ms(0);
+	}
 }
 body{
 	font-family: $f-sansserif;
@@ -27,7 +30,7 @@ header{
 	.logo{
 		@include span(3);
 		font-family: $f-bungee;
-		font-size: ms(3);
+		font-size: ms(7);
 		text-transform: uppercase;
 		line-height: 1.55;
 		@include susy-breakpoint($small-range, $susy-small){
@@ -38,9 +41,11 @@ header{
 }
 .header{
 	&__menu{
-		@include span(6 last);
+		@include span(8 last);
 		text-align: right;
 		padding-left: 0;
+		font-size: ms(0);
+		text-transform: uppercase;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			text-align: center;
@@ -54,10 +59,6 @@ header{
 			}
 			@include susy-breakpoint($small-range, $susy-small){
 				margin-left: 0;
-				margin-right: 1.5 * $magic-number;
-				&:last-child{
-					margin-right: 0;
-				}
 			}
 			@include susy-breakpoint($medium-range){
 				margin-left: 1.5 * $magic-number;
@@ -93,7 +94,7 @@ header{
 						height: 12px;
 						position: relative;
 						top: 1px;
-						margin-right: 5px;
+						margin-right: $magic-number;
 						text-align: center;
 					}
 					a:hover{
@@ -105,7 +106,7 @@ header{
 				padding: 1.5*$magic-number 10px;
 				font-weight: 500;
 				&.btn-subscribe{
-					padding: 5px 10px;
+					padding: 8px 18px;
 				}
 				&:hover + .submenu{
 					opacity: 1;
@@ -120,6 +121,7 @@ header{
 .btn-subscribe{
 	font-weight: 500;
 	text-transform: uppercase;
+	font-size: ms(0);
 	&.ion-android-mail:before{
 		margin-right: 10px;
 		padding-right: 10px;
@@ -140,11 +142,11 @@ header{
 	font-size: ms(13);
 	text-align: center;
 	font-weight: 700;
-	padding: 5*$magic-number 0 10*$magic-number;
+	padding: 5*$magic-number 0 12*$magic-number;
 	margin-bottom: 5 * $magic-number;
 	@include susy-breakpoint($small-range, $susy-small){
 		padding: $magic-number $magic-number 9*$magic-number;
-		font-size: ms(6);
+		font-size: ms(7);
 	}
 	&__text{
 		@include span(8);
@@ -153,6 +155,15 @@ header{
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			@include push(0);
+		}
+		&__pp{
+			font-size: ms(4);
+			font-family: $f-sansserif;
+			text-transform: uppercase;
+			color: $c-yellow;
+			@include susy-breakpoint($small-range, $susy-small){
+				font-size: ms(1);
+			}
 		}
 	}
 }
@@ -169,8 +180,8 @@ header{
 		}
 	}
 	&__right{
-		@include span(8 last);
-		@include push(0.5);
+		@include span(8.5 last);
+		//@include push(0.5);
 		padding: $magic-number;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
@@ -187,7 +198,6 @@ header{
 		list-style: none;
 		margin-bottom: 2 * gutter();
 		text-align: center;
-		font-weight: 500;
 		border-radius: 15px;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(2);
@@ -216,9 +226,10 @@ header{
 	}
 	&__title{
 		padding: $magic-number;
-		font-size: ms(0);
+		font-size: ms(1);
 		text-transform: capitalize;
 		border-radius: 0 0 15px 15px;
+		font-weight: 500;
 	}
 }
 
@@ -226,9 +237,12 @@ header{
 	ul{
 		padding: 0 0 0 5 * $magic-number;
 		margin: 0;
+		@include susy-breakpoint($small-range, $susy-small){
+			padding: 0 0 0 3 * $magic-number;
+		}
 	}
 	&__list{
-		list-style-type: decimal-leading-zero;
+		list-style: none;
 		padding: $magic-number;
 		font-size: ms(2);
 		font-variant-numeric: lining-nums;
@@ -241,8 +255,9 @@ header{
 			margin-bottom: $magic-number;
 			font-size: ms(1);
 			> img{
-				position: relative;
-				top: 2px;
+				position: absolute;
+				top: 7px;
+				left: -30px;
 			}
 		}
 		&.sponsored{
@@ -255,13 +270,23 @@ header{
 				top: 0;
 				left: 0;
 				padding: 3px 8px;
-				font-size: ms(-1);
+				font-size: ms(-4);
 				font-weight: 500;				
 			}
 		}
 		> p{
 			width: span(10);
 			position: relative;
+			font-size: ms(1);
+			line-height: 1.35;
+			@include susy-breakpoint($small-range, $susy-small){
+				width: span(4);
+				font-size: ms(0);
+			}
+			> a{
+				font-family: $f-malaga;
+				font-size: ms(4);
+			}
 		}
 		.ion-android-open{
 			@include vertical-align($position: absolute);
@@ -312,11 +337,12 @@ header{
 				&:after{
 					content: "sponsored";
 					text-transform: uppercase;
+					//letter-spacing: .05em;
 					position: absolute;
 					top: 0;
 					left: 0;
 					padding: 3px 8px;
-					font-size: ms(-1);
+					font-size: ms(-4);
 					font-weight: 500;				
 				}
 			}
@@ -333,10 +359,13 @@ header{
 			font-weight: normal;
 		}
 		h5{
-			position: relative;
 			@include inline-block;
+			font-size: ms(6);
+			margin-bottom: 3 * $magic-number;
+			position: relative;
 			border-left: 4px solid $c-red;
 			padding-left: 25px;
+			line-height: 1.5;
 			&:after{
 				//content: "";
 				display: block;
@@ -353,6 +382,7 @@ header{
 				@include inline-block;
 				position: relative;
 				span{
+					font-family: $f-malaga;
 					position: relative;
 					z-index: 2;
 				}
@@ -458,7 +488,7 @@ header{
 		}
 		li{
 			padding: $magic-number 0;
-			font-size: ms(0);
+			font-size: ms(1);
 			text-transform: capitalize;
 		}
 		[class*="ion-"]{
@@ -478,7 +508,7 @@ header{
 				a{
 					@include inline-block;
 					padding: 3px 5px;
-					font-size: ms(0);
+					font-size: ms(1);
 				}
 			}
 		}
@@ -487,8 +517,9 @@ header{
 		padding: 2 * $magic-number;
 		text-align: center;
 		margin-bottom: 3 * $magic-number;
+		font-size: ms(0);
 		label{
-			font-size: ms(0);
+			font-size: ms(1);
 			display: block;
 			text-align: center;
 			margin-bottom: 2 * $magic-number;
@@ -559,12 +590,20 @@ footer{
 	}
 }
 .footer{
+	&__feedback{
+		@include span(12);
+		margin-bottom: 5*$magic-number;
+	}
 	&__links{
 		@include span(3);
 		list-style: none;
 		padding: $magic-number 0;
 		margin-top: 0;
 		margin-bottom: 0;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		font-size: ms(-2);
+		font-weight: 500;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			text-align: center;
@@ -583,6 +622,7 @@ footer{
 	&__maker{
 		@include span(3 last);
 		text-align: right;
+		font-size: ms(0);
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			text-align: center;
@@ -627,6 +667,9 @@ footer{
 	padding: 5px 10px 8px;
 	margin-bottom: 2 * $magic-number;
 	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-size: ms(0);
+	font-weight: 500;
 	&:before{
 		padding-right: $magic-number;
 		margin-right: $magic-number;

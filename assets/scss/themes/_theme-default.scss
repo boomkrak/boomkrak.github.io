@@ -7,14 +7,14 @@ header{
 	background: $c-purple url('../images/header-bg.png') repeat center;
 	.logo{
 		a{
-			color: $c-red;
+			color: $c-yellow;
 		}
 	}
 	a{
 		color: white;
 		&:hover,
 		&.active{
-			color: $c-red;
+			color: $c-yellow;
 		}
 		&.active{
 			font-weight: 700;
@@ -41,7 +41,7 @@ header{
 	transition: 400ms;
 	&:hover{
 		color: rgba(black, 0.55);
-		background: $c-red;
+		background: darken($c-yellow, 15%);
 	}
 	&.ion-android-mail:before{
 		color: rgba(black, 0.55);
@@ -69,12 +69,13 @@ header{
 }
 
 .content{
-	border-bottom: 1px solid rgba($c-black, 0.15);
+	border-bottom: 1px solid rgba(black, 0.1);
 	&__right{
-		background: white;
+		//background: white;
+		border-left: 1px solid rgba(black, 0.1);
 		transition: 400ms;
 		&:hover{
-			box-shadow: 0 3px 20px rgba($c-black, 0.15);	
+			//box-shadow: 0 3px 20px rgba($c-black, 0.15);	
 		}
 	}
 }

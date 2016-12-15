@@ -30,7 +30,9 @@
 			{% if page.bannertext %}
 				{{ page.bannertext }} 
 			{% elsif page.url contains "tools" %}
-				Tools – {{ page.title | replace: '-', ' ' }} 
+				<span class="banner__text__pp">Tools</span>
+				<br>
+				{{ page.title | replace: '-', ' ' }} 
 			{% else %}
 				{{ page.title | replace: '-', ' ' }}
 			{% endif %}
