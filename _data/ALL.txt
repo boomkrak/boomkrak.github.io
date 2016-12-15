@@ -1,0 +1,76 @@
+BUSINESS
+--------
+	- Adobe Sign
+	- BambooHR
+	- Drip
+	- Evernote
+	- Good Data
+	- Google Analytics
+	- Gusto
+	- Hello Sign
+	- Intercom
+	- MailChimp
+	- OmniFocus
+	- WORKetc
+	- Xero
+	- Zoho
+
+COLLABORATION
+-------------
+	-
+	-
+
+COLOR SCHEME
+------------
+	-
+	-
+
+FRAMEWORK
+---------
+	-
+	-
+
+ICONSET
+-------
+	-
+	-
+
+INSPIRATION
+-----------
+	- Freebbble
+	-
+
+MOTION
+------
+	-
+	-
+
+PRESENTATION
+------------
+	-
+	-
+
+PROTOTYPING
+-----------
+	-
+	-
+
+TYPOGRAPHY
+----------
+	-
+	-
+	
+USER RESEARCH
+-------------
+	-
+	-
+
+STOCK IMAGE
+-----------
+	-
+	-
+
+
+
+
+

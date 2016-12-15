@@ -6,14 +6,14 @@
 			"desc": "Adobe Sign (formerly EchoSign) in Adobe Document Cloud provides trusted electronic and digital signature solutions that allow you to run business processes five times faster."
 		},
 		{
-			"title": "Bamboo HR",
+			"title": "BambooHR",
 			"url": "https://www.bamboohr.com",
-			"desc": "BambooHR's easy-to-use human resource software for small and medium businesses."
+			"desc": "BambooHR provides easy-to-use human resource software for small and medium businesses."
 		},
 		{
 			"title": "Drip",
 			"url": "https://www.drip.co",
-			"desc": "Marketing automation software helps improve business outcomes, but most of them are too complicated, time consuming, and expensive. See why Drip is different."
+			"desc": "Drip is marketing automation software to improve your business outcomes. Drip said they are just different from another marketing tools."
 		},
 		{
 			"title": "Evernote",
@@ -21,9 +21,9 @@
 			"desc": "Collect, nurture, and share ideas across desktop and mobile platforms with Evernote. Your thoughts are always with you, always accessible, always in sync."
 		},
 		{
-			"title": "Good Data",
+			"title": "GoodData",
 			"url": "https://www.gooddata.com/",
-			"desc": "Powered by advanced business intelligence tools &amp; technology, the GoodData platform leads the industry in SaaS Business Intelligence &amp; data visualization tools."
+			"desc": "Powered by advanced business intelligence tools &amp; technology, the GoodData platform provides SaaS Business Intelligence &amp; data visualization tools."
 		},
 		{
 			"title": "Google Analytics",
@@ -34,20 +34,20 @@
 		{
 			"title": "Gusto",
 			"url": "https://gusto.com/",
-			"desc": "Gusto (formerly ZenPayroll). Get online payroll, health benefits, and workers&#39; comp in one integrated product."
+			"desc": "Gusto (formerly ZenPayroll) is an online HR sevices. Get online payroll, health benefits, and workers&#39; comp in one integrated product."
 		},
 		{
 			"title": "Hello Sign",
 			"url": "https://www.hellosign.com",
-			"desc": "Sign with confidence! HelloSign&#039;s secure electronic signatures are business-caliber, easy-to-use, and legally binding. See the difference today!"
+			"desc": "Sign with confidence! HelloSign provides secure electronic signatures system which are business-caliber, easy-to-use, and legally binding."
 		},
 		{
 			"title": "Intercom",
 			"url": "https://www.intercom.com",
-			"desc": "We make customer messaging apps for sales, marketing, and support, connected on one platform. Our mission is to make business personal again."
+			"desc": "Intercom is customer messaging apps for sales, marketing, and support, connected on one platform. Their mission is to make business personal again."
 		},
 		{
-			"title": "Mailchimp",
+			"title": "MailChimp",
 			"url": "https://mailchimp.com/",
 			"desc": "MailChimp provides email marketing for more than 14 million people globally. Send better emails, connect your e-commerce store, and sell more stuff."
 		},
@@ -64,12 +64,12 @@
 		{
 			"title": "Xero",
 			"url": "https://www.xero.com",
-			"desc": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping &amp; more. Start a free trial today!"
+			"desc": "Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping &amp; more."
 		},
 		{
 			"title": "Zoho",
 			"url": "https://www.zoho.com/",
-			"desc": "Run your entire business with Zoho's suite of online productivity tools and SaaS applications. Over 20 million users trust us worldwide.Try our Forever Free Plan!"
+			"desc": "Run your entire business with Zoho's suite of online productivity tools and SaaS applications. Their Forever Free Plan is pretty interesting."
 		}	
 	]
 }
