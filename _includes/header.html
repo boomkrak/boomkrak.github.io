@@ -1,4 +1,5 @@
-<header>
+{% assign titleBg = page.title | replace: '-', '' %}
+<header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
 	<div class="container">
 		<div class="logo"><a href="{{ site.baseurl }}/">Boomkrak</a></div>
 		{% assign pages = site.pages | sort:"weight"  %}
@@ -29,7 +30,7 @@
 	</div>
 </header>
 
-<section class="banner" style="background-color: #{{ page.colColor }}">
+<section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
 	<div class="container">
 		<div class="banner__text">
 			{% if page.bannertext %}
@@ -38,8 +39,14 @@
 				<span class="banner__text__pp">Tools</span>
 				<br>
 				{{ page.title | replace: '-', ' ' }} 
+			{% elsif page.url contains "tag" %}
+				<span class="banner__text__pp">Resource</span>
+				<br>
+				{{ page.name | replace: '-', ' ' }}
 			{% else %}
-				{{ page.title | replace: '-', ' ' }}
+				<span class="banner__text__pp">Jobs</span>
+				<br>
+				{{ page.name | replace: '-', ' ' }}
 			{% endif %}
 		</div>
 	</div>

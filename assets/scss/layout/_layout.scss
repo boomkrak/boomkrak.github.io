@@ -598,7 +598,7 @@ footer{
 		margin-bottom: 5*$magic-number;
 	}
 	&__links{
-		@include span(3);
+		@include span(5);
 		list-style: none;
 		padding: $magic-number 0;
 		margin-top: 0;

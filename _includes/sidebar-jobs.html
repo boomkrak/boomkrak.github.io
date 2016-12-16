@@ -1,14 +1,16 @@
 <div class="sidebar">
-	<h4>Browse jobs</h4>
-	{% assign job_list = site.jobs %}
-	<ul class="sidebar__menu tag-list">
-	  	{% for job in job_list %}
-			<li>
-				<a href="{{ site.baseurl }}/jobs/{{ job.name |  replace: ' ', '-'}}" style="border-color: #{{job.color}}; color: #{{job.color}}" {% if job.url == page.url %}class="active"{% endif %}>
-					{{ job.name | replace: '-', ' '}}
-				</a>
-			</li>
-	  	{% endfor %}
-	</ul>
+	<div class="bordered">
+		<h4>Browse jobs</h4>
+		{% assign job_list = site.jobs %}
+		<ul class="sidebar__menu tag-list">
+		  	{% for job in job_list %}
+				<li>
+					<a href="{{ site.baseurl }}/jobs/{{ job.name |  replace: ' ', '-'}}" style="border-color: #{{job.color}}; color: #{{job.color}}" {% if job.url == page.url %}class="active"{% endif %}>
+						{{ job.name | replace: '-', ' '}}
+					</a>
+				</li>
+		  	{% endfor %}
+		</ul>
+	</div>
 	{% include subscribe-form.html %}
 </div>

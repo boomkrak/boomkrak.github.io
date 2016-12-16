@@ -4,7 +4,7 @@ body{
 }
 
 header{
-	background: $c-purple url('../images/header-bg.png') repeat center;
+	background: $c-purple url('../images/header-pattern-tools-solid.png') repeat center;
 	.logo{
 		a{
 			color: $c-yellow;
@@ -60,7 +60,7 @@ header{
 
 .banner{
 	background-color: $c-purple;
-	background-image: url(../images/header-bg-2.jpg), url(../images/header-bg.png);
+	background-image: url(../images/header-pattern-tools-gradient.png), url(../images/header-pattern-tools-solid.png);
 	background-position: bottom center, top center;
 	background-repeat: repeat-x, repeat;
 	//background-size: 160px 100px, auto;
@@ -212,6 +212,9 @@ header{
 	}
 	.bordered{
 		border-right: 1px solid rgba(black, 0.1);
+		@include susy-breakpoint($small-range){
+			border-right: none;
+		}
 	}
 	h4{
 		color: $c-purple;

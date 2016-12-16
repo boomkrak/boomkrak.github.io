@@ -1262,7 +1262,7 @@ footer .logo a {
 }
 
 .footer__links {
-  width: 22.3684210526%;
+  width: 39.0350877193%;
   float: left;
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
@@ -1388,7 +1388,7 @@ body {
 }
 
 header {
-  background: #534C98 url("../images/header-bg.png") repeat center;
+  background: #534C98 url("../images/header-pattern-tools-solid.png") repeat center;
 }
 
 header .logo a {
@@ -1446,7 +1446,7 @@ header a.active {
 
 .banner {
   background-color: #534C98;
-  background-image: url(../images/header-bg-2.jpg), url(../images/header-bg.png);
+  background-image: url(../images/header-pattern-tools-gradient.png), url(../images/header-pattern-tools-solid.png);
   background-position: bottom center, top center;
   background-repeat: repeat-x, repeat;
   color: #fff;
@@ -1585,6 +1585,12 @@ header a.active {
 
 .sidebar .bordered {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 0em) and (max-width: 47.9375em) {
+  .sidebar .bordered {
+    border-right: none;
+  }
 }
 
 .sidebar h4 {
