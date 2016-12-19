@@ -1,5 +1,11 @@
-{% assign titleBg = page.title | replace: '-', '' %}
+{% assign titleBg = page.title | replace: '-', '' | downcase %}
+{% if page.url contains 'jobs' %}
+<header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-jobs-solid.png)">
+{% elsif page.url contains 'tag' %}
+<header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-resources-solid.png)">
+{% else %}
 <header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
+{% endif %}
 	<div class="container">
 		<div class="logo"><a href="{{ site.baseurl }}/">Boomkrak</a></div>
 		{% assign pages = site.pages | sort:"weight"  %}
@@ -30,7 +36,13 @@
 	</div>
 </header>
 
+{% if page.url contains 'jobs' %}
+<section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-jobs-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-jobs-solid.png)">
+{% elsif page.url contains 'tag' %}
+<section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-resources-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-resources-solid.png)">
+{% else%}
 <section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
+{% endif %}
 	<div class="container">
 		<div class="banner__text">
 			{% if page.bannertext %}

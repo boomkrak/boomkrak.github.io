@@ -4,6 +4,7 @@
 		"company": "Lieur Co",
 		"position": "Backend Developer at Lieur Company",
 		"url": "http://lieur.co/backend-dev",
+		"location":"Malang, Indonesia",
 		"tag": "full time, back-end"
 	},
 	{
@@ -11,6 +12,7 @@
 		"company": "Lieur Co",
 		"position": "Front-end Developer at Lieur Company",
 		"url": "http://lieur.co/front-end-dev",
+		"location":"Remote",
 		"tag": "full time, front-end"
 	}
 ]}

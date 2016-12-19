@@ -120,6 +120,7 @@ header{
 	font-weight: 500;
 	text-transform: uppercase;
 	font-size: ms(0);
+	border-radius: 5px;
 	&.ion-android-mail:before{
 		margin-right: 10px;
 		padding-right: 10px;
@@ -169,7 +170,9 @@ header{
 .content{
 	padding-bottom: 2 * $magic-number;
 	&__left{
-		@include span(3.5);
+		width: span(3.5);
+		float: left;
+		transition: 400ms;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 		}
@@ -180,7 +183,7 @@ header{
 	&__right{
 		@include span(8.5 last);
 		//@include push(0.5);
-		padding: $magic-number;
+		padding: 0 $magic-number $magic-number $magic-number;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			margin-bottom: 2 * $magic-number;
@@ -318,7 +321,7 @@ header{
 	margin-bottom: 5 * $magic-number;
 	&__list{
 		list-style: none;
-		padding: $magic-number;
+		padding: 0 $magic-number $magic-number $magic-number;
 		margin: 0;
 		> li{
 			margin-bottom: 3 * $magic-number;
@@ -348,7 +351,7 @@ header{
 		}
 		ul{
 			list-style-type: decimal-leading-zero;
-			padding: 0 0 0 5 * $magic-number;
+			padding: 0 0 0 2 * $magic-number;
 			margin: 0;
 			@include susy-breakpoint($small-range, $susy-small){
 				padding: 0 0 0 2 * $magic-number;
@@ -359,12 +362,18 @@ header{
 		}
 		h5{
 			@include inline-block;
-			font-size: ms(6);
+			font-size: ms(5);
 			margin-bottom: 3 * $magic-number;
 			position: relative;
 			border-left: 4px solid $c-red;
 			padding-left: 25px;
 			line-height: 1.5;
+			font-variant-numeric: lining-nums;
+		    -moz-font-feature-settings: "lnum";
+		    -webkit-font-feature-settings: "lnum";
+		    font-feature-settings: "lnum";
+		    font-weight: 500;
+		    text-transform: uppercase;
 			&:after{
 				//content: "";
 				display: block;
@@ -384,7 +393,9 @@ header{
 					font-family: $f-malaga;
 					position: relative;
 					z-index: 2;
+					font-size: ms(4);
 				}
+				/*
 				&:before,
 				&:after{
 					content: "";
@@ -404,10 +415,10 @@ header{
 						transform: scaleX(1);		
 					}
 				}
+				*/
 			}
 		}
 		p{
-			font-size: 14px;
 			margin-bottom: 5px;
 		}
 	}
@@ -434,9 +445,39 @@ header{
 		}
 		h6{
 			margin-bottom: 0.5 * $magic-number;
+			a{
+				@include inline-block;
+				position: relative;
+				span{
+					font-family: $f-malaga;
+					position: relative;
+					z-index: 2;
+					font-size: ms(4);
+				}
+				/*
+				&:before,
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					left: 0;
+					top: 0;
+					transition: 300ms;
+				}
+				&:after{
+					transform: scaleX(0);
+				}
+				&:hover{
+					&:after{
+						transform: scaleX(1);		
+					}
+				}
+				*/
+			}
 		}
 		p{
-			font-size: 14px;
 			margin-bottom: 5px;
 		}
 	}
@@ -445,7 +486,7 @@ header{
 .job{
 	&__list{
 		list-style: none;
-		padding: $magic-number $magic-number $magic-number;
+		padding: 0 $magic-number $magic-number $magic-number;
 		&__left{
 			@include span(9);
 		}
@@ -454,6 +495,9 @@ header{
 			text-align: right;
 			p{
 				margin-bottom: 0;
+				&:first-child{
+					font-weight: 500;
+				}
 			}
 		}
 		li{
@@ -474,7 +518,9 @@ header{
 		margin-bottom: 2 * $magic-number;
 	}
 	h4{
-		font-weight: normal;
+		font-size: ms(0);
+		text-transform: uppercase;
+		font-weight: 500;
 		margin-bottom: $magic-number;
 		@include susy-breakpoint($small-range, $susy-small){
 			display: none;
@@ -506,11 +552,11 @@ header{
 				@include inline-block;
 				padding: 0;
 				margin-right: 3px;
-				margin-bottom: 5px;
+				margin-bottom: $magic-number;
 				a{
 					@include inline-block;
 					padding: 5px 10px;
-					font-size: ms(1);
+					font-size: ms(0);
 					border-radius: 5px;
 				}
 			}
@@ -521,6 +567,7 @@ header{
 		text-align: center;
 		margin-bottom: 3 * $magic-number;
 		font-size: ms(0);
+		border-radius: 5px;
 		label{
 			font-size: ms(1);
 			display: block;
@@ -596,6 +643,8 @@ footer{
 	&__feedback{
 		@include span(12);
 		margin-bottom: 5*$magic-number;
+		font-size: ms(1);
+		line-height: 1.35;
 	}
 	&__links{
 		@include span(5);
@@ -667,11 +716,11 @@ footer{
 
 .typeform-share{
 	@include inline-block;
-	padding: 5px 10px 8px;
+	padding: 8px 10px 10px;
 	text-transform: uppercase;
-	letter-spacing: .05em;
 	font-size: ms(0);
 	font-weight: 500;
+	border-radius: 5px;
 	&:before{
 		padding-right: $magic-number;
 		margin-right: $magic-number;

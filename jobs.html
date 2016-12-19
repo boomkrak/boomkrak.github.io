@@ -3,6 +3,7 @@ layout: jobs
 title: Jobs
 type: page
 weight: 12
+bannertext: Awesome tools to help you design and build stuff
 ---
 
 {% assign jobs = site.data.jobs.jobs | sort:"date" %}
@@ -20,6 +21,7 @@ weight: 12
 		</div>
 		<div class="job__list__right">
 			<p>{{ job.company }}</p>
+			<p>{{ job.location }}</p>
 			<input type="hidden" value="{{ job.date }}" class="jobdate">
 			<small><time class="timeago"></time></small>
 		</div>

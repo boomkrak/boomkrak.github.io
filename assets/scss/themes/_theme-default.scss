@@ -108,10 +108,14 @@ header{
 .collection{
 	&__list{
 		a{
-			color: $c-red;
+			color: $c-black;
+			&:hover{
+				color: $c-red;
+			}
 		}
 		.ion-android-open{
 			border: 1px solid $c-yellow;
+			color: $c-red;
 			&:after { background: $c-yellow; }
 			&:hover{
 				&:before{
@@ -155,7 +159,7 @@ header{
 			a{
 				color: $c-black;
 				&:hover{
-					color: rgba(black, 0.5);
+					color: $c-red;
 				}
 				&:before{
 					background: $c-yellow;
@@ -184,9 +188,23 @@ header{
 		h6{
 			a{
 				color: $c-black;
-				background: $c-yellow;
+				//background: $c-yellow;
 				&.active{
 					background: #fff;
+				}
+			}
+		}
+		h6{
+			a{
+				color: $c-black;
+				&:hover{
+					color: $c-red;
+				}
+				&:before{
+					background: $c-yellow;
+				}
+				&:after{
+					background: $c-blue;
 				}
 			}
 		}
@@ -236,7 +254,7 @@ header{
 		&.tag-list{
 			a{
 				border: 2px solid $c-red;
-				color: $c-red;
+				color: $c-black;
 				&:hover{
 					background: #fff !important;
 					//color: #fff !important;
@@ -251,7 +269,7 @@ header{
 		background: $c-blue;
 		transition: 400ms;
 		&:hover{
-			box-shadow: 0 3px 20px rgba($c-black, 0.15);	
+			box-shadow: 0 3px 20px rgba(black, 0.1);	
 		}
 		label{
 			color: rgba(black, 0.75);
@@ -260,7 +278,7 @@ header{
 			&:focus{
 				outline: none;
 				box-shadow: 0 0 8px $c-red;
-				border: 1px solid rgba($c-black, 0.1);
+				border: none;
 			}
 		}
 		input[type="submit"]{
@@ -300,17 +318,14 @@ footer{
 	background: $c-red;
 	color: #fff;
 	font-weight: 500;
-	border: 1px solid darken($c-red, 55%);
+	box-shadow: 2px 3px 0 $c-yellow;
 	transition: 400ms;
 	&:before{
-		border-right: 1px solid rgba(black, 0.55);
+		border-right: 1px solid #fff;
 		color: #fff;
 		transition: 400ms;
 	}
 	&:hover{
-		color: rgba(black, 0.55);
-		&:before{
-			color: rgba(black, 0.55);
-		}
+		background: darken($c-red, 5%);
 	}
 }

@@ -4,8 +4,14 @@
 		{% for article in resource.content %}
 			{% if article.articleTag contains page.name %}
 			<li>
-				<h6><a href="{{ article.articleUrl }}" target="_blank">{{ article.articleTitle }}</a></h6>
+				<h6><a href="{{ article.articleUrl }}" target="_blank"><span>{{ article.articleTitle }}</span></a></h6>
 				<p>An article by {{ article.articleAuthor }}</p>
+				<div class="resource__tag">
+					{% assign tags = article.articleTag | split:", " %}
+					{% for tag in tags %}
+						<a href="{{ site.baseurl }}/tag/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
+					{% endfor %}
+				</div>
 			</li>
 			{% endif %}
 		{% endfor %}

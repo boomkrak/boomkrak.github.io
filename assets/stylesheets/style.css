@@ -610,6 +610,7 @@ header .logo {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 .btn-subscribe.ion-android-mail:before {
@@ -685,8 +686,8 @@ header .logo {
 .content__left {
   width: 26.5350877193%;
   float: left;
-  margin-left: 1.3157894737%;
-  margin-right: 1.3157894737%;
+  -webkit-transition: 400ms;
+          transition: 400ms;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -707,7 +708,7 @@ header .logo {
   float: right;
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -907,7 +908,7 @@ header .logo {
 
 .resource__list {
   list-style: none;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
   margin: 0;
 }
 
@@ -941,7 +942,7 @@ header .logo {
 
 .resource__list ul {
   list-style-type: decimal-leading-zero;
-  padding: 0 0 0 50px;
+  padding: 0 0 0 20px;
   margin: 0;
 }
 
@@ -960,12 +961,18 @@ header .logo {
   display: inline-block;
   *zoom: 1;
   *display: inline;
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 30px;
   position: relative;
   border-left: 4px solid #F38181;
   padding-left: 25px;
   line-height: 1.5;
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .resource__list h5:after {
@@ -987,38 +994,37 @@ header .logo {
   *zoom: 1;
   *display: inline;
   position: relative;
+  /*
+				&:before,
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					left: 0;
+					top: 0;
+					transition: 300ms;
+				}
+				&:after{
+					transform: scaleX(0);
+				}
+				&:hover{
+					&:after{
+						transform: scaleX(1);		
+					}
+				}
+				*/
 }
 
 .resource__list h6 a span {
   font-family: "malaga", sans-serif;
   position: relative;
   z-index: 2;
-}
-
-.resource__list h6 a:before, .resource__list h6 a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  -webkit-transition: 300ms;
-          transition: 300ms;
-}
-
-.resource__list h6 a:after {
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-}
-
-.resource__list h6 a:hover:after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  font-size: 23px;
 }
 
 .resource__list p {
-  font-size: 14px;
   margin-bottom: 5px;
 }
 
@@ -1053,15 +1059,52 @@ header .logo {
   margin-bottom: 5px;
 }
 
+.tag__list h6 a,
+.job__list h6 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  position: relative;
+  /*
+				&:before,
+				&:after{
+					content: "";
+					display: block;
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					left: 0;
+					top: 0;
+					transition: 300ms;
+				}
+				&:after{
+					transform: scaleX(0);
+				}
+				&:hover{
+					&:after{
+						transform: scaleX(1);		
+					}
+				}
+				*/
+}
+
+.tag__list h6 a span,
+.job__list h6 a span {
+  font-family: "malaga", sans-serif;
+  position: relative;
+  z-index: 2;
+  font-size: 23px;
+}
+
 .tag__list p,
 .job__list p {
-  font-size: 14px;
   margin-bottom: 5px;
 }
 
 .job__list {
   list-style: none;
-  padding: 10px 10px 10px;
+  padding: 0 10px 10px 10px;
 }
 
 .job__list__left {
@@ -1083,6 +1126,10 @@ header .logo {
   margin-bottom: 0;
 }
 
+.job__list__right p:first-child {
+  font-weight: 500;
+}
+
 .job__list li {
   margin-bottom: 30px;
 }
@@ -1100,7 +1147,9 @@ header .logo {
 }
 
 .sidebar h4 {
-  font-weight: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -1142,7 +1191,7 @@ header .logo {
   *display: inline;
   padding: 0;
   margin-right: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .sidebar__menu.tag-list li a {
@@ -1151,7 +1200,7 @@ header .logo {
   *zoom: 1;
   *display: inline;
   padding: 5px 10px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 5px;
 }
 
@@ -1160,6 +1209,7 @@ header .logo {
   text-align: center;
   margin-bottom: 30px;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 .sidebar__subscribe label {
@@ -1259,6 +1309,8 @@ footer .logo a {
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
   margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 1.35;
 }
 
 .footer__links {
@@ -1367,11 +1419,11 @@ footer .logo a {
   display: inline-block;
   *zoom: 1;
   *display: inline;
-  padding: 5px 10px 8px;
+  padding: 8px 10px 10px;
   text-transform: uppercase;
-  letter-spacing: .05em;
   font-size: 16px;
   font-weight: 500;
+  border-radius: 5px;
 }
 
 .typeform-share:before {
@@ -1485,11 +1537,16 @@ header a.active {
 }
 
 .collection__list a {
+  color: #56502B;
+}
+
+.collection__list a:hover {
   color: #F38181;
 }
 
 .collection__list .ion-android-open {
   border: 1px solid #FFE546;
+  color: #F38181;
 }
 
 .collection__list .ion-android-open:after {
@@ -1541,7 +1598,7 @@ header a.active {
 }
 
 .resource__list h6 a:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: #F38181;
 }
 
 .resource__list h6 a:before {
@@ -1566,11 +1623,26 @@ header a.active {
 
 .tag__list h6 a {
   color: #56502B;
-  background: #FFE546;
 }
 
 .tag__list h6 a.active {
   background: #fff;
+}
+
+.tag__list h6 a {
+  color: #56502B;
+}
+
+.tag__list h6 a:hover {
+  color: #F38181;
+}
+
+.tag__list h6 a:before {
+  background: #FFE546;
+}
+
+.tag__list h6 a:after {
+  background: #A9EEE6;
 }
 
 .job__list h6 a {
@@ -1616,7 +1688,7 @@ header a.active {
 
 .sidebar__menu.tag-list a {
   border: 2px solid #F38181;
-  color: #F38181;
+  color: #56502B;
 }
 
 .sidebar__menu.tag-list a:hover {
@@ -1634,7 +1706,7 @@ header a.active {
 }
 
 .sidebar__subscribe:hover {
-  box-shadow: 0 3px 20px rgba(86, 80, 43, 0.15);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar__subscribe label {
@@ -1644,7 +1716,7 @@ header a.active {
 .sidebar__subscribe input[type="email"]:focus {
   outline: none;
   box-shadow: 0 0 8px #F38181;
-  border: 1px solid rgba(86, 80, 43, 0.1);
+  border: none;
 }
 
 .sidebar__subscribe input[type="submit"] {
@@ -1683,24 +1755,20 @@ footer a:hover {
   background: #F38181;
   color: #fff;
   font-weight: 500;
-  border: 1px solid #540808;
+  box-shadow: 2px 3px 0 #FFE546;
   -webkit-transition: 400ms;
           transition: 400ms;
 }
 
 .typeform-share:before {
-  border-right: 1px solid rgba(0, 0, 0, 0.55);
+  border-right: 1px solid #fff;
   color: #fff;
   -webkit-transition: 400ms;
           transition: 400ms;
 }
 
 .typeform-share:hover {
-  color: rgba(0, 0, 0, 0.55);
-}
-
-.typeform-share:hover:before {
-  color: rgba(0, 0, 0, 0.55);
+  background: #f16a6a;
 }
 
 /*# sourceMappingURL=style.css.map */
