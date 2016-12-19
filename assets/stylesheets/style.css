@@ -795,7 +795,7 @@ header .logo {
 }
 
 .collection ul {
-  padding: 0 0 0 50px;
+  padding: 0;
   margin: 0;
 }
 
@@ -806,8 +806,8 @@ header .logo {
 }
 
 .collection__list {
+  padding: 10px 10px 10px 50px;
   list-style: none;
-  padding: 10px;
   font-size: 19px;
   font-variant-numeric: lining-nums;
   -moz-font-feature-settings: "lnum";
@@ -1225,6 +1225,7 @@ header .logo {
   padding: 0 10px;
   margin-bottom: 10px;
   text-align: left;
+  border: none;
 }
 
 .sidebar__subscribe input[type="email"] + .mce_inline_error {

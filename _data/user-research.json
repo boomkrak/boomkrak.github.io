@@ -3,17 +3,20 @@
 		{
 			"title": "Client Giant",
 			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"desc": "The best articles on freelancing, working, and business.",
+			"sticky": false
 		},
 		{
 			"title": "Client Giant",
 			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"desc": "The best articles on freelancing, working, and business.",
+			"sticky": false
 		},
 		{
 			"title": "Client Giant",
 			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business."
+			"desc": "The best articles on freelancing, working, and business.",
+			"sticky": false
 		}
 	]
 }

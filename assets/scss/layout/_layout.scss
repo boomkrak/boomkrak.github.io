@@ -237,15 +237,16 @@ header{
 
 .collection{
 	ul{
-		padding: 0 0 0 5 * $magic-number;
+		//padding: 0 0 0 5 * $magic-number;
+		padding: 0;
 		margin: 0;
 		@include susy-breakpoint($small-range, $susy-small){
 			padding: 0 0 0 2 * $magic-number;
 		}
 	}
 	&__list{
+		padding: $magic-number $magic-number $magic-number 5 * $magic-number;
 		list-style: none;
-		padding: $magic-number;
 		font-size: ms(2);
 		font-variant-numeric: lining-nums;
   		-moz-font-feature-settings: "lnum";
@@ -580,6 +581,7 @@ header{
 			padding: 0 $magic-number;
 			margin-bottom: $magic-number;
 			text-align: left;
+			border: none;
 			+ .mce_inline_error{
 				display: none !important;
 			}
