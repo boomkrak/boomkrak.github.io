@@ -1,22 +1,76 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Freebbble",
+			"url": "http://freebbble.com/",
+			"desc": "High quality design resources from Dribbble.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Awwwards",
+			"url": "http://www.awwwards.com/",
+			"desc": "Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "CSS Design Awards",
+			"url": "http://www.cssdesignawards.com/",
+			"desc": "CSS Design Awards provide website awards and web design inspiration with the best sites being featured in our CSS Gallery.",
 			"sticky": false
-		}
+		},
+		{
+			"title": "Dribbble",
+			"url": "http://dribbble.com/",
+			"desc": "Dribbble is a community of designers sharing screenshots of their work, process, and projects.",
+			"sticky": false
+		},
+		{
+			"title": "Inspiration UI",
+			"url": "http://inspirationui.com/",
+			"desc": "Inspiration UI  is a community that aims to provide the best design resources for those who create for the web.",
+			"sticky": false
+		},
+		{
+			"title": "UI Garage",
+			"url": "https://uigarage.net/",
+			"desc": "Specific design patterns for Web, iOS, Android and Mac.",
+			"sticky": false
+		},
+		{
+			"title": "UI Movement",
+			"url": "https://uimovement.com/",
+			"desc": "UI design inspiration, right in your inbox.",
+			"sticky": false
+		},
+		{
+			"title": "Landingfolio",
+			"url": "http://www.landingfolio.com/",
+			"desc": "Landingfolio is a gallery featuring the best landing pages design.",
+			"sticky": false
+		},
+		{
+			"title": "Typewolf",
+			"url": "https://www.typewolf.com/",
+			"desc": "Typewolf helps designers choose the perfect font combination for their next design project—features web fonts in the wild, font recommendations and learning resources.",
+			"sticky": false
+		},
+		{
+			"title": "UI Interactions",
+			"url": "https://uiinteractions.com/",
+			"desc": "The inspirations for UI Interactions.",
+			"sticky": false
+		},
+		{
+			"title": "Ecomm.design",
+			"url": "https://ecomm.design/",
+			"desc": "eCommerce Website Design Gallery & Tech Inspiration.",
+			"sticky": false
+		},
+		{
+			"title": "Redsgn",
+			"url": "http://redsgn.co/",
+			"desc": "eDiscover the best stories and inspirations of how interesting products are being redesigned and reimagined.",
+			"sticky": false
+		},
 	]
 }
