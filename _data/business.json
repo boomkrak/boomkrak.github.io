@@ -2,19 +2,19 @@
 	"tools": [
 		{
 			"title": "Adobe Sign",
-			"url": "https://acrobat.adobe.com/us/en/sign.html",
+			"url": "https://acrobat.adobe.com/us/en/sign.html/",
 			"desc": "Adobe Sign (formerly EchoSign) in Adobe Document Cloud provides trusted electronic and digital signature solutions that allow you to run business processes five times faster.",
 			"sticky": false
 		},
 		{
 			"title": "BambooHR",
-			"url": "https://www.bamboohr.com",
+			"url": "https://www.bamboohr.com/",
 			"desc": "BambooHR provides easy-to-use human resource software for small and medium businesses.",
 			"sticky": false
 		},
 		{
 			"title": "Drip",
-			"url": "https://www.drip.co",
+			"url": "https://www.drip.co/",
 			"desc": "Drip is marketing automation software to improve your business outcomes. Drip said they are just different from another marketing tools.",
 			"sticky": false
 		},
@@ -44,13 +44,13 @@
 		},
 		{
 			"title": "Hello Sign",
-			"url": "https://www.hellosign.com",
+			"url": "https://www.hellosign.com/",
 			"desc": "Sign with confidence! HelloSign provides secure electronic signatures system which are business-caliber, easy-to-use, and legally binding.",
 			"sticky": false
 		},
 		{
 			"title": "Intercom",
-			"url": "https://www.intercom.com",
+			"url": "https://www.intercom.com/",
 			"desc": "Intercom is customer messaging apps for sales, marketing, and support, connected on one platform. Their mission is to make business personal again.",
 			"sticky": false
 		},
@@ -74,7 +74,7 @@
 		},
 		{
 			"title": "Xero",
-			"url": "https://www.xero.com",
+			"url": "https://www.xero.com/",
 			"desc": "Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping &amp; more.",
 			"sticky": false
 		},

@@ -1,21 +1,69 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "IconStore",
+			"url": "http://iconstore.co/",
+			"desc": "A library of free vector icons for personal and commercial projects, designed by first-class designers.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "to[icon]",
+			"url": "http://www.toicon.com/",
+			"desc": "Pixel-perfect vector icons with personality, free for your use.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Maki Icons",
+			"url": "https://www.mapbox.com/maki-icons/",
+			"desc": "Maki is an icon set made for map designers. Maki includes 124 icons for common points of interest like parks, museums, and places of worship.",
+			"sticky": false
+		},
+		{
+			"title": "Icons Mind",
+			"url": "https://www.iconsmind.com",
+			"desc": "2,080 icons in 53 different categories, designed pixel Perfect and ready for iOS, Android & Websites.",
+			"sticky": false
+		},
+		{
+			"title": "Capitalist Icons",
+			"url": "https://pixelbuddha.net/capitalist/",
+			"desc": "600 beautiful icons across 10 categories will provide you with the necessary variety to cover you for any design project.",
+			"sticky": false
+		},
+		{
+			"title": "Prestashop Official Icon Pack",
+			"url": "http://build.prestashop.com/news/icon-pack-beta/",
+			"desc": "Free and open source iconset from the PrestaShop design team",
+			"sticky": false
+		},
+		{
+			"title": "IconScout",
+			"url": "https://iconscout.com/",
+			"desc": "61179+ high quality free and premium icons in all style, sizes and format by 58+ designers",
+			"sticky": false
+		},
+		{
+			"title": "Endless Icons",
+			"url": "http://www.endlessicons.com/",
+			"desc": "Free Icons and creative stuff",
+			"sticky": false
+		},
+		{
+			"title": "RoundIcons",
+			"url": "https://roundicons.com/",
+			"desc": "Round Icons is a library of premium icon packs covering all styles and always updated with new sets",
+			"sticky": false
+		},
+		{
+			"title": "Pioneer Icons",
+			"url": "http://pioneericons.com/",
+			"desc": "1010 High quality icons in 3 styles, for websites, apps, presentations, for you and your business, built with Sketch 4",
+			"sticky": false
+		},
+		{
+			"title": "Ionicons",
+			"url": "http://ionicons.com/",
+			"desc": "Ionicons is an open-sourced and MIT licensed icon pack",
 			"sticky": false
 		}
 	]

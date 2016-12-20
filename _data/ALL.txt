@@ -31,8 +31,18 @@ COLLABORATION
 
 COLOR SCHEME
 ------------
-	-
-	-
+	- Color Hunt
+	- Sip
+	- Flat UI Colors
+	- Coolors.co
+	- Adobe Color CC
+	- Color Farm
+	- Matertial Colors
+	- LOL Colors
+	- Drop
+	- Kelir
+	- Skala Color
+	- BrandColors
 
 FRAMEWORK
 ---------
@@ -41,8 +51,17 @@ FRAMEWORK
 
 ICONSET
 -------
-	-
-	-
+	- IconStore
+	- to[icon]
+	- Maki Icons
+	- Icons Mind
+	- Capitalist Icons
+	- Prestashop Official Icon Pack
+	- IconScout
+	- Endless Icons
+	- RoundIcons
+	- Pioneer Icons
+	- Ionicons
 
 INSPIRATION
 -----------
