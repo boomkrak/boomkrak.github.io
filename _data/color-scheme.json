@@ -1,22 +1,76 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Color Hunt",
+			"url": "http://colorhunt.co/",
+			"desc": "Curated collection of beautiful colors, updated daily.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Sip",
+			"url": "http://sipapp.io/",
+			"desc": "Sip Color picker for Mac and iPhone",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Flat UI Colors",
+			"url": "http://flatuicolors.com/",
+			"desc": "Copy Paste Color Pallette from Flat UI Theme",
 			"sticky": false
-		}
+		},
+		{
+			"title": "Coolors.co",
+			"url": "http://coolors.co/",
+			"desc": "Generate perfect color combinations for your designs.",
+			"sticky": false
+		},
+		{
+			"title": "Adobe Color CC",
+			"url": "http://color.adobe.com/",
+			"desc": "Create color schemes with the color wheel or browse thousands of color combinations from the Color community.",
+			"sticky": false
+		},
+		{
+			"title": "Color Farm",
+			"url": "http://color.farm/",
+			"desc": "Handpicked colors from the popular Dribbble shots for your daily inspiration.",
+			"sticky": false
+		},
+		{
+			"title": "Material Colors",
+			"url": "http://materialcolors.com/",
+			"desc": "A resource for testing and quickly copying Material Design colors.",
+			"sticky": false
+		},
+		{
+			"title": "LOL Colors",
+			"url": "http://www.lolcolors.com/",
+			"desc": "Curated color palette inspiration",
+			"sticky": false
+		},
+		{
+			"title": "Drop",
+			"url": "http://dropcolorpicker.com/",
+			"desc": "A color picker tools for macOS",
+			"sticky": false
+		},
+		{
+			"title": "Kelir",
+			"url": "https://rimbunesia.com/apps/kelir-color-picker-for-mac/",
+			"desc": "Color picker, Palette and Gradient in one single app",
+			"sticky": false
+		},
+		{
+			"title": "Skala Color",
+			"url": "https://bjango.com/mac/skalacolor/",
+			"desc": "Skala Color is a macOS color picker that works with a huge variety of formats",
+			"sticky": false
+		},
+		{
+			"title": "BrandColors",
+			"url": "https://brandcolors.net",
+			"desc": "BrandColors, official color codes for the world's biggest brands",
+			"sticky": false
+		},
 	]
 }
