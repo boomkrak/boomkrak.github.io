@@ -1,21 +1,177 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "FitText",
+			"url": "http://fittextjs.com/",
+			"desc": "FitText makes font-sizes flexible. Use this plugin on your fluid or responsive layout to achieve scalable headlines that fill the width of a parent element.",
+			"sticky": false
+		},		
+		{
+			"title": "Font Combiner",
+			"url": "http://fontcombiner.com/",
+			"desc": "Free custom web fonts and SVG icons. A versatile web font creator and font improvement tool exposing advanced font features to the end user, including kerning, subsetting, various hinting options and custom font glyph combinations.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Font Flame",
+			"url": "http://fontflame.com/",
+			"desc": "Font Flame is Tinder for font pairing.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Font Pair",
+			"url": "http://fontpair.co/",
+			"desc": "Font Pair helps designers pair Google Fonts together. Beautiful Google Font combinations and pairs.",
+			"sticky": false
+		},
+		{
+			"title": "Font Squirrel",
+			"url": "http://fontsquirrel.com/",
+			"desc": "Font Squirrel scours the internet for high quality, legitimately free fonts. Download thousands of completely legal, high quality, free fonts.",
+			"sticky": false
+		},
+		{
+			"title": "Font-To-Width",
+			"url": "http://font-to-width.com/",
+			"desc": "Font‑To‑Width (FTW!) is a script that takes advantage of large type families to fit pieces of text snugly within their containers.",
+			"sticky": false
+		},
+		{
+			"title": "Fontface Ninja",
+			"url": "http://fontface.ninja/",
+			"desc": "Fontface Ninja is a plugin you can install in your browser to recognize, try and buy any fonts on the Internet.",
+			"sticky": false
+		},
+		{
+			"title": "Fontic",
+			"url": "http://fontic.pluginmate.com/",
+			"desc": "Fontic scans PSD file for fonts.",
+			"sticky": false
+		},
+		{
+			"title": "FontReach",
+			"url": "http://www.fontreach.com/",
+			"desc": "FontReach scans the top million sites to show font usage across the web.",
+			"sticky": false
+		},
+		{
+			"title": "Fonts In Use",
+			"url": "http://fontsinuse.com/",
+			"desc": "A searchable archive of typographic design, indexed by typeface, format, and industry.",
+			"sticky": false
+		},
+		{
+			"title": "Fontstand",
+			"url": "http://fontstand.com/",
+			"desc": "Fontstand allows trying fonts for free or renting them by the month for desktop use for just a fraction of the regular price.",
+			"sticky": false
+		},
+		{
+			"title": "Google Fonts",
+			"url": "http://fonts.google.com/",
+			"desc": "Google Fonts is an interactive directory of free hosted application programming interfaces for web fonts.",
+			"sticky": false
+		},
+		{
+			"title": "Modularscale",
+			"url": "http://www.modularscale.com/",
+			"desc": "Modularscale provides calculator to produce set of harmonious proportions for your typographic setting: type sizes, line height, line length, margins, column widths, and more.",
+			"sticky": false
+		},
+		{
+			"title": "Prototypo",
+			"url": "http://www.prototypo.io/",
+			"desc": "Prototypo is an online app that enables anyone to customize their own typeface in a few clicks.",
+			"sticky": false
+		},
+		{
+			"title": "Readable",
+			"url": "http://mds.sh/readable/",
+			"desc": "Readable is a jQuery plugin to help you create optimally sized paragraphs for maximum readability.",
+			"sticky": false
+		},
+		{
+			"title": "RightFont",
+			"url": "http://rightfontapp.com/",
+			"desc": "Use RightFont to preview, sync, install, and manage fonts on your Mac or Dropbox/Google Drive. Add font organization functionality for Adobe Photoshop, Illustrator, Sketch, etc.",
+			"sticky": false
+		},
+		{
+			"title": "SkyFonts",
+			"url": "http://skyfonts.com/",
+			"desc": "Install fonts from various participating sites. Fonts are installed from the cloud on your computer fast and easily.",
+			"sticky": false
+		},
+		{
+			"title": "Typ.io",
+			"url": "http://typ.io/",
+			"desc": "Typ.io is source of inspiration for fonts that go together.",
+			"sticky": false
+		},
+		{
+			"title": "Type Anything",
+			"url": "http://typeanything.io/",
+			"desc": "Type Anything is tool to create and test font combinations for your projects. It also lets you download the CSS code.",
+			"sticky": false
+		},
+		{
+			"title": "Type Detail",
+			"url": "http://typedetail.com/",
+			"desc": "Type Detail is a project by Wenting Zhang, pointing out the beautiful details of the typefaces that one often takes for granted.",
+			"sticky": false
+		},
+		{
+			"title": "Type Nugget",
+			"url": "http://www.typenugget.com/",
+			"desc": "Type Nugget is an online CSS typesetting tool that gives you fine control over a robust base for hella fine web type.",
+			"sticky": false
+		},
+		{
+			"title": "Type Sample",
+			"url": "http://www.typesample.com/",
+			"desc": "Type Sample is a tool for identifying and sampling webfonts.",
+			"sticky": false
+		},
+		{
+			"title": "Type Scale",
+			"url": "http://type-scale.com/",
+			"desc": "Type Scale lets you preview and choose the right type scale for your project, experiment with font size, scale and different webfonts.",
+			"sticky": false
+		},
+		{
+			"title": "Typecast",
+			"url": "http://typecast.com/",
+			"desc": "Typecast is a free design tool for prototyping web type, web pages, and RWD.",
+			"sticky": false
+		},
+		{
+			"title": "TypeKit",
+			"url": "http://typekit.com/",
+			"desc": "Typekit is a service which allows designers and developers to use high-quality fonts in their work through a subscription plan to their font library.",
+			"sticky": false
+		},
+		{
+			"title": "Typetester",
+			"url": "http://www.typetester.org/",
+			"desc": "Typetester is an online tool for comparing and designing with web fonts.",
+			"sticky": false
+		},
+		{
+			"title": "Typewolf",
+			"url": "http://www.typewolf.com/",
+			"desc": "Typewolf helps designers choose the perfect font combination for their next design project. It features web fonts in the wild, font recommendations and learning resources.",
+			"sticky": false
+		},
+		{
+			"title": "WebFonter",
+			"url": "http://webfonter.fontshop.com/",
+			"desc": "WebFonter lets you try web fonts from FontShop on any website.",
+			"sticky": false
+		},
+		{
+			"title": "What the Font",
+			"url": "http://www.myfonts.com/WhatTheFont/",
+			"desc": "What the Font helps you identify font in the wild by scanning uploaded image.",
 			"sticky": false
 		}
 	]
