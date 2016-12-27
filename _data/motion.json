@@ -1,21 +1,51 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Anime.js",
+			"url": "http://anime-js.com/",
+			"desc": "Anime is a flexible yet lightweight JavaScript animation library. It works with CSS, Individual Transforms, SVG, DOM attributes and JS Objects.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "GSAP (Greenshock Animation Platform)",
+			"url": "https://greensock.com/gsap",
+			"desc": "GSAP is a suite of tools for scripted, high-performance HTML5 animations that work in all major browsers.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Vivus",
+			"url": "https://maxwellito.github.io/vivus/",
+			"desc": "Vivus is a lightweight JavaScript class (with no dependencies) that allows you to animate SVGs, giving them the appearence of being drawn.",
+			"sticky": false
+		},
+		{
+			"title": "Google Web Designer",
+			"url": "https://www.google.com/webdesigner/",
+			"desc": "Build interactive, animated HTML5 creative, no coding necessary.",
+			"sticky": false
+		},
+		{
+			"title": "TweenJS",
+			"url": "http://www.createjs.com/tweenjs",
+			"desc": "JavaScript library for tweening and animating HTML5 and JavaScript properties. Works stand-alone or integrated with EaselJS.",
+			"sticky": false
+		},
+		{
+			"title": "Animatron",
+			"url": "https://www.animatron.com/",
+			"desc": "Animatron is an online tool that allows you to create stunning HTML5 animations and interactive content.",
+			"sticky": false
+		},
+		{
+			"title": "Snap.svg",
+			"url": "http://snapsvg.io",
+			"desc": "Snap.svg is designed for modern browsers and therefore supports the newest SVG features like masking, clipping, patterns, full gradients, groups, and more.",
+			"sticky": false
+		},
+		{
+			"title": "MotionComposer",
+			"url": "https://www.aquafadas.com/motioncomposer/",
+			"desc": "MotionComposer bridges the gap between enthusiasts and professional designers with animations tools.",
 			"sticky": false
 		}
 	]
