@@ -71,6 +71,36 @@
 			"url": "http://www.amium.com/",
 			"desc": "Amium turns any file into a real-time activity feed and conversation.",
 			"sticky": false
-		}
+		},
+		{
+			"title": "Lingo",
+			"url": "http://www.lingoapp.com/",
+			"desc": "Lingo is the cloud connected visual asset library that empowers creation and ensures visual consistency for entire teams.",
+			"sticky": false
+		},
+		{
+			"title": "Wake",
+			"url": "http://wake.com/",
+			"desc": "Wake is a tool for designers to share work and collect feedback from their team.",
+			"sticky": false
+		},
+		{
+			"title": "Zeplin",
+			"url": "http://zeplin.io/",
+			"desc": "Zeplin is a collaboration app for UI designers and front-end developers to create and share style guides and design resources.",
+			"sticky": false
+		},
+		{
+			"title": "Sympli",
+			"url": "http://sympli.io/",
+			"desc": "Sympli generates style guides, specs, and assets for design handoff and helps implementation for teams that work with Photoshop, Sketch, Android Studio, and Xcode.",
+			"sticky": false
+		},
+		{
+			"title": "Avocode",
+			"url": "http://avocode.com/",
+			"desc": "Avocode turns PSD or Sketch design asset into code. Available for Mac, Windows, and Linux.",
+			"sticky": false
+		},
 	]
 }

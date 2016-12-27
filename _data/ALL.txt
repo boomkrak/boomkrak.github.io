@@ -32,6 +32,11 @@ COLLABORATION
 	- Mural
 	- Mindmeister
 	- Amium
+	- Lingo
+	- Wake
+	- Zeplin
+	- Sympli
+	- Avocode
 
 COLOR SCHEME
 ------------
@@ -84,8 +89,14 @@ INSPIRATION
 
 MOTION
 ------
-	-
-	-
+	- Anime.js
+	- GSAP (GreenSock Animation Platform)
+	- Vivus
+	- Google Web Designer
+	- TweenJS
+	- Animatron
+	- Snap.svg
+	- MotionComposer
 
 PRESENTATION
 ------------
