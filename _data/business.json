@@ -2,87 +2,105 @@
 	"tools": [
 		{
 			"title": "Adobe Sign",
-			"url": "https://acrobat.adobe.com/us/en/sign.html/",
-			"desc": "Adobe Sign (formerly EchoSign) in Adobe Document Cloud provides trusted electronic and digital signature solutions that allow you to run business processes five times faster.",
+			"url": "http://acrobat.adobe.com/us/en/sign.html",
+			"desc": "Adobe Sign (formerly EchoSign) in Adobe Document Cloud provides trusted electronic and digital signature solutions that allow you to run business processes faster.",
 			"sticky": false
 		},
 		{
 			"title": "BambooHR",
-			"url": "https://www.bamboohr.com/",
+			"url": "http://www.bamboohr.com/",
 			"desc": "BambooHR provides easy-to-use human resource software for small and medium businesses.",
 			"sticky": false
 		},
 		{
 			"title": "Drip",
-			"url": "https://www.drip.co/",
-			"desc": "Drip is marketing automation software to improve your business outcomes. Drip said they are just different from another marketing tools.",
+			"url": "http://www.drip.co/",
+			"desc": "Drip is marketing automation software to improve your business outcomes.",
 			"sticky": false
 		},
 		{
 			"title": "Evernote",
-			"url": "https://evernote.com/",
-			"desc": "Collect, nurture, and share ideas across desktop and mobile platforms with Evernote. Your thoughts are always with you, always accessible, always in sync.",
+			"url": "http://evernote.com/",
+			"desc": "Collect, nurture, and share ideas across desktop and mobile platforms with Evernote.",
 			"sticky": false
 		},
 		{
 			"title": "GoodData",
-			"url": "https://www.gooddata.com/",
-			"desc": "Powered by advanced business intelligence tools &amp; technology, the GoodData platform provides SaaS Business Intelligence &amp; data visualization tools.",
+			"url": "http://www.gooddata.com/",
+			"desc": "Powered by advanced business intelligence tools and technology, GoodData platform provides SaaS Business Intelligence and data visualization tools.",
 			"sticky": false
 		},
 		{
 			"title": "Google Analytics",
-			"url": "https://www.google.com/analytics/",
-			"desc": "Google Analytics Solutions offer free and enterprise analytics tools to measure website, app, digital and offline data to gain customer insights.",
+			"url": "http://www.google.com/analytics/",
+			"desc": "Google Analytics Solutions offer free and enterprise analytics tools to measure website, app, digital, and offline data to gain customer insights.",
 			"sticky": false
 		},
 		{
 			"title": "Gusto",
-			"url": "https://gusto.com/",
+			"url": "http://gusto.com/",
 			"desc": "Gusto (formerly ZenPayroll) is an online HR sevices. Get online payroll, health benefits, and workers&#39; comp in one integrated product.",
 			"sticky": false
 		},
 		{
 			"title": "Hello Sign",
-			"url": "https://www.hellosign.com/",
-			"desc": "Sign with confidence! HelloSign provides secure electronic signatures system which are business-caliber, easy-to-use, and legally binding.",
+			"url": "http://www.hellosign.com/",
+			"desc": "HelloSign provides secure electronic signatures system which are business-caliber, easy-to-use, and legally binding.",
 			"sticky": false
 		},
 		{
 			"title": "Intercom",
-			"url": "https://www.intercom.com/",
-			"desc": "Intercom is customer messaging apps for sales, marketing, and support, connected on one platform. Their mission is to make business personal again.",
+			"url": "http://www.intercom.com/",
+			"desc": "Intercom is customer messaging apps for sales, marketing, and support, connected on one platform.",
 			"sticky": false
 		},
 		{
 			"title": "MailChimp",
-			"url": "https://mailchimp.com/",
+			"url": "http://mailchimp.com/",
 			"desc": "MailChimp provides email marketing for more than 14 million people globally. Send better emails, connect your e-commerce store, and sell more stuff.",
 			"sticky": false
 		},
 		{
-			"title": "Omnifocus",
-			"url": "https://www.omnigroup.com/omnifocus/",
-			"desc": "OmniFocus for Mac, iPad, and iPhone is designed to quickly capture your thoughts and ideas to store, manage, and help you process them into actionable to do lists. Perfect for anyone.",
+			"title": "OmniFocus",
+			"url": "http://www.omnigroup.com/omnifocus/",
+			"desc": "OmniFocus for Mac, iPad, and iPhone is designed to quickly capture your thoughts and ideas to store, manage, and help you process them into actionable to do lists.",
 			"sticky": false
 		},
 		{
 			"title": "WORKetc",
-			"url": "https://www.worketc.com/",
-			"desc": "WORKetc is the best small business CRM with project management, billing, and helpdesk with powerful integrations with G Suite, Outlook, Evernote, QBO.",
+			"url": "http://www.worketc.com/",
+			"desc": "WORKetc is CRM for small business with project management, billing, and helpdesk with powerful integrations with G Suite, Outlook, Evernote, QBO.",
 			"sticky": false
 		},
 		{
 			"title": "Xero",
-			"url": "https://www.xero.com/",
-			"desc": "Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping &amp; more.",
+			"url": "http://www.xero.com/",
+			"desc": "Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping, and more.",
 			"sticky": false
 		},
 		{
 			"title": "Zoho",
-			"url": "https://www.zoho.com/",
-			"desc": "Run your entire business with Zoho's suite of online productivity tools and SaaS applications. Their Forever Free Plan is pretty interesting.",
+			"url": "http://www.zoho.com/",
+			"desc": "Zoho provides suite of online productivity tools and SaaS applications. Their Forever Free Plan is really interesting.",
 			"sticky": false
-		}	
+		},
+		{
+			"title": "Taco",
+			"url": "http://tacoapp.com/",
+			"desc": "Taco is a single place to see your various task lists and ticketing systems, from Asana to Gmail to Trello to Zendesk and 35+ more.",
+			"sticky": false
+		},
+		{
+			"title": "Laps",
+			"url": "http://getlaps.com/",
+			"desc": "Laps is tool for freelancers and small businesses to manage their clients, projects, and invoices.",
+			"sticky": false
+		},
+		{
+			"title": "Drift",
+			"url": "http://www.drift.com/",
+			"desc": "Drift is a messaging app that makes it easy for businesses to talk to their website visitors and customers in real-time, from anywhere.",
+			"sticky": false
+		}
 	]
 }

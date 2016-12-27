@@ -4,7 +4,7 @@ BUSINESS
 	- BambooHR
 	- Drip
 	- Evernote
-	- Good Data
+	- GoodData
 	- Google Analytics
 	- Gusto
 	- Hello Sign
@@ -14,6 +14,9 @@ BUSINESS
 	- WORKetc
 	- Xero
 	- Zoho
+	- Taco
+	- Laps
+	- Drift
 
 COLLABORATION
 -------------
@@ -28,6 +31,7 @@ COLLABORATION
 	- Red Pen
 	- Mural
 	- Mindmeister
+	- Amium
 
 COLOR SCHEME
 ------------
@@ -95,8 +99,35 @@ PROTOTYPING
 
 TYPOGRAPHY
 ----------
-	-
-	-
+	- FitText
+	- Font Combiner
+	- Font Flame
+	- Font Pair
+	- Font Squirrel
+	- Font-To-Width
+	- Fontface Ninja
+	- Fontic
+	- FontReach
+	- Fonts In Use
+	- Fontstand
+	- Google Fonts
+	- Modular Scale
+	- Prototypo
+	- Readable
+	- RightFont
+	- SkyFonts
+	- Typ.io
+	- Type Anything
+	- Type Detail
+	- Type Nugget
+	- Type Sample
+	- Type Scale
+	- Typecast
+	- TypeKit
+	- Typetester
+	- Typewolf
+	- WebFonter
+	- What the Font
 	
 USER RESEARCH
 -------------

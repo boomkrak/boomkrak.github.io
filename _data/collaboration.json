@@ -2,68 +2,74 @@
 	"tools": [
 		{
 			"title": "Slack",
-			"url": "https://slack.com/",
-			"desc": "Slack brings all your communication together in one place. It’s real-time messaging, archiving and search for modern teams.",
+			"url": "http://slack.com/",
+			"desc": "Slack brings all your communication together in one place. It’s real-time messaging, archiving, and search for modern teams.",
 			"sticky": false
 		},
 		{
 			"title": "Google Keep",
-			"url": "https://www.google.com/keep/",
-			"desc": "Google Keep is a fantastic way to share lists and ideas (or keep them to yourself). You can access Google Keep through the website or using the iOS or Android App.",
+			"url": "http://www.google.com/keep/",
+			"desc": "Google Keep is a tool to share lists and ideas (or keep them to yourself). You can access Google Keep through the website or using the iOS or Android App.",
 			"sticky": false
 		},
 		{
 			"title": "InVision",
-			"url": "https://www.invisionapp.com/",
-			"desc": "InVision lets you transform your designs into beautiful, interactive web & mobile (iOS, Android) mockups and prototypes!",
+			"url": "http://www.invisionapp.com/",
+			"desc": "InVision lets you transform your designs into beautiful, interactive web and mobile (iOS, Android) mockups and prototypes.",
 			"sticky": false
 		},
 		{
 			"title": "Trello",
-			"url": "https://trello.com/",
+			"url": "http://trello.com/",
 			"desc": "Trello keeps track of everything, from the big picture to the minute details.",
 			"sticky": false
 		},
 		{
 			"title": "Appear.in",
-			"url": "https://appear.in/",
-			"desc": "Video conversations with up to 8 people for free - no login, no downloads. Create a video room. Share the link. Appear together.",
+			"url": "http://appear.in/",
+			"desc": "Video conversations with up to 8 people for free—no login, no downloads. Create a video room. Share the link. Appear together.",
 			"sticky": false
 		},
 		{
 			"title": "Yammer",
-			"url": "https://www.yammer.com/",
+			"url": "http://www.yammer.com/",
 			"desc": "A social network for business, Yammer provides a platform for you to communicate and collaborate privately with your colleagues.",
 			"sticky": false
 		},
 		{
 			"title": "Dropbox",
-			"url": "https://www.dropbox.com/",
-			"desc": "Dropbox simplifies the way you create, share and collaborate. Bring your photos, docs, and videos anywhere and keep your files safe.",
+			"url": "http://www.dropbox.com/",
+			"desc": "Dropbox simplifies the way you create, share, and collaborate. Bring your photos, docs, and videos anywhere and keep your files safe.",
 			"sticky": false
 		},
 		{
 			"title": "Basecamp",
-			"url": "https://www.basecamp.com/",
+			"url": "http://www.basecamp.com/",
 			"desc": "Basecamp is the web-based project management and collaboration tool. To-dos, files, messages, schedules, and milestones.",
 			"sticky": false
 		},
 		{
 			"title": "Red Pen",
-			"url": "https://www.redpen.io/",
-			"desc": "Upload your design and get live, annotated feedback. It's the simplest way to get thoughts from the people you trust.",
+			"url": "http://www.redpen.io/",
+			"desc": "Upload your design and get live, annotated feedback—get thoughts from the people you trust.",
 			"sticky": false
 		},
 		{
 			"title": "Mural",
-			"url": "https://mural.co/",
-			"desc": "Make remote design work Online brainstorming, synthesis and collaboration",
+			"url": "http://mural.co/",
+			"desc": "Mural strives to make remote design works. It's a tool for online brainstorming, synthesis, and collaboration",
 			"sticky": false
 		},
 		{
 			"title": "Mindmeister",
-			"url": "https://www.mindmeister.co/",
+			"url": "http://www.mindmeister.co/",
 			"desc": "Mindmeister is a mind-mapping tool, but also has the functionality of many collaboration tools.",
+			"sticky": false
+		},
+		{
+			"title": "Amium",
+			"url": "http://www.amium.com/",
+			"desc": "Amium turns any file into a real-time activity feed and conversation.",
 			"sticky": false
 		}
 	]
