@@ -45,7 +45,7 @@
 		{
 			"title": "Basecamp",
 			"url": "http://www.basecamp.com/",
-			"desc": "Basecamp is the web-based project management and collaboration tool. To-dos, files, messages, schedules, and milestones.",
+			"desc": "Basecamp is a web-based project management and collaboration tool. To-dos, files, messages, schedules, and milestones.",
 			"sticky": false
 		},
 		{
@@ -57,7 +57,7 @@
 		{
 			"title": "Mural",
 			"url": "http://mural.co/",
-			"desc": "Mural strives to make remote design works. It's a tool for online brainstorming, synthesis, and collaboration",
+			"desc": "Mural strives to make remote-design works. It's a tool for online brainstorming, synthesis, and collaboration",
 			"sticky": false
 		},
 		{
@@ -75,7 +75,7 @@
 		{
 			"title": "Lingo",
 			"url": "http://www.lingoapp.com/",
-			"desc": "Lingo is the cloud connected visual asset library that empowers creation and ensures visual consistency for entire teams.",
+			"desc": "Cloud connected visual asset library that empowers creation and ensures visual consistency for entire teams.",
 			"sticky": false
 		},
 		{
@@ -87,7 +87,7 @@
 		{
 			"title": "Zeplin",
 			"url": "http://zeplin.io/",
-			"desc": "Zeplin is a collaboration app for UI designers and front-end developers to create and share style guides and design resources.",
+			"desc": "Collaboration app for UI designers and front-end developers to create and share style guides and design resources.",
 			"sticky": false
 		},
 		{
@@ -102,5 +102,53 @@
 			"desc": "Avocode turns PSD or Sketch design asset into code. Available for Mac, Windows, and Linux.",
 			"sticky": false
 		},
+		{
+			"title": "Frontify",
+			"url": "http://frontify.com/",
+			"desc": "Frontify is an online software for brand style guides, design workflows, and visual collaboration.",
+			"sticky": false
+		},
+		{
+			"title": "Abstract",
+			"url": "http://www.abstractapp.com/",
+			"desc": "Abstract is version control tool for design work. It brings new clarity to the tools you already use, making design work organized, documented, and connected.",
+			"sticky": false
+		},
+		{
+			"title": "Webscope",
+			"url": "http://webscopeapp.com/",
+			"desc": "Webscope is a communication platform for web developers and their clients. Developers can upload projects and discuss them with their clients.",
+			"sticky": false
+		},
+		{
+			"title": "Notion",
+			"url": "http://www.notion.so/",
+			"desc": "A Mac app that helps teams organize docs, wikis, and tasks from various tools in single place.",
+			"sticky": false
+		},
+		{
+			"title": "Duco",
+			"url": "http://duco.newhaircut.com/",
+			"desc": "Duco helps everyone runs successful design sprints.",
+			"sticky": false
+		},
+		{
+			"title": "Canvas",
+			"url": "http://usecanvas.com/",
+			"desc": "Use Canvas to create and share notes or memos.",
+			"sticky": false
+		},
+		{
+			"title": "Yossarian",
+			"url": "http://yossarian.co/",
+			"desc": "Yossarian is creative search engine, it uses AI to return diverse and unexpected concepts that share loose associations to your search. It's helpful for mind-mapping and brainstorming process.",
+			"sticky": false
+		},
+		{
+			"title": "Inboard",
+			"url": "http://inboardapp.com/",
+			"desc": "Inboard is a Mac app used to create and organize your screenshots, images, and photos. ",
+			"sticky": false
+		}
 	]
 }

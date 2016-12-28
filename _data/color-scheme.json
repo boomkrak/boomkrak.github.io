@@ -56,20 +56,38 @@
 		},
 		{
 			"title": "Kelir",
-			"url": "https://rimbunesia.com/apps/kelir-color-picker-for-mac/",
+			"url": "http://rimbunesia.com/apps/kelir-color-picker-for-mac/",
 			"desc": "Color picker, Palette and Gradient in one single app",
 			"sticky": false
 		},
 		{
 			"title": "Skala Color",
-			"url": "https://bjango.com/mac/skalacolor/",
+			"url": "http://bjango.com/mac/skalacolor/",
 			"desc": "Skala Color is a macOS color picker that works with a huge variety of formats",
 			"sticky": false
 		},
 		{
 			"title": "BrandColors",
-			"url": "https://brandcolors.net/",
+			"url": "http://brandcolors.net/",
 			"desc": "BrandColors, official color codes for the world's biggest brands",
+			"sticky": false
+		},
+		{
+			"title": "Client Giant",
+			"url": "http://clientgiant.us/",
+			"desc": "The best articles on freelancing, working, and business.",
+			"sticky": false
+		},
+		{
+			"title": "Client Giant",
+			"url": "http://clientgiant.us/",
+			"desc": "The best articles on freelancing, working, and business.",
+			"sticky": false
+		},
+		{
+			"title": "Client Giant",
+			"url": "http://clientgiant.us/",
+			"desc": "The best articles on freelancing, working, and business.",
 			"sticky": false
 		},
 	]
