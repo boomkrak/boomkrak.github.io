@@ -1,22 +1,88 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Ionic Framework",
+			"url": "http://ionicframework.com/",
+			"desc": "Ionic is free and open source mobile SDK for developing native and progressive web apps with ease.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Foundation for Emails 2",
+			"url": "http://foundation.zurb.com/emails.html",
+			"desc": "A Responsive Email Framework from ZURB.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "MJML",
+			"url": "https://mjml.io/",
+			"desc": "MJML is a markup language designed to reduce the pain of coding a responsive email.",
 			"sticky": false
-		}
+		},
+		{
+			"title": "React Native",
+			"url": "http://facebook.github.io/react-native/",
+			"desc": "React Native lets you build mobile apps using only JavaScript.",
+			"sticky": false
+		},
+		{
+			"title": "Milligram",
+			"url": "http://milligram.github.io/",
+			"desc": "Milligram provides a minimal setup of styles for a fast and clean starting point.",
+			"sticky": false
+		},
+		{
+			"title": "Bulma",
+			"url": "http://bulma.io/",
+			"desc": "A modern CSS framework based on Flexbox.",
+			"sticky": false
+		},
+		{
+			"title": "Spectre.css",
+			"url": "https://picturepan2.github.io/spectre/",
+			"desc": "Spectre.css is a lightweight, responsive and modern CSS framework.",
+			"sticky": false
+		},
+		{
+			"title": "Lumen",
+			"url": "https://lumen.laravel.com/",
+			"desc": "A PHP Microframework by Laravel.",
+			"sticky": false
+		},
+		{
+			"title": "Heck.css",
+			"url": "http://hackcss.com/",
+			"desc": "hack.css - dead simple css framework.",
+			"sticky": false
+		},
+		{
+			"title": "Signakit",
+			"url": "https://www.invasivecode.com/s1/signature-framework-ios-biometrics.html",
+			"desc": "SignaKit is a iOS framework that helps you create handwritten signatures and add them to PDF documents.",
+			"sticky": false
+		},
+		{
+			"title": "FolioReaderKit",
+			"url": "https://github.com/FolioReader/FolioReaderKit/",
+			"desc": "A Swift ePub reader and parser framework for iOS.",
+			"sticky": false
+		},
+		{
+			"title": "Ensembles",
+			"url": "http://www.ensembles.io/",
+			"desc": "Objective-C synchronization framework for apps.",
+			"sticky": false
+		},
+		{
+			"title": "Themifyflow",
+			"url": "http://themifyflow.com/",
+			"desc": "Themify Flow is a framework which allows Designers/Developers to build responsive themes within WordPress.",
+			"sticky": false
+		},
+		{
+			"title": "Pagelines",
+			"url": "https://www.pagelines.com/",
+			"desc": "Real time editing and design system for any WordPress theme.",
+			"sticky": false
+		},
 	]
 }
