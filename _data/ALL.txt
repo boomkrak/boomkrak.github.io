@@ -37,7 +37,15 @@ COLLABORATION
 	- Zeplin
 	- Sympli
 	- Avocode
-
+	- Frontify
+	- Abstract
+	- Webscope
+	- Notion
+	- Duco
+	- Canvas
+	- Yossarian
+	- Inboard
+	
 COLOR SCHEME
 ------------
 	- Color Hunt
