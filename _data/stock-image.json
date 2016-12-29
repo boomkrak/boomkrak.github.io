@@ -1,22 +1,250 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Samuel Zeller Archive",
+			"url": "http://archive.samuelzeller.ch/",
+			"desc": "Free stock photos by Samuel Zeller.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "GlyphsCo Photos",
+			"url": "https://glyphs.co/photos",
+			"desc": "Free photos by Glyphs Company.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Foodshot",
+			"url": "http://foodshot.co/",
+			"desc": "Handpicked high resolution food photos.",
 			"sticky": false
-		}
+		},
+		{
+			"title": "Nomad Picture",
+			"url": "https://nomad.pictures/",
+			"desc": "Free High-Res Stock Images and Cinemagraphs.",
+			"sticky": false
+		},
+		{
+			"title": "Vladimir Kudinov's Collection",
+			"url": "https://photos.google.com/share/AF1QipMqTdSXxVJsc8pVpPlwktz8XFNATPiIWX8VHYuOA_MSKfxa3J_Or5YMtOIG-4B_Bg?key=dXRMUWpDeE9zT01yRWxzY2ZEMzlSRE95UF81YWRn/",
+			"desc": "Free photography by Vladimir Kudinov.",
+			"sticky": false
+		},
+		{
+			"title": "The Pic Pac",
+			"url": "https://thepicpac.com/",
+			"desc": "Pay what you want stock photos.",
+			"sticky": false
+		},
+		{
+			"title": "The Library of Congress",
+			"url": "https://www.flickr.com/photos/library_of_congress/albums/",
+			"desc": "Historical picture by The Library of Congress",
+			"sticky": false
+		},
+		{
+			"title": "Unsplash",
+			"url": "https://unsplash.com/",
+			"desc": "Free (do whatever you want) high-resolution photos.",
+			"sticky": false
+		},
+		{
+			"title": "Shutteroo",
+			"url": "http://shutteroo.com/",
+			"desc": "Free images by Klaye Morrison.",
+			"sticky": false
+		},
+		{
+			"title": "Realistic Shots",
+			"url": "http://realisticshots.com/",
+			"desc": "Free stock photos for personal and commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "Skuawk",
+			"url": "http://skuawk.com/",
+			"desc": "A photography website with public domain images.",
+			"sticky": false
+		},
+		{
+			"title": "Minimography",
+			"url": "http://minimography.com/",
+			"desc": "Royalty-free minimalist mhotos.",
+			"sticky": false
+		},
+		{
+			"title": "Stockpic",
+			"url": "http://stokpic.com/",
+			"desc": "Free stock photos for commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "Negative Space",
+			"url": "http://negativespace.co/",
+			"desc": "Free stock photos in high resolution with their RAW files.",
+			"sticky": false
+		},
+		{
+			"title": "Libreshot",
+			"url": "http://libreshot.com/",
+			"desc": "A collection of free stock images for personal or commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "Large Photos",
+			"url": "http://www.largephotos.net/",
+			"desc": "Free large photography for commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "StockSnap.io",
+			"url": "https://stocksnap.io/",
+			"desc": "Free stock photos made by snappa team.",
+			"sticky": false
+		},
+		{
+			"title": "Tookapic",
+			"url": "https://stock.tookapic.com/photos?filter=free",
+			"desc": "Free stock photos from Tookapic.",
+			"sticky": false
+		},
+		{
+			"title": "FancyCrave",
+			"url": "http://fancycrave.com/",
+			"desc": "Free stock photo site created by Igor Ovsyannykov.",
+			"sticky": false
+		},
+		{
+			"title": "Nobl Web",
+			"url": "http://www.noblweb.com/",
+			"desc": "Providing you with free, high-resolution photos and textures, for all your web design projects.",
+			"sticky": false
+		},
+		{
+			"title": "PhotoStockEditor",
+			"url": "http://photostockeditor.com/",
+			"desc": "Free images for personal and commercial use",
+			"sticky": false
+		},
+		{
+			"title": "BossFight",
+			"url": "https://bossfight.co/",
+			"desc": "Free high-res stock photos.",
+			"sticky": false
+		},
+		{
+			"title": "Barn Images",
+			"url": "http://barnimages.com/",
+			"desc": "Stock images by Igor Trepeshchenok and Roman Drits.",
+			"sticky": false
+		},
+		{
+			"title": "Cupcake",
+			"url": "http://cupcake.nilssonlee.se/",
+			"desc": "Free stock photos by Jonas Wimmerström.",
+			"sticky": false
+		},
+		{
+			"title": "Re:splashed",
+			"url": "http://www.resplashed.com/",
+			"desc": "Free hi-resolution photos to do whatever you want.",
+			"sticky": false
+		},
+		{
+			"title": "Free Nature Stock",
+			"url": "http://freenaturestock.com/",
+			"desc": "Royalty-free nature stock photos by Adrian Pelletier.",
+			"sticky": false
+		},
+		{
+			"title": "ISO Republic",
+			"url": "http://isorepublic.com/",
+			"desc": "Free stock photos for creatives created by Tom Eversley.",
+			"sticky": false
+		},
+		{
+			"title": "DesignerPics",
+			"url": "http://www.designerspics.com/",
+			"desc": "Free Hi-Res photos for your personal & commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "Magdeleine",
+			"url": "http://magdeleine.co/",
+			"desc": "Handpicked free photos by Magdeleine.",
+			"sticky": false
+		},
+		{
+			"title": "Gratisography",
+			"url": "http://www.gratisography.com/",
+			"desc": "Free high-resolution pictures you can use on your personal and commercial projects by Ryan McGuire.",
+			"sticky": false
+		},
+		{
+			"title": "Kaboompics",
+			"url": "http://kaboompics.com/",
+			"desc": "Free pictures for business or personal projects.",
+			"sticky": false
+		},
+		{
+			"title": "SplitShire",
+			"url": "https://www.splitshire.com/",
+			"desc": "Free photos with no copyright restrictions and real look.",
+			"sticky": false
+		},
+		{
+			"title": "Life of Pix",
+			"url": "http://www.lifeofpix.com/",
+			"desc": "Free high resolution photography.",
+			"sticky": false
+		},
+		{
+			"title": "Startup Stock Photos",
+			"url": "http://startupstockphotos.com/",
+			"desc": "Free photos for startups, bloggers, publishers, websites, designers, developers, creators, & everyone else.",
+			"sticky": false
+		},
+		{
+			"title": "Stock Photos for Free",
+			"url": "http://www.stockphotosforfree.com/",
+			"desc": "Free stock photos by GraphicStock.",
+			"sticky": false
+		},
+		{
+			"title": "Good Stock Photos",
+			"url": "https://goodstock.photos/",
+			"desc": "Free images for personal or commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "New Old Stock",
+			"url": "http://nos.twnsnd.co/",
+			"desc": "Vintage photos from public archive.",
+			"sticky": false
+		},
+		{
+			"title": "The Pattern Library",
+			"url": "http://thepatternlibrary.com/",
+			"desc": "Compiles patterns shared by the most talented designers.",
+			"sticky": false
+		},
+		{
+			"title": "Pixabay",
+			"url": "https://pixabay.com/",
+			"desc": "Over 830,000 high quality photos, illustrations, and vector graphics. Free for commercial use.",
+			"sticky": false
+		},
+		{
+			"title": "Picjumbo",
+			"url": "https://picjumbo.com/",
+			"desc": "Free stock photos by Viktor Hanacek.",
+			"sticky": false
+		},
+		{
+			"title": "FoodiesFeed",
+			"url": "https://foodiesfeed.com/",
+			"desc": "Free Food Pictures.",
+			"sticky": false
+		},
 	]
 }
