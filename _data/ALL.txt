@@ -4,8 +4,6 @@ BUSINESS
 	- BambooHR
 	- Drip
 	- Evernote
-	- GoodData
-	- Google Analytics
 	- Gusto
 	- Hello Sign
 	- Intercom
@@ -17,6 +15,9 @@ BUSINESS
 	- Taco
 	- Laps
 	- Drift
+	- Contract Killer
+	- contract( )
+	- Smartsupp
 
 COLLABORATION
 -------------
@@ -128,6 +129,11 @@ PROTOTYPING
 	-
 	-
 
+STOCK IMAGE
+-----------
+	-
+	-
+
 TYPOGRAPHY
 ----------
 	- FitText
@@ -162,13 +168,34 @@ TYPOGRAPHY
 	
 USER RESEARCH
 -------------
-	-
-	-
+	- GoodData
+	- Google Analytics
+	- Smartlook
+	- Segment
+	- Jaco
+	- Lookback
+	- Optimal Workshop
+	- Intercom
+	- Smartsupp
+	- Drift
+	- pow wow
+	- Jetpack
+	- Validately
+	- UsabilityTools
+	- Crowdtap
+	- Typeform
+	- UserBrain
+	- Dovetail
+	- FullStory
+	- Testmate
+	- UserTesting
+	- Usabili.me
+	- UX Check
+	- Sprint
+	- Usability Hub
+	- Narrative Clip
 
-STOCK IMAGE
------------
-	-
-	-
+
 
 
 
