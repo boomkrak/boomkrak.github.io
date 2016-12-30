@@ -25,18 +25,6 @@
 			"sticky": false
 		},
 		{
-			"title": "GoodData",
-			"url": "http://www.gooddata.com/",
-			"desc": "Powered by advanced business intelligence tools and technology, GoodData platform provides SaaS Business Intelligence and data visualization tools.",
-			"sticky": false
-		},
-		{
-			"title": "Google Analytics",
-			"url": "http://www.google.com/analytics/",
-			"desc": "Google Analytics Solutions offer free and enterprise analytics tools to measure website, app, digital, and offline data to gain customer insights.",
-			"sticky": false
-		},
-		{
 			"title": "Gusto",
 			"url": "http://gusto.com/",
 			"desc": "Gusto (formerly ZenPayroll) is an online HR sevices. Get online payroll, health benefits, and workers&#39; comp in one integrated product.",
@@ -100,6 +88,24 @@
 			"title": "Drift",
 			"url": "http://www.drift.com/",
 			"desc": "Drift is a messaging app that makes it easy for businesses to talk to their website visitors and customers in real-time, from anywhere.",
+			"sticky": false
+		},
+		{
+			"title": "Contract Killer",
+			"url": "http://stuffandnonsense.co.uk/projects/contract-killer/",
+			"desc": "Contract Killer is open-source contract for web designers and developers.",
+			"sticky": false
+		},
+		{
+			"title": "contract( )",
+			"url": "http://docontract.com/",
+			"desc": "contract( ) is a free agreement generator for game developers.",
+			"sticky": false
+		},
+		{
+			"title": "Smartsupp",
+			"url": "http://smartsupp.com/",
+			"desc": "Smartsupp is a free live chat for your website. You can start real-time conversations with your web visitors, answer their questions, and boost your online sales.",
 			"sticky": false
 		}
 	]
