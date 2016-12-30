@@ -1,21 +1,75 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "GoodData",
+			"url": "http://www.gooddata.com/",
+			"desc": "Powered by advanced business intelligence tools and technology, GoodData platform provides SaaS Business Intelligence and data visualization tools.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Google Analytics",
+			"url": "http://www.google.com/analytics/",
+			"desc": "Google Analytics Solutions offer free and enterprise analytics tools to measure website, app, digital, and offline data to gain customer insights.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Smartlook",
+			"url": "http://smartlook.com/",
+			"desc": "Smartlook is tool to record the screen of your visitors. FREE plan is available!",
+			"sticky": false
+		},
+		{
+			"title": "Segment",
+			"url": "http://www.segment.com/",
+			"desc": "With Segment, you can collect customer data and stream it to every marketing integrated tools your team needs. FREE plan is available for developers!",
+			"sticky": false
+		},
+		{
+			"title": "Jaco",
+			"url": "http://www.getjaco.com/",
+			"desc": "Jaco is helpful to record and analyze your users' interaction.",
+			"sticky": false
+		},
+		{
+			"title": "Lookback",
+			"url": "http://lookback.io/",
+			"desc": "Lookback lets your users record interactions with your product: their screen touches, clicks, even their face and voice.",
+			"sticky": false
+		},
+		{
+			"title": "Optimal Workshop",
+			"url": "http://www.optimalworkshop.com/",
+			"desc": "Optimal Workshop offers a suite of tools to help design researchers and information architects improve the user experience of their products.",
+			"sticky": false
+		},
+		{
+			"title": "Intercom",
+			"url": "http://www.intercom.com/",
+			"desc": "Intercom is customer messaging apps for sales, marketing, and support, connected on one platform.",
+			"sticky": false
+		},
+		{
+			"title": "Smartsupp",
+			"url": "http://smartsupp.com/",
+			"desc": "Smartsupp is a free live chat for your website. You can start real-time conversations with your web visitors, answer their questions, and boost your online sales.",
+			"sticky": false
+		},
+		{
+			"title": "Drift",
+			"url": "http://www.drift.com/",
+			"desc": "Drift is a messaging app that makes it easy for businesses to talk to their website visitors and customers in real-time, from anywhere.",
+			"sticky": false
+		},
+		{
+			"title": "pow wow",
+			"url": "http://usepowwow.com/",
+			"desc": "pow wow helps in coordinating times to conduct research with participants and sending out confirmations and reminders.",
+			"sticky": false
+		},
+		{
+			"title": "Jetpack",
+			"url": "http://jetpack.com/",
+			"desc": "Jetpack simplifies managing WordPress sites by giving you visitor stats, security services, speeding up images, and helping you get more traffic.",
 			"sticky": false
 		}
 	]
