@@ -1,21 +1,195 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Antetype",
+			"url": "http://www.antetype.com/",
+			"desc": "Antetype is the first design and layout software focused on visual design, built by UI designers for UI designers.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "AppCooker",
+			"url": "http://www.appcooker.com/",
+			"desc": "Prototyping studio for Apple Watch, iPhone and iPad apps.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Atomic",
+			"url": "https://atomic.io/",
+			"desc": "Atomic helps you quickly create realistic prototypes of everything from simple interactions to entire products.",
+			"sticky": false
+		},
+		{
+			"title": "Avocado",
+			"url": "https://github.com/ideo/avocado/",
+			"desc": "Avocado is an open source interaction design toolbox built by​ IDEO.",
+			"sticky": false
+		},
+		{
+			"title": "Axure",
+			"url": "http://www.axure.com/",
+			"desc": "Axure RP puts the power of prototyping into the hands of product managers, business analysts, and user experience professionals.",
+			"sticky": false
+		},
+		{
+			"title": "Briefs",
+			"url": "http://giveabrief.com/",
+			"desc": "Briefs is a app design tool built for a professional design workflow. ",
+			"sticky": false
+		},
+		{
+			"title": "CanvasFlip",
+			"url": "https://www.canvasflip.com/",
+			"desc": "CanvasFlip is a mobile/web protoyping tool which improve user experience with real-time usabilty testing. ",
+			"sticky": false
+		},
+		{
+			"title": "Creator",
+			"url": "http://ionic.io/products/creator/",
+			"desc": "CanvasFlip is a mobile/web protoyping tool which improve user experience with real-time usabilty testing. ",
+			"sticky": false
+		},
+		{
+			"title": "Demonstrate",
+			"url": "http://nfnlabs.in/demonstrate/",
+			"desc": "Demonstrate is a free prototyping app allowing users to create native app demos without writing any code.",
+			"sticky": false
+		},
+		{
+			"title": "Flinto",
+			"url": "https://www.flinto.com/mac",
+			"desc": "Flinto for Mac is a comprehensive app prototyping tool that allows you to create anything from simple tap-through prototypes, to comprehensive prototypes with impressive interactions.",
+			"sticky": false
+		},
+		{
+			"title": "Fluid UI",
+			"url": "https://www.fluidui.com/",
+			"desc": "Web and mobile app prototyping for people who care about products.",
+			"sticky": false
+		},
+		{
+			"title": "Form",
+			"url": "http://www.relativewave.com/form/",
+			"desc": "Build and customize native prototypes directly on device by RelativeWave.",
+			"sticky": false
+		},
+		{
+			"title": "Framer",
+			"url": "https://framerjs.com/",
+			"desc": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web.",
+			"sticky": false
+		},
+		{
+			"title": "HotGloo",
+			"url": "https://www.hotgloo.com/",
+			"desc": "HotGloo is a UX, wireframe and prototyping tool designed to build wireframes for web, mobile and wearables.",
+			"sticky": false
+		},
+		{
+			"title": "Invision",
+			"url": "https://www.invisionapp.com/",
+			"desc": "Prototyping, collaboration and  workflow platform.",
+			"sticky": false
+		},
+		{
+			"title": "IRise",
+			"url": "https://www.irise.com/features/prototyping/",
+			"desc": "Use interactive diagrams and prototyping tools to elicit, communicate and validate requirements.",
+			"sticky": false
+		},
+		{
+			"title": "Justinmind",
+			"url": "https://www.justinmind.com/",
+			"desc": "Prototyping tools for mobile and web.",
+			"sticky": false
+		},
+		{
+			"title": "Marvel",
+			"url": "https://marvelapp.com/",
+			"desc": "Turn sketches, mockups and designs into web, iPhone, iOS, Android and Apple Watch app prototypes.",
+			"sticky": false
+		},
+		{
+			"title": "Mockingbird",
+			"url": "https://gomockingbird.com/",
+			"desc": "Mockingbird helps you you create and share clickable wireframes.",
+			"sticky": false
+		},
+		{
+			"title": "Mockplus",
+			"url": "https://www.mockplus.com/",
+			"desc": "Prototyping tool with simple drag-and-drop, supporting mobile, web and desktop apps prototyping.",
+			"sticky": false
+		},
+		{
+			"title": "Moqups",
+			"url": "https://moqups.com/",
+			"desc": "A streamlined web app that helps you create and collaborate on wireframes, mockups, diagrams and prototypes.",
+			"sticky": false
+		},
+		{
+			"title": "Neonto",
+			"url": "https://www.neonto.com/",
+			"desc": "Neonto encompasses prototyping, interface, with design tools, and generate real code for native app front-end.",
+			"sticky": false
+		},
+		{
+			"title": "Origami",
+			"url": "https://www.neonto.com/",
+			"desc": "A tool for designing modern interfaces, built and used by designers at Facebook.",
+			"sticky": false
+		},
+		{
+			"title": "Pidoco",
+			"url": "https://pidoco.com/en",
+			"desc": "Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.",
+			"sticky": false
+		},
+		{
+			"title": "Pop",
+			"url": "https://popapp.in/",
+			"desc": "Pop helps you transform your pen + papes ideas into a real working prototype.",
+			"sticky": false
+		},
+		{
+			"title": "Principle",
+			"url": "http://principleformac.com/",
+			"desc": "Principle makes it easy to design animated and interactive user interfaces.",
+			"sticky": false
+		},
+		{
+			"title": "Proto.io",
+			"url": "https://proto.io/",
+			"desc": "Proto.io helps you to create fully-interactive high-fidelity prototypes that look and work exactly like your app should.",
+			"sticky": false
+		},
+		{
+			"title": "ProtoPie (Beta)",
+			"url": "https://www.protopie.io/",
+			"desc": "ProtoPie allows you to quickly build interactive prototypes without any coding.",
+			"sticky": false
+		},
+		{
+			"title": "Prott",
+			"url": "https://prottapp.com/",
+			"desc": "Prott is a free rapid prototyping and collaboration tool.",
+			"sticky": false
+		},
+		{
+			"title": "Notable Prototypes (formerly Solidify)",
+			"url": "http://www.solidifyapp.com/",
+			"desc": "Notable Prototypes helps you to create clickable prototypes from sketches, wireframes, or visual mockups.",
+			"sticky": false
+		},
+		{
+			"title": "UX app",
+			"url": "https://www.ux-app.com/",
+			"desc": "Create fully functional prototypes for web & mobile built with real HTML components.",
+			"sticky": false
+		},
+		{
+			"title": "UXPin",
+			"url": "https://www.uxpin.com/",
+			"desc": "UXPin was created for designers and non-designers alike, making it easy to go from static design to fully animated prototypes.",
 			"sticky": false
 		}
 	]
