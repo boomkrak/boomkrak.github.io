@@ -138,6 +138,9 @@ header{
 
 .resource{
 	&__list{
+		ul{
+			color: $c-purple;
+		}
 		> li{
 			padding-bottom: 3 * $magic-number;
 			border-bottom: 1px solid rgba(black, 0.1);
@@ -230,6 +233,7 @@ header{
 	}
 	.bordered{
 		border-right: 1px solid rgba(black, 0.1);
+		padding-right: 2 * $magic-number;
 		@include susy-breakpoint($small-range){
 			border-right: none;
 		}

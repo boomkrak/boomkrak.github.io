@@ -352,7 +352,8 @@ header{
 		}
 		ul{
 			list-style-type: decimal-leading-zero;
-			padding: 0 0 0 2 * $magic-number;
+			list-style-position: inside;
+			padding: 0;
 			margin: 0;
 			@include susy-breakpoint($small-range, $susy-small){
 				padding: 0 0 0 2 * $magic-number;

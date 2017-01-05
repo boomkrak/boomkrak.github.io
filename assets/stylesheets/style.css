@@ -942,7 +942,8 @@ header .logo {
 
 .resource__list ul {
   list-style-type: decimal-leading-zero;
-  padding: 0 0 0 20px;
+  list-style-position: inside;
+  padding: 0;
   margin: 0;
 }
 
@@ -1572,6 +1573,10 @@ header a.active {
   color: rgba(0, 0, 0, 0.55);
 }
 
+.resource__list ul {
+  color: #534C98;
+}
+
 .resource__list > li {
   padding-bottom: 30px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -1658,6 +1663,7 @@ header a.active {
 
 .sidebar .bordered {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 20px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
