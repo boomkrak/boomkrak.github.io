@@ -150,7 +150,7 @@ header{
 	&__text{
 		@include span(8);
 		@include push(2);
-		text-transform: capitalize;
+		//text-transform: capitalize;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			@include push(0);
@@ -645,9 +645,20 @@ footer{
 .footer{
 	&__feedback{
 		@include span(12);
-		margin-bottom: 5*$magic-number;
+		margin-bottom: 3*$magic-number;
 		font-size: ms(1);
 		line-height: 1.35;
+	}
+	&__share{
+		@include span(12);
+		margin-bottom: 5*$magic-number;
+		text-align: center;
+		> * {
+			@include inline-block;
+		}
+		.fb-share-button{
+			top: -4px;
+		}
 	}
 	&__links{
 		@include span(5);

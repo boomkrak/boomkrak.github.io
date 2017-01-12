@@ -1,5 +1,6 @@
 {% assign titleBg = page.title | replace: '-', '' | downcase %}
 {% if page.url contains 'jobs' %}
+
 <header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-jobs-solid.png)">
 {% elsif page.url contains 'tag' %}
 <header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-resources-solid.png)">
@@ -52,7 +53,7 @@
 				<br>
 				{{ page.title | replace: '-', ' ' }} 
 			{% elsif page.url contains "tag" %}
-				<span class="banner__text__pp">Resource</span>
+				<span class="banner__text__pp">Articles</span>
 				<br>
 				{{ page.name | replace: '-', ' ' }}
 			{% else %}

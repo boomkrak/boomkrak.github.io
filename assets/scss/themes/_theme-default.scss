@@ -3,6 +3,10 @@ body{
 	background: $c-white;
 }
 
+a{
+	color: $c-red;
+}
+
 header{
 	background: $c-purple url('../images/header-pattern-tools-solid.png') repeat center;
 	.logo{

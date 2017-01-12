@@ -11,9 +11,9 @@
     {% if page.title == "Tools" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% elsif page.url contains "tools" %}
-      Tools – {{ page.title | capitalize | replace: '-', ' '}} // {{ site.title }}
+      Tools – {{ page.title | capitalize | replace: '-', ' '}} // {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-      {{ page.title }} // {{ site.title }}
+      {{ page.title }} // {{ site.title }} &middot; {{ site.tagline }}
     {% endif %}
   </title>
   

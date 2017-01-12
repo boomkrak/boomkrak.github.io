@@ -1,21 +1,81 @@
 {
 	"tools": [
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Smartmockups",
+			"url": "http://smartmockups.com/",
+			"desc": "Curated collection of the best free product mockups waiting for your designs.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "MockDrop",
+			"url": "http://mockdrop.io/",
+			"desc": "Free online device mockup images.",
 			"sticky": false
 		},
 		{
-			"title": "Client Giant",
-			"url": "https://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
+			"title": "Mockupsjar",
+			"url": "http://mockupsjar.com/",
+			"desc": "Free realistic previews for website and mobile app.",
+			"sticky": false
+		},
+		{
+			"title": "Magic Mockups",
+			"url": "http://magicmockups.com/",
+			"desc": "Free realistic mockups for your design showcase.",
+			"sticky": false
+		},
+		{
+			"title": "MockupWorld",
+			"url": "http://magicmockups.com/",
+			"desc": "Tons of free and legal, fully layered, easily customizable photo realistic PSDs.",
+			"sticky": false
+		},
+		{
+			"title": "Dunnnk",
+			"url": "http://dunnnk.com/",
+			"desc": "Mockup generator on the web.",
+			"sticky": false
+		},
+		{
+			"title": "Placeit",
+			"url": "https://placeit.net/",
+			"desc": "Free iPhone Mockup Generator & App Demo Videos.",
+			"sticky": false
+		},
+		{
+			"title": "Scenery",
+			"url": "https://www.getscenery.com/",
+			"desc": "Mockup template generator on mac to showcase your design with free and premium template.",
+			"sticky": false
+		},
+		{
+			"title": "Dropmock",
+			"url": "http://dropmock.com/",
+			"desc": "Cloud-based video and image mockup generator.",
+			"sticky": false
+		},
+		{
+			"title": "iSweetIt",
+			"url": "http://www.isweetit.com/",
+			"desc": "iOS app to create product screenshots in real environment.",
+			"sticky": false
+		},
+		{
+			"title": "MediaModifier",
+			"url": "https://mediamodifier.com/",
+			"desc": "A design tool for creating personalized graphics from online templates.",
+			"sticky": false
+		},
+		{
+			"title": "Mockuuups",
+			"url": "https://www.mockuuups.com/",
+			"desc": "Free and premium mockups, available on Sketch and Photoshop.",
+			"sticky": false
+		},
+		{
+			"title": "LaunchKit",
+			"url": "https://launchkit.io/",
+			"desc": "Create product screenshot for the App Store or Google Play.",
 			"sticky": false
 		}
 	]
