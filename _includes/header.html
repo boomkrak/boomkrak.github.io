@@ -51,15 +51,15 @@
 			{% elsif page.url contains "tools" %}
 				<span class="banner__text__pp">Tools</span>
 				<br>
-				{{ page.title | replace: '-', ' ' }} 
+				{{ page.title | replace: '-', ' ' | capitalize }} 
 			{% elsif page.url contains "tag" %}
 				<span class="banner__text__pp">Articles</span>
 				<br>
-				{{ page.name | replace: '-', ' ' }}
+				{{ page.name | replace: '-', ' ' | capitalize }}
 			{% else %}
 				<span class="banner__text__pp">Jobs</span>
 				<br>
-				{{ page.name | replace: '-', ' ' }}
+				{{ page.name | replace: '-', ' ' | capitalize }}
 			{% endif %}
 		</div>
 	</div>
