@@ -240,9 +240,6 @@ header{
 		//padding: 0 0 0 5 * $magic-number;
 		padding: 0;
 		margin: 0;
-		@include susy-breakpoint($small-range, $susy-small){
-			padding: 0 0 0 2 * $magic-number;
-		}
 	}
 	&__list{
 		padding: $magic-number $magic-number $magic-number 5 * $magic-number;
@@ -253,6 +250,9 @@ header{
   		-webkit-font-feature-settings: "lnum";
   		font-feature-settings: "lnum";
   		position: relative;
+  		@include susy-breakpoint($small-range, $susy-small){
+  			padding-left: 30px;
+  		}
 		a{
 			@include inline-block;
 			margin-bottom: $magic-number;
@@ -324,6 +324,9 @@ header{
 		list-style: none;
 		padding: 0 $magic-number $magic-number $magic-number;
 		margin: 0;
+		@include susy-breakpoint($small-range, $susy-small){
+			padding: 0 0 $magic-number;
+		}
 		> li{
 			margin-bottom: 3 * $magic-number;
 			ul{
@@ -648,11 +651,17 @@ footer{
 		margin-bottom: 3*$magic-number;
 		font-size: ms(1);
 		line-height: 1.35;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+		}
 	}
 	&__share{
 		@include span(12);
 		margin-bottom: 5*$magic-number;
 		text-align: center;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+		}
 		> * {
 			@include inline-block;
 		}
