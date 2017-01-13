@@ -752,3 +752,14 @@ footer{
 		top: 2px;
 	}
 }
+
+.full-width{
+	@include span(12);
+	@include susy-breakpoint($small-range, $susy-small){
+		@include span(4);
+	}
+	h3{
+		margin-top: 4 * $magic-number;
+		margin-bottom: 2 * $magic-number;
+	}
+}
