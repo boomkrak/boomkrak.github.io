@@ -440,7 +440,10 @@ header{
 .job{
 	&__list{
 		list-style-type: decimal-leading-zero;
-		padding: $magic-number $magic-number $magic-number 3 * $magic-number;
+		list-style-position: inside;
+		padding: 0;
+		margin: 0;
+		padding: $magic-number $magic-number $magic-number 0;
 		margin: 0;
 		li{
 			margin-bottom: 2 * $magic-number;
@@ -717,6 +720,7 @@ footer{
 	width: 100%;
 	height: 100vh;
 	display: none;
+	z-index: 999;
 	#mc_embed_signup{
 		@include vertical-align($position: absolute);
 		width: span(3);

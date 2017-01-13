@@ -1046,7 +1046,10 @@ header .logo {
 .tag__list,
 .job__list {
   list-style-type: decimal-leading-zero;
-  padding: 10px 10px 10px 30px;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+  padding: 10px 10px 10px 0;
   margin: 0;
 }
 
@@ -1431,6 +1434,7 @@ footer .logo a {
   width: 100%;
   height: 100vh;
   display: none;
+  z-index: 999;
 }
 
 .popup #mc_embed_signup {
@@ -1695,6 +1699,10 @@ header a.active {
   color: #fff;
 }
 
+.tag__list {
+  color: #534C98;
+}
+
 .tag__list h6 a {
   color: #56502B;
 }
@@ -1717,6 +1725,10 @@ header a.active {
 
 .tag__list h6 a:after {
   background: #A9EEE6;
+}
+
+.job__list {
+  color: #534C98;
 }
 
 .job__list h6 a {
