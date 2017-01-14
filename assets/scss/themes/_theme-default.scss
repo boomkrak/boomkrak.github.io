@@ -83,6 +83,9 @@ header{
 	&__right{
 		//background: white;
 		transition: 400ms;
+		@include susy-breakpoint($small-range){
+			border-bottom: 1px solid rgba(black, 0.2);
+		}
 		&:hover{
 			//box-shadow: 0 3px 20px rgba($c-black, 0.15);	
 		}
@@ -116,6 +119,9 @@ header{
 			&:hover{
 				color: $c-red;
 			}
+		}
+		&:after{
+			background: linear-gradient(90deg, $c-white 5%, rgba(black, 0.1));
 		}
 		.ion-android-open{
 			border: 1px solid $c-yellow;

@@ -107,6 +107,12 @@
 			"url": "http://smartsupp.com/",
 			"desc": "Smartsupp is a free live chat for your website. You can start real-time conversations with your web visitors, answer their questions, and boost your online sales.",
 			"sticky": false
+		},
+		{
+			"title": "Neatly",
+			"url": "http://neatly.io/",
+			"desc": "Neatly gathers all of your data into one dashboard & provides you with the insights you need to reach goals and grow your business.",
+			"sticky": false
 		}
 	]
 }

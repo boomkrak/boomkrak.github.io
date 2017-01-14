@@ -171,6 +171,7 @@ header{
 	padding-bottom: 2 * $magic-number;
 	&__left{
 		width: span(3.5);
+		margin-left: gutter();
 		float: left;
 		transition: 400ms;
 		@include susy-breakpoint($small-range, $susy-small){
@@ -183,7 +184,7 @@ header{
 	&__right{
 		@include span(8.5 last);
 		//@include push(0.5);
-		padding: 0 $magic-number $magic-number $magic-number;
+		padding: 0 0 $magic-number 0;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			margin-bottom: 2 * $magic-number;
@@ -242,7 +243,8 @@ header{
 		margin: 0;
 	}
 	&__list{
-		padding: $magic-number $magic-number $magic-number 5 * $magic-number;
+		padding: $magic-number 0 2*$magic-number 5*$magic-number;
+		margin-bottom: 2*$magic-number;
 		list-style: none;
 		font-size: ms(2);
 		font-variant-numeric: lining-nums;
@@ -252,6 +254,18 @@ header{
   		position: relative;
   		@include susy-breakpoint($small-range, $susy-small){
   			padding-left: 30px;
+  		}
+  		&:after{
+  			content:"";
+  			display: block;
+  			width: 100%;
+  			height: 1px;  			
+  			position: absolute;
+  			bottom: 0;
+  			right: 0;
+  		}
+  		&:last-child:after{
+  			display: none;	
   		}
 		a{
 			@include inline-block;
@@ -279,6 +293,7 @@ header{
 		}
 		> p{
 			width: span(10);
+			margin-bottom: 0;
 			position: relative;
 			font-size: ms(1);
 			line-height: 1.35;
@@ -293,7 +308,7 @@ header{
 		}
 		.ion-android-open{
 			@include vertical-align($position: absolute);
-			right: 2 * $magic-number;
+			right: 0;
 			padding: 5px $magic-number;
 			@include susy-breakpoint($small-range, $susy-small){
 				display: none;
