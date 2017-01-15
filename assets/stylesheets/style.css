@@ -939,11 +939,27 @@ header .logo {
 }
 
 .resource__list > li ul li {
-  margin-bottom: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.resource__list > li ul li:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .resource__list > li ul li:last-child {
   margin-bottom: 0;
+}
+
+.resource__list > li ul li:last-child:after {
+  display: none;
 }
 
 .resource__list > li .sponsored {
@@ -1689,6 +1705,11 @@ header a.active {
 .resource__list > li .sponsored:after {
   background: #FFE546;
   color: rgba(0, 0, 0, 0.55);
+}
+
+.resource__list > li ul li:after {
+  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.1), #F9F9F9);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), #F9F9F9);
 }
 
 .resource__list h5 {
