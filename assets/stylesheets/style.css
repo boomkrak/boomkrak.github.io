@@ -678,6 +678,10 @@ header .logo {
   }
 }
 
+.banner__text [data-tag="ui"], .banner__text [data-tag="ux"] {
+  text-transform: uppercase;
+}
+
 .content {
   padding-bottom: 20px;
 }
@@ -1211,7 +1215,14 @@ header .logo {
 .sidebar__menu li {
   padding: 10px 0;
   font-size: 18px;
+}
+
+.sidebar__menu li a {
   text-transform: capitalize;
+}
+
+.sidebar__menu li [href*="/tag/ui"], .sidebar__menu li [href*="/tag/ux"] {
+  text-transform: uppercase;
 }
 
 .sidebar__menu [class*="ion-"] {

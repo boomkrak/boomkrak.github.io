@@ -55,7 +55,7 @@
 			{% elsif page.url contains "tag" %}
 				<span class="banner__text__pp">Articles</span>
 				<br>
-				{{ page.name | replace: '-', ' ' | capitalize }}
+				<span data-tag="{{ page.name }}">{{ page.name | replace: '-', ' ' | capitalize }}</span>
 			{% else %}
 				<span class="banner__text__pp">Jobs</span>
 				<br>

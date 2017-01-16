@@ -164,6 +164,9 @@ header{
 				font-size: ms(1);
 			}
 		}
+		[data-tag="ui"], [data-tag="ux"]{
+			text-transform: uppercase;
+		}
 	}
 }
 
@@ -574,7 +577,12 @@ header{
 		li{
 			padding: $magic-number 0;
 			font-size: ms(1);
-			text-transform: capitalize;
+			a{
+				text-transform: capitalize;
+			}
+			[href*="/tag/ui"],[href*="/tag/ux"]{
+				text-transform: uppercase;
+			}
 		}
 		[class*="ion-"]{
 			@include inline-block;
