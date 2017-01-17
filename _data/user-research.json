@@ -71,6 +71,18 @@
 			"url": "http://jetpack.com/",
 			"desc": "Jetpack simplifies managing WordPress sites by giving you visitor stats, security services, speeding up images, and helping you get more traffic.",
 			"sticky": false
+		}, 
+		{
+			"title": "Hotjar",
+			"url": "http://hotjar.com/",
+			"desc": "Hotjar is one platform for heatmaps, visitor recordings, conversion funnels, form analytics, feedback polls and surveys.",
+			"sticky": false
+		},
+		{
+			"title": "Validately",
+			"url": "http://validately.com/",
+			"desc": "Validately will help you recruit testers, launch UX research, and analyze results.",
+			"sticky": false
 		}
 	]
 }

@@ -147,7 +147,13 @@
 		{
 			"title": "Inboard",
 			"url": "http://inboardapp.com/",
-			"desc": "Inboard is a Mac app used to create and organize your screenshots, images, and photos. ",
+			"desc": "Inboard is a Mac app used to create and organize your screenshots, images, and photos.",
+			"sticky": false
+		},
+		{
+			"title": "Bynder",
+			"url": "http://www.bynder.com/",
+			"desc": "Bynder is an online app for brand management and digital asset management.",
 			"sticky": false
 		}
 	]

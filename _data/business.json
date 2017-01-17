@@ -107,6 +107,12 @@
 			"url": "http://smartsupp.com/",
 			"desc": "Smartsupp is a free live chat for your website. You can start real-time conversations with your web visitors, answer their questions, and boost your online sales.",
 			"sticky": false
+		},
+		{
+			"title": "Bonsai",
+			"url": "http://hellobonsai.com/",
+			"desc": "Bonsai helps companies manage their external, contingent, and freelance workforce, providing onboarding, management, reporting, and payments.",
+			"sticky": false
 		}
 	]
 }
