@@ -173,6 +173,12 @@
 			"url": "http://www.myfonts.com/WhatTheFont/",
 			"desc": "What the Font helps you identify font in the wild by scanning uploaded image.",
 			"sticky": false
+		},
+		{
+			"title": "Font-Packer",
+			"url": "https://github.com/bigxixi/Font-Packer/",
+			"desc": "A Sketch plugin to collect font files you used in your sketch file.",
+			"sticky": false
 		}
 	]
 }
