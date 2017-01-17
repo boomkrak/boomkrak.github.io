@@ -84,5 +84,11 @@
 			"desc": "Real time editing and design system for any WordPress theme.",
 			"sticky": false
 		},
+		{
+			"title": "EQCSS",
+			"url": "http://elementqueries.com",
+			"desc": "A CSS Extension for Element Queries & More.",
+			"sticky": false
+		}
 	]
 }
