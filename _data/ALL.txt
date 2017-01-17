@@ -18,7 +18,8 @@ BUSINESS
 	- Contract Killer
 	- contract( )
 	- Smartsupp
-	- 
+	- Bonsai
+	- Neatly
 
 COLLABORATION
 -------------
@@ -123,18 +124,98 @@ MOTION
 
 PRESENTATION
 ------------
-	-
-	-
+	- Smartmockups
+	- MockDrop
+	- Mockupsjar
+	- Magic Mockups
+	- MockupWorld
+	- Dunnnk
+	- Placeit
+	- Scenery
+	- Dropmock
+	- iSweetIt
+	- MediaModifier
+	- Mockuuups
+	- LaunchKit
 
 PROTOTYPING
 -----------
-	-
-	-
+	- Antetype
+	- AppCooker
+	- Atomic
+	- Avocado
+	- Axure
+	- Briefs
+	- CanvasFlip
+	- Creator
+	- Demonstrate
+	- Flinto
+	- Fluid UI
+	- Form
+	- Framer
+	- HotGloo
+	- Invision
+	- IRise
+	- Justinmind
+	- Marvel
+	- Mockingbird
+	- Mockplus
+	- Moqups
+	- Neonto
+	- Origami
+	- Pidoco
+	- Pop
+	- Principle
+	- Proto.io
+	- ProtoPie (Beta)
+	- Prott
+	- Notable Prototypes (formerly Solidify)
+	- UX app
+	- UXPin	 
 
 STOCK IMAGE
 -----------
-	-
-	-
+	- Samuel Zeller Archive
+	- GlyphsCo Photos
+	- Foodshot
+	- Nomad Picture
+	- Vladimir Kudinov's Collection
+	- The Pic Pac
+	- The Library of Congress
+	- Unsplash
+	- Shutteroo
+	- Realistic Shots
+	- Skuawk
+	- Minimography
+	- Stockpic
+	- Negative Space
+	- Libreshot
+	- Large Photos
+	- StockSnap.io
+	- Tookapic
+	- FancyCrave
+	- Nobl Web
+	- PhotoStockEditor
+	- BossFight
+	- Barn Images
+	- Cupcake
+	- Re:splashed
+	- Free Nature Stock
+	- ISO Republic
+	- DesignerPics
+	- Magdeleine
+	- Gratisography
+	- Kaboompics
+	- SplitShire
+	- Life of Pix
+	- Startup Stock Photos
+	- Stock Photos for Free
+	- Good Stock Photos
+	- New Old Stock
+	- The Pattern Library
+	- Pixabay
+	- Picjumbo
+	- FoodiesFeed
 
 TYPOGRAPHY
 ----------
