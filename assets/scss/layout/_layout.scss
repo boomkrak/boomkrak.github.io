@@ -150,7 +150,7 @@ header{
 	&__text{
 		@include span(8);
 		@include push(2);
-		text-transform: capitalize;
+		//text-transform: capitalize;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			@include push(0);
@@ -164,6 +164,9 @@ header{
 				font-size: ms(1);
 			}
 		}
+		[data-tag="ui"], [data-tag="ux"]{
+			text-transform: uppercase;
+		}
 	}
 }
 
@@ -171,6 +174,7 @@ header{
 	padding-bottom: 2 * $magic-number;
 	&__left{
 		width: span(3.5);
+		margin-left: gutter();
 		float: left;
 		transition: 400ms;
 		@include susy-breakpoint($small-range, $susy-small){
@@ -183,7 +187,7 @@ header{
 	&__right{
 		@include span(8.5 last);
 		//@include push(0.5);
-		padding: 0 $magic-number $magic-number $magic-number;
+		padding: 0 0 $magic-number 0;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			margin-bottom: 2 * $magic-number;
@@ -240,12 +244,10 @@ header{
 		//padding: 0 0 0 5 * $magic-number;
 		padding: 0;
 		margin: 0;
-		@include susy-breakpoint($small-range, $susy-small){
-			padding: 0 0 0 2 * $magic-number;
-		}
 	}
 	&__list{
-		padding: $magic-number $magic-number $magic-number 5 * $magic-number;
+		padding: $magic-number 0 2*$magic-number 5*$magic-number;
+		margin-bottom: 2*$magic-number;
 		list-style: none;
 		font-size: ms(2);
 		font-variant-numeric: lining-nums;
@@ -253,6 +255,21 @@ header{
   		-webkit-font-feature-settings: "lnum";
   		font-feature-settings: "lnum";
   		position: relative;
+  		@include susy-breakpoint($small-range, $susy-small){
+  			padding-left: 30px;
+  		}
+  		&:after{
+  			content:"";
+  			display: block;
+  			width: 100%;
+  			height: 1px;  			
+  			position: absolute;
+  			bottom: 0;
+  			right: 0;
+  		}
+  		&:last-child:after{
+  			display: none;	
+  		}
 		a{
 			@include inline-block;
 			margin-bottom: $magic-number;
@@ -279,6 +296,7 @@ header{
 		}
 		> p{
 			width: span(10);
+			margin-bottom: 0;
 			position: relative;
 			font-size: ms(1);
 			line-height: 1.35;
@@ -293,7 +311,7 @@ header{
 		}
 		.ion-android-open{
 			@include vertical-align($position: absolute);
-			right: 2 * $magic-number;
+			right: 0;
 			padding: 5px $magic-number;
 			@include susy-breakpoint($small-range, $susy-small){
 				display: none;
@@ -324,13 +342,30 @@ header{
 		list-style: none;
 		padding: 0 $magic-number $magic-number $magic-number;
 		margin: 0;
+		@include susy-breakpoint($small-range, $susy-small){
+			padding: 0 0 $magic-number;
+		}
 		> li{
 			margin-bottom: 3 * $magic-number;
 			ul{
 				li{
-					margin-bottom: 3 * $magic-number;
+					padding-bottom: 2 * $magic-number;
+					margin-bottom: 2 * $magic-number;
+					position: relative;
+					&:after{
+						content:"";
+			  			display: block;
+			  			width: 100%;
+			  			height: 1px;  			
+			  			position: absolute;
+			  			bottom: 0;
+			  			right: 0;
+					}
 					&:last-child{
 						margin-bottom: 0;
+						&:after{
+							display: none;
+						}
 					}
 				}
 			}
@@ -352,7 +387,8 @@ header{
 		}
 		ul{
 			list-style-type: decimal-leading-zero;
-			padding: 0 0 0 2 * $magic-number;
+			list-style-position: inside;
+			padding: 0;
 			margin: 0;
 			@include susy-breakpoint($small-range, $susy-small){
 				padding: 0 0 0 2 * $magic-number;
@@ -436,7 +472,10 @@ header{
 .job{
 	&__list{
 		list-style-type: decimal-leading-zero;
-		padding: $magic-number $magic-number $magic-number 3 * $magic-number;
+		list-style-position: inside;
+		padding: 0;
+		margin: 0;
+		padding: $magic-number $magic-number $magic-number 0;
 		margin: 0;
 		li{
 			margin-bottom: 2 * $magic-number;
@@ -538,7 +577,12 @@ header{
 		li{
 			padding: $magic-number 0;
 			font-size: ms(1);
-			text-transform: capitalize;
+			a{
+				text-transform: capitalize;
+			}
+			[href*="/tag/ui"],[href*="/tag/ux"]{
+				text-transform: uppercase;
+			}
 		}
 		[class*="ion-"]{
 			@include inline-block;
@@ -644,9 +688,26 @@ footer{
 .footer{
 	&__feedback{
 		@include span(12);
-		margin-bottom: 5*$magic-number;
+		margin-bottom: 3*$magic-number;
 		font-size: ms(1);
 		line-height: 1.35;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+		}
+	}
+	&__share{
+		@include span(12);
+		margin-bottom: 5*$magic-number;
+		text-align: center;
+		@include susy-breakpoint($small-range, $susy-small){
+			@include span(4);
+		}
+		> * {
+			@include inline-block;
+		}
+		.fb-share-button{
+			top: -4px;
+		}
 	}
 	&__links{
 		@include span(5);
@@ -696,6 +757,7 @@ footer{
 	width: 100%;
 	height: 100vh;
 	display: none;
+	z-index: 999;
 	#mc_embed_signup{
 		@include vertical-align($position: absolute);
 		width: span(3);
@@ -729,5 +791,16 @@ footer{
 		font-size: ms(1);
 		position: relative;
 		top: 2px;
+	}
+}
+
+.full-width{
+	@include span(12);
+	@include susy-breakpoint($small-range, $susy-small){
+		@include span(4);
+	}
+	h3{
+		margin-top: 4 * $magic-number;
+		margin-bottom: 2 * $magic-number;
 	}
 }

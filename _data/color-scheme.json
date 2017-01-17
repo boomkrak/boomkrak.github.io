@@ -71,24 +71,6 @@
 			"url": "http://brandcolors.net/",
 			"desc": "BrandColors, official color codes for the world's biggest brands",
 			"sticky": false
-		},
-		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
-			"sticky": false
-		},
-		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
-			"sticky": false
-		},
-		{
-			"title": "Client Giant",
-			"url": "http://clientgiant.us/",
-			"desc": "The best articles on freelancing, working, and business.",
-			"sticky": false
-		},
+		}
 	]
 }

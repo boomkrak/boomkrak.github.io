@@ -1,42 +1,36 @@
 {"resources": [
 	{
-		"date": "Nov 7",
+		"date": "Jan 2",
 		"content": [
 			{
-			"articleTitle":"The Distribution of Users’ Computer Skills: Worse Than You Think",
-	        "articleUrl":"https://www.nngroup.com/articles/computer-skill-levels/?ref=boomkrak",
-	        "articleAuthor": "Jakob Nielson",
-	        "articleTag": "content strategy",
-	        "promo": "true"
+			"articleTitle":"The state of design tools in 2017",
+	        "articleUrl":"https://medium.com/froont/the-state-of-design-tools-in-2017-5fc15fccd6dd#.9o4ce6cym",
+	        "articleAuthor": "Sandijs Ruluks",
+	        "articleTag": "ui, ux"
 			},
 			{
-			"articleTitle":"How to Use Animation to Improve UX",
-	        "articleUrl":"https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.84b3m022s?ref=boomkrak",
-	        "articleAuthor": "Nick Babich",
-	        "articleTag": "ux, motion"
+			"articleTitle":"The Typographic Details Behind Typewolf’s Favorite Sites of December 2016",
+	        "articleUrl":"https://www.typewolf.com/blog/favorite-sites-of-december-2016",
+	        "articleAuthor": "Jeremiah Shoaf",
+	        "articleTag": "typography"
 			},
 			{
-			"articleTitle":"How Display Post on Jekyll",
-	        "articleUrl":"https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.84b3m022s?ref=boomkrak",
-	        "articleAuthor": "Rizqi Nizamil",
-	        "articleTag": "jekyll, data"
-			}
-		]
-	},
-	{
-		"date": "Nov 15",
-		"content": [
-			{
-			"articleTitle":" 7 Things Every Designer Needs to Know about Accessibility",
-	        "articleUrl":"https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b#.5pgg5014x?ref=boomkrak",
-	        "articleAuthor": "Jesse Hausler",
-	        "articleTag": "ux, motion, typography"	
+			"articleTitle":"These tech startups are IPO candidates to watch in 2017",
+	        "articleUrl":"http://www.businessinsider.sg/tech-startups-that-could-ipo-in-2017-2016-12/",
+	        "articleAuthor": "Biz Carson",
+	        "articleTag": "business"
 			},
 			{
-			"articleTitle":"Get the most out of your research with storytelling",
-	        "articleUrl":"https://blog.intercom.com/get-the-most-out-of-your-research-storytelling/?ref=boomkrak",
-	        "articleAuthor": "Jillian Wells",
-	        "articleTag": "branding, collaboration"
+			"articleTitle":"How I went from 0 design experience to Facebook in 1 year",
+	        "articleUrl":"https://medium.com/hh-design/how-i-went-from-0-design-experience-to-facebook-in-1-year-ef1d595442a9#.a8mgf66f3",
+	        "articleAuthor": "Sahil Khoja",
+	        "articleTag": "essay"
+			},
+			{
+			"articleTitle":"How to Gain Client's Trust by Erika Hall",
+	        "articleUrl":"https://teamweek.com/blueprint/work-expectations-erika",
+	        "articleAuthor": "The Blueprint Team",
+	        "articleTag": "learn"
 			}
 		]
 	}

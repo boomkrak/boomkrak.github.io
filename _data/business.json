@@ -109,9 +109,15 @@
 			"sticky": false
 		},
 		{
+<<<<<<< HEAD
 			"title": "Bonsai",
 			"url": "http://hellobonsai.com/",
 			"desc": "Bonsai helps companies manage their external, contingent, and freelance workforce, providing onboarding, management, reporting, and payments.",
+=======
+			"title": "Neatly",
+			"url": "http://neatly.io/",
+			"desc": "Neatly gathers all of your data into one dashboard & provides you with the insights you need to reach goals and grow your business.",
+>>>>>>> 1aa5c0238387ec39699dd691ae98a7ab3ce5facd
 			"sticky": false
 		}
 	]

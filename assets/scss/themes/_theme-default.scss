@@ -3,6 +3,10 @@ body{
 	background: $c-white;
 }
 
+a{
+	color: $c-red;
+}
+
 header{
 	background: $c-purple url('../images/header-pattern-tools-solid.png') repeat center;
 	.logo{
@@ -79,6 +83,9 @@ header{
 	&__right{
 		//background: white;
 		transition: 400ms;
+		@include susy-breakpoint($small-range){
+			border-bottom: 1px solid rgba(black, 0.2);
+		}
 		&:hover{
 			//box-shadow: 0 3px 20px rgba($c-black, 0.15);	
 		}
@@ -113,6 +120,9 @@ header{
 				color: $c-red;
 			}
 		}
+		&:after{
+			background: linear-gradient(90deg, $c-white 5%, rgba(black, 0.1));
+		}
 		.ion-android-open{
 			border: 1px solid $c-yellow;
 			color: $c-red;
@@ -138,6 +148,9 @@ header{
 
 .resource{
 	&__list{
+		ul{
+			color: $c-purple;
+		}
 		> li{
 			padding-bottom: 3 * $magic-number;
 			border-bottom: 1px solid rgba(black, 0.1);
@@ -146,6 +159,11 @@ header{
 				&:after{
 					background: $c-yellow;
 					color: rgba(black, 0.55);
+				}
+			}
+			ul li{
+				&:after{
+					background: linear-gradient(90deg, rgba(black, 0.1), $c-white);
 				}
 			}
 		}
@@ -185,6 +203,7 @@ header{
 
 .tag{
 	&__list{
+		color: $c-purple;
 		h6{
 			a{
 				color: $c-black;
@@ -213,6 +232,7 @@ header{
 
 .job{
 	&__list{
+		color: $c-purple;
 		h6{
 			a{
 				color: $c-purple;	
@@ -230,6 +250,7 @@ header{
 	}
 	.bordered{
 		border-right: 1px solid rgba(black, 0.1);
+		padding-right: 2 * $magic-number;
 		@include susy-breakpoint($small-range){
 			border-right: none;
 		}
