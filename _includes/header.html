@@ -15,7 +15,11 @@
 	  		{% if p.type == 'page' %}
 			<li>
 				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
-				{{ p.title }}
+				{% if p.title contains 'Boomkrak' %}
+					Tools
+				{% else %}
+					{{ p.title }}
+				{% endif %}
 				</a>
 				{% if p.submenuTools %}
 					<ul class="submenu">
