@@ -64,6 +64,7 @@ COLOR SCHEME
 	- Kelir
 	- Skala Color
 	- BrandColors
+	- uiGradients
 
 FRAMEWORK
 ---------
@@ -137,6 +138,7 @@ PRESENTATION
 	- MediaModifier
 	- Mockuuups
 	- LaunchKit
+	- WebSlides
 
 PROTOTYPING
 -----------
@@ -265,6 +267,8 @@ USER RESEARCH
 	- Jetpack
 	- Hotjar
 	- Validately
+
+durung ublem:
 	- UsabilityTools
 	- Crowdtap
 	- Typeform

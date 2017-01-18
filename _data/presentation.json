@@ -77,6 +77,12 @@
 			"url": "https://launchkit.io/",
 			"desc": "Create product screenshot for the App Store or Google Play.",
 			"sticky": false
+		},
+		{
+			"title": "WebSlides",
+			"url": "https://webslides.tv/",
+			"desc": "WebSlides makes HTML presentations easy. Just the essentials and using lovely CSS.",
+			"sticky": false
 		}
 	]
 }

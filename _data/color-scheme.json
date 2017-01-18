@@ -9,13 +9,13 @@
 		{
 			"title": "Sip",
 			"url": "http://sipapp.io/",
-			"desc": "Sip Color picker for Mac and iPhone",
+			"desc": "Sip Color picker for Mac and iPhone.",
 			"sticky": false
 		},
 		{
 			"title": "Flat UI Colors",
 			"url": "http://flatuicolors.com/",
-			"desc": "Copy Paste Color Pallette from Flat UI Theme",
+			"desc": "Copy Paste Color Pallette from Flat UI Theme.",
 			"sticky": false
 		},
 		{
@@ -45,31 +45,37 @@
 		{
 			"title": "LOL Colors",
 			"url": "http://www.lolcolors.com/",
-			"desc": "Curated color palette inspiration",
+			"desc": "Curated color palette inspiration.",
 			"sticky": false
 		},
 		{
 			"title": "Drop",
 			"url": "http://dropcolorpicker.com/",
-			"desc": "A color picker tools for macOS",
+			"desc": "A color picker tools for macOS.",
 			"sticky": false
 		},
 		{
 			"title": "Kelir",
 			"url": "http://rimbunesia.com/apps/kelir-color-picker-for-mac/",
-			"desc": "Color picker, Palette and Gradient in one single app",
+			"desc": "Color picker, Palette and Gradient in one single app.",
 			"sticky": false
 		},
 		{
 			"title": "Skala Color",
 			"url": "http://bjango.com/mac/skalacolor/",
-			"desc": "Skala Color is a macOS color picker that works with a huge variety of formats",
+			"desc": "Skala Color is a macOS color picker that works with a huge variety of formats.",
 			"sticky": false
 		},
 		{
 			"title": "BrandColors",
 			"url": "http://brandcolors.net/",
-			"desc": "BrandColors, official color codes for the world's biggest brands",
+			"desc": "BrandColors, official color codes for the world's biggest brands.",
+			"sticky": false
+		},
+		{
+			"title": "uiGradients",
+			"url": "http://uigradients.com/",
+			"desc": "A handpicked collection of beautiful color gradients for designers and developers.",
 			"sticky": false
 		}
 	]
