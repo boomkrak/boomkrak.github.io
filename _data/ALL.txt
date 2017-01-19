@@ -250,6 +250,7 @@ TYPOGRAPHY
 	- Typewolf
 	- WebFonter
 	- What the Font
+	- Typography Supply
 	
 USER RESEARCH
 -------------
