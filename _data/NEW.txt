@@ -2,9 +2,10 @@ Since Jan 18, 2017
 
 TOOLS
 -----
-	- WebSlides
-	- uiGradients
-	- Typography Supply
+	- WebSlides: Presentation
+	- uiGradients: Colorscheme
+	- Typography Supply: Typography:
+	- Crisp: Business, User Research
 
 JOBS
 ----

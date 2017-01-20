@@ -119,6 +119,12 @@
 			"url": "http://neatly.io/",
 			"desc": "Neatly gathers all of your data into one dashboard & provides you with the insights you need to reach goals and grow your business.",
 			"sticky": false
+		},
+		{
+			"title": "Crisp",
+			"url": "https://crisp.im/",
+			"desc": "Crisp is customer chat app which is available on all devices and can connect with popular services like Slack, Messenger, Telegram, and more.",
+			"sticky": false
 		}
 	]
 }

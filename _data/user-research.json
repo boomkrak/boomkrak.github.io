@@ -83,6 +83,12 @@
 			"url": "http://validately.com/",
 			"desc": "Validately will help you recruit testers, launch UX research, and analyze results.",
 			"sticky": false
+		},
+		{
+			"title": "Crisp",
+			"url": "https://crisp.im/",
+			"desc": "Crisp is customer chat app which is available on all devices and can connect with popular services like Slack, Messenger, Telegram, and more.",
+			"sticky": false
 		}
 	]
 }
