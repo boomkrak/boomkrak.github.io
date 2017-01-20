@@ -71,6 +71,12 @@
 			"url": "http://brandcolors.net/",
 			"desc": "BrandColors, official color codes for the world's biggest brands",
 			"sticky": false
+		},
+		{
+			"title": "Colour Lovers",
+			"url": "http://www.colourlovers.com/",
+			"desc": "A creative community where people from around the world create and share colors, palettes and patterns.",
+			"sticky": false
 		}
 	]
 }

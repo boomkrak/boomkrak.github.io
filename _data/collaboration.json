@@ -155,6 +155,12 @@
 			"url": "http://www.bynder.com/",
 			"desc": "Bynder is an online app for brand management and digital asset management.",
 			"sticky": false
+		},
+		{
+			"title": "Asana",
+			"url": "https://asana.com/",
+			"desc": "Asana is project management tool that allow you to track the team's work.",
+			"sticky": false
 		}
 	]
 }
