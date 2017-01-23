@@ -1,40 +1,5 @@
 {"resources": [
 	{
-		"date": "Jan 2",
-		"content": [
-			{
-			"articleTitle":"The state of design tools in 2017",
-	        "articleUrl":"https://medium.com/froont/the-state-of-design-tools-in-2017-5fc15fccd6dd#.9o4ce6cym",
-	        "articleAuthor": "Sandijs Ruluks",
-	        "articleTag": "ui, ux"
-			},
-			{
-			"articleTitle":"The Typographic Details Behind Typewolf’s Favorite Sites of December 2016",
-	        "articleUrl":"https://www.typewolf.com/blog/favorite-sites-of-december-2016",
-	        "articleAuthor": "Jeremiah Shoaf",
-	        "articleTag": "typography"
-			},
-			{
-			"articleTitle":"These tech startups are IPO candidates to watch in 2017",
-	        "articleUrl":"http://www.businessinsider.sg/tech-startups-that-could-ipo-in-2017-2016-12/",
-	        "articleAuthor": "Biz Carson",
-	        "articleTag": "business"
-			},
-			{
-			"articleTitle":"How I went from 0 design experience to Facebook in 1 year",
-	        "articleUrl":"https://medium.com/hh-design/how-i-went-from-0-design-experience-to-facebook-in-1-year-ef1d595442a9#.a8mgf66f3",
-	        "articleAuthor": "Sahil Khoja",
-	        "articleTag": "essay"
-			},
-			{
-			"articleTitle":"How to Gain Client's Trust by Erika Hall",
-	        "articleUrl":"https://teamweek.com/blueprint/work-expectations-erika",
-	        "articleAuthor": "The Blueprint Team",
-	        "articleTag": "learn"
-			}
-		]
-	},
-	{
 		"date": "Jan 23",
 		"content": [
 			{
@@ -66,6 +31,53 @@
 	        "articleUrl":"http://www.useronboard.com/how-supermariorun-onboards-new-users/?ref=boomkrak.com",
 	        "articleAuthor": "UserOnboard",
 	        "articleTag": "ux, content-strategy"
+			},
+			{
+			"articleTitle":"How to Share and Discover Content in 2017",
+	        "articleUrl":"https://medium.com/strategic-content-marketing/how-to-share-and-discover-content-in-2017-3303cc0be247#.wany806ql/?ref=boomkrak.com",
+	        "articleAuthor": "Yam Regev",
+	        "articleTag": "content-strategy"
+			},
+			{
+			"articleTitle":"How I Got My Attention Back",
+	        "articleUrl":"https://backchannel.com/how-i-got-my-attention-back-c7fc9297d347#.okrs06r8y/?ref=boomkrak.com",
+	        "articleAuthor": "Craig Mod",
+	        "articleTag": "productivity"
+			}	
+		]
+	},
+	{
+		"date": "Jan 2",
+		"content": [
+			{
+			"articleTitle":"The state of design tools in 2017",
+	        "articleUrl":"https://medium.com/froont/the-state-of-design-tools-in-2017-5fc15fccd6dd#.9o4ce6cym",
+	        "articleAuthor": "Sandijs Ruluks",
+	        "articleTag": "ui, ux"
+			},
+			{
+			"articleTitle":"The Typographic Details Behind Typewolf’s Favorite Sites of December 2016",
+	        "articleUrl":"https://www.typewolf.com/blog/favorite-sites-of-december-2016",
+	        "articleAuthor": "Jeremiah Shoaf",
+	        "articleTag": "typography"
+			},
+			{
+			"articleTitle":"These tech startups are IPO candidates to watch in 2017",
+	        "articleUrl":"http://www.businessinsider.sg/tech-startups-that-could-ipo-in-2017-2016-12/",
+	        "articleAuthor": "Biz Carson",
+	        "articleTag": "business"
+			},
+			{
+			"articleTitle":"How I went from 0 design experience to Facebook in 1 year",
+	        "articleUrl":"https://medium.com/hh-design/how-i-went-from-0-design-experience-to-facebook-in-1-year-ef1d595442a9#.a8mgf66f3",
+	        "articleAuthor": "Sahil Khoja",
+	        "articleTag": "essay"
+			},
+			{
+			"articleTitle":"How to Gain Client's Trust by Erika Hall",
+	        "articleUrl":"https://teamweek.com/blueprint/work-expectations-erika",
+	        "articleAuthor": "The Blueprint Team",
+	        "articleTag": "learn"
 			}
 		]
 	}

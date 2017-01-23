@@ -125,6 +125,18 @@
 			"url": "https://crisp.im/",
 			"desc": "Crisp is customer chat app which is available on all devices and can connect with popular services like Slack, Messenger, Telegram, and more.",
 			"sticky": false
+		},
+		{
+			"title": "IQBoxy",
+			"url": "https://www.iqboxy.com/",
+			"desc": "IQBoxy helps you track, analyze and report on business spending.",
+			"sticky": false
+		},
+		{
+			"title": "Tagove",
+			"url": "https://www.tagove.com/",
+			"desc": "Live chat software provide video chat, voice call and text chat with co browsing and screen sharing features.",
+			"sticky": false
 		}
 	]
 }

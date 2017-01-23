@@ -21,6 +21,8 @@ BUSINESS
 	- Bonsai
 	- Neatly
 	- Crisp
+	- IQBoxy
+	- Tagove
 
 COLLABORATION
 -------------

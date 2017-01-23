@@ -4,8 +4,10 @@ TOOLS
 -----
 	- WebSlides: Presentation
 	- uiGradients: Colorscheme
-	- Typography Supply: Typography:
+	- Typography Supply: Typography
 	- Crisp: Business, User Research
+	- IQBoxy: Business
+	- Tagove: Business
 
 JOBS
 ----
