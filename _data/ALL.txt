@@ -20,6 +20,9 @@ BUSINESS
 	- Smartsupp
 	- Bonsai
 	- Neatly
+	- Crisp
+	- IQBoxy
+	- Tagove
 
 COLLABORATION
 -------------
@@ -64,6 +67,7 @@ COLOR SCHEME
 	- Kelir
 	- Skala Color
 	- BrandColors
+	- uiGradients
 
 FRAMEWORK
 ---------
@@ -137,6 +141,7 @@ PRESENTATION
 	- MediaModifier
 	- Mockuuups
 	- LaunchKit
+	- WebSlides
 
 PROTOTYPING
 -----------
@@ -248,6 +253,7 @@ TYPOGRAPHY
 	- Typewolf
 	- WebFonter
 	- What the Font
+	- Typography Supply
 	
 USER RESEARCH
 -------------
@@ -265,6 +271,9 @@ USER RESEARCH
 	- Jetpack
 	- Hotjar
 	- Validately
+	- Crisp
+
+durung ublem:
 	- UsabilityTools
 	- Crowdtap
 	- Typeform

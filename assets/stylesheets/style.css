@@ -394,7 +394,7 @@ img {
   }
 }
 
-.ms4, h3 {
+.ms4, h3, .new-discover h5 {
   font-size: 23px;
   margin-top: 0;
   line-height: 31.05px;
@@ -402,7 +402,7 @@ img {
 }
 
 @media only screen and (max-width: 40em) {
-  .ms4, h3 {
+  .ms4, h3, .new-discover h5 {
     font-size: 22px;
     line-height: 29.7px;
   }
@@ -422,7 +422,7 @@ img {
   }
 }
 
-.ms6, h1 {
+.ms6, h1, .new-discover h3 {
   font-size: 28px;
   margin-top: 0;
   line-height: 37.8px;
@@ -430,7 +430,7 @@ img {
 }
 
 @media only screen and (max-width: 40em) {
-  .ms6, h1 {
+  .ms6, h1, .new-discover h3 {
     font-size: 26px;
     line-height: 35.1px;
   }
@@ -1071,7 +1071,7 @@ header .logo {
   margin-bottom: 5px;
 }
 
-.resource__tag a {
+.resource__tag a, .resource__tag span {
   display: -moz-inline-stack;
   display: inline-block;
   *zoom: 1;
@@ -1548,6 +1548,49 @@ footer .logo a {
   margin-bottom: 20px;
 }
 
+.new-discover h3 {
+  text-align: center;
+  font-family: "freight-sans-pro", sans-serif;
+  text-transform: uppercase;
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum";
+  -webkit-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  font-weight: 700;
+}
+
+.new-discover h5 {
+  font-family: "freight-sans-pro", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+
+.new-discover h5:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.new-discover .collection,
+.new-discover .resource__list {
+  padding: 0;
+}
+
+.new-discover .collection {
+  margin-bottom: 50px;
+}
+
+.new-discover .collection__list {
+  padding-left: 30px;
+}
+
 body {
   color: #56502B;
   background: #F9F9F9;
@@ -1747,14 +1790,14 @@ header a.active {
   background: #A9EEE6;
 }
 
-.resource__tag a {
+.resource__tag a, .resource__tag span {
   border: 1px solid #F38181;
   color: #F38181;
   -webkit-transition: 300ms;
           transition: 300ms;
 }
 
-.resource__tag a:hover {
+.resource__tag a:hover, .resource__tag span:hover {
   background: #F38181;
   color: #fff;
 }
@@ -1916,6 +1959,22 @@ footer a:hover {
 
 .typeform-share:hover {
   background: #f16a6a;
+}
+
+.new-discover .collection {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.new-discover h3 {
+  color: #F38181;
+}
+
+.new-discover h5 {
+  color: #534C98;
+}
+
+.new-discover h5:after {
+  background: #A9EEE6;
 }
 
 /*# sourceMappingURL=style.css.map */

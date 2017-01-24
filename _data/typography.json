@@ -176,8 +176,14 @@
 		},
 		{
 			"title": "Font-Packer",
-			"url": "https://github.com/bigxixi/Font-Packer/",
+			"url": "http://github.com/bigxixi/Font-Packer/",
 			"desc": "A Sketch plugin to collect font files you used in your sketch file.",
+			"sticky": false
+		},
+		{
+			"title": "Typography Supply",
+			"url": "http://typography.supply/",
+			"desc": "An inventory of typographic tools.",
 			"sticky": false
 		}
 	]

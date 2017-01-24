@@ -1,5 +1,52 @@
 {"resources": [
 	{
+		"date": "Jan 23",
+		"content": [
+			{
+			"articleTitle":"Get the Most Out of User Research",
+	        "articleUrl":"https://uxplanet.org/get-the-most-out-of-user-research-9b2af0b7edb3#.qoiu8815q/?ref=boomkrak.com",
+	        "articleAuthor": "Cătălin Bridinel",
+	        "articleTag": "ux"
+			},
+			{
+			"articleTitle":"FAQ: Tips and tools for getting started in user experience design (aka UX)",
+	        "articleUrl":"https://medium.com/google-design/faq-tips-and-tools-for-getting-started-in-user-experience-design-aka-ux-f46406729d4d#.zakr81iso/?ref=boomkrak.com",
+	        "articleAuthor": "Fiona Yeung",
+	        "articleTag": "ux"
+			},
+			{
+			"articleTitle":"The Role of Lowercase in Typefaces",
+	        "articleUrl":"https://medium.com/type-thursday/the-role-of-lowercase-in-typefaces-f1d9444a5581#.m5h5rl4o6/?ref=boomkrak.com",
+	        "articleAuthor": "TypeThursday",
+	        "articleTag": "typography"
+			},
+			{
+			"articleTitle":"4 Salary Negotiation Mistakes You’ve Probably Made",
+	        "articleUrl":"http://blog.invisionapp.com/designer-salary-negotiation-mistakes/?ref=boomkrak.com",
+	        "articleAuthor": "Louise Campbell",
+	        "articleTag": "business"
+			},
+			{
+			"articleTitle":"How Super Mario Run Onboards New Users",
+	        "articleUrl":"http://www.useronboard.com/how-supermariorun-onboards-new-users/?ref=boomkrak.com",
+	        "articleAuthor": "UserOnboard",
+	        "articleTag": "ux, content-strategy"
+			},
+			{
+			"articleTitle":"How to Share and Discover Content in 2017",
+	        "articleUrl":"https://medium.com/strategic-content-marketing/how-to-share-and-discover-content-in-2017-3303cc0be247#.wany806ql/?ref=boomkrak.com",
+	        "articleAuthor": "Yam Regev",
+	        "articleTag": "content-strategy"
+			},
+			{
+			"articleTitle":"How I Got My Attention Back",
+	        "articleUrl":"https://backchannel.com/how-i-got-my-attention-back-c7fc9297d347#.okrs06r8y/?ref=boomkrak.com",
+	        "articleAuthor": "Craig Mod",
+	        "articleTag": "productivity"
+			}	
+		]
+	},
+	{
 		"date": "Jan 2",
 		"content": [
 			{

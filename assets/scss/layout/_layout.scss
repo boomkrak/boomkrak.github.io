@@ -460,7 +460,7 @@ header{
 		}
 	}
 	&__tag{
-		a{
+		a, span{
 			@include inline-block;
 			padding: 3px 5px;
 			font-size: 12px;
@@ -802,5 +802,48 @@ footer{
 	h3{
 		margin-top: 4 * $magic-number;
 		margin-bottom: 2 * $magic-number;
+	}
+}
+
+.new-discover{
+	h3{
+		@extend .ms6;
+		text-align: center;
+		font-family: $f-sansserif;
+		text-transform: uppercase;
+		font-variant-numeric: lining-nums;
+	    -moz-font-feature-settings: "lnum";
+	    -webkit-font-feature-settings: "lnum";
+	    font-feature-settings: "lnum";
+	    font-weight: 700;
+	}
+	h5{
+		@extend .ms4;
+		font-family: $f-sansserif;
+		text-transform: uppercase;
+		text-align: center;
+		position: relative;
+		font-weight: 500;
+		&:after{
+			content: "";
+			display: block;
+			width: 50px;
+			height: 2px;
+			position: absolute;
+			bottom: -10px;
+			left: 50%;
+			margin-left: -25px;
+		}
+	}
+	.collection,
+	.resource__list{
+		padding: 0;
+	}
+	.collection{
+		margin-bottom: 5 * $magic-number;
+		//padding-bottom: 2.5 * $magic-number;
+	}
+	.collection__list{
+		padding-left: 30px;
 	}
 }

@@ -189,7 +189,7 @@ header{
 		}
 	}
 	&__tag{
-		a{
+		a, span{
 			border: 1px solid $c-red;
 			color: $c-red;
 			transition: 300ms;
@@ -348,5 +348,20 @@ footer{
 	}
 	&:hover{
 		background: darken($c-red, 5%);
+	}
+}
+
+.new-discover{
+	.collection{
+		border-bottom: 1px solid rgba(black, 0.1);
+	}
+	h3{
+		color: $c-red;
+	}
+	h5{
+		color: $c-purple;
+		&:after{
+			background: $c-blue;
+		}
 	}
 }
