@@ -4,6 +4,8 @@
 <header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-jobs-solid.png)">
 {% elsif page.url contains 'tag' %}
 <header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-articles-solid.png)">
+{% elsif page.url contains 'new-discover' %}
+<header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-boomkrak-solid.png)">
 {% else %}
 <header style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
 {% endif %}
@@ -15,11 +17,7 @@
 	  		{% if p.type == 'page' %}
 			<li>
 				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
-				{% if p.title contains 'Boomkrak' %}
-					Tools
-				{% else %}
-					{{ p.title }}
-				{% endif %}
+				{{ p.title }}
 				</a>
 				{% if p.submenuTools %}
 					<ul class="submenu">
@@ -45,6 +43,8 @@
 <section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-jobs-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-jobs-solid.png)">
 {% elsif page.url contains 'tag' %}
 <section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-articles-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-articles-solid.png)">
+{% elsif page.url contains 'new-discover' %}
+<section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-boomkrak-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-boomkrak-solid.png)">
 {% else%}
 <section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
 {% endif %}
