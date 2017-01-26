@@ -142,6 +142,7 @@ PRESENTATION
 	- Mockuuups
 	- LaunchKit
 	- WebSlides
+	- Mockup Generator
 
 PROTOTYPING
 -----------
