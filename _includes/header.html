@@ -16,9 +16,15 @@
 		{% for p in pages %}
 	  		{% if p.type == 'page' %}
 			<li>
+				{% if p.title contains 'Boomkrak'%}
+				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+				Tools
+				</a>
+				{% else %}
 				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
 				{{ p.title }}
 				</a>
+				{% endif %}
 				{% if p.submenuTools %}
 					<ul class="submenu">
 						{% for toolPage in site.tools %}
@@ -49,7 +55,7 @@
 <section class="banner" style="background-image: url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-gradient.png), url({{ site.baseurl }}/assets/images/header-pattern-{{ titleBg }}-solid.png)">
 {% endif %}
 	<div class="container">
-		<div class="banner__text">
+		<h1 class="banner__text">
 			{% if page.bannertext %}
 				{{ page.bannertext }} 
 			{% elsif page.url contains "tools" %}
@@ -65,6 +71,6 @@
 				<br>
 				{{ page.name | replace: '-', ' ' | capitalize }}
 			{% endif %}
-		</div>
+		</h1>
 	</div>
 </section>
