@@ -4,27 +4,29 @@
 <ul>
 	{% for tool in sticky_tools %}
 		<li class="collection__list sponsored">
-			<p>
-				<a href="{{ tool.url }}?ref=boomkrak.com" title="{{ tool.title }}" target="_blank">
-					<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
-					{{ tool.title }}
-				</a>
-				<br>
+			<article>
+				<h4>
+					<a href="{{ tool.url }}?ref=boomkrak.com" title="{{ tool.title }}" target="_blank">
+						<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+						{{ tool.title }}
+					</a>
+				</h4>
 				{{ tool.desc }}
-			</p>
+			</article>
 			<a href="{{ tool.url }}?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
 		</li>
 	{% endfor %}
 	{% for tool in tools %}
 		<li class="collection__list">
-			<p>
-				<a href="{{ tool.url }}?ref=boomkrak.com" title="{{ tool.title }}" target="_blank">
-					<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
-					{{ tool.title }}
-				</a>
-				<br>
+			<article>
+				<h4>
+					<a href="{{ tool.url }}?ref=boomkrak.com" title="{{ tool.title }}" target="_blank">
+						<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+						{{ tool.title }}
+					</a>
+				</h4>
 				{{ tool.desc }}
-			</p>
+			</article>
 			<a href="{{ tool.url }}?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
 		</li>
 	{% endfor %}

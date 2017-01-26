@@ -138,22 +138,24 @@ header{
 }
 
 .banner{
-	font-size: ms(13);
 	text-align: center;
 	font-weight: 700;
-	padding: 5*$magic-number 0 12*$magic-number;
+	padding: 4*$magic-number 0 15*$magic-number;
 	margin-bottom: 5 * $magic-number;
 	@include susy-breakpoint($small-range, $susy-small){
 		padding: $magic-number $magic-number 9*$magic-number;
-		font-size: ms(7);
 	}
 	&__text{
 		@include span(8);
 		@include push(2);
+		font-size: ms(13);
+		line-height: 1.15;
+		margin-bottom: 0;
 		//text-transform: capitalize;
 		@include susy-breakpoint($small-range, $susy-small){
 			@include span(4);
 			@include push(0);
+			font-size: ms(7);
 		}
 		&__pp{
 			font-size: ms(4);
@@ -294,7 +296,7 @@ header{
 				font-weight: 500;				
 			}
 		}
-		> p{
+		> article{
 			width: span(10);
 			margin-bottom: 0;
 			position: relative;
@@ -304,9 +306,14 @@ header{
 				width: span(4);
 				font-size: ms(0);
 			}
-			> a{
+			> h4{
 				font-family: $f-malaga;
-				font-size: ms(4);
+				position: relative;
+				margin-bottom: 0;
+				font-weight: normal;
+				a{
+					font-size: ms(4);
+				}
 			}
 		}
 		.ion-android-open{

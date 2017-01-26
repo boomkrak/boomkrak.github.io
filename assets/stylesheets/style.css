@@ -633,17 +633,15 @@ header .logo {
 }
 
 .banner {
-  font-size: 54px;
   text-align: center;
   font-weight: 700;
-  padding: 50px 0 120px;
+  padding: 40px 0 150px;
   margin-bottom: 50px;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
   .banner {
     padding: 10px 10px 90px;
-    font-size: 31px;
   }
 }
 
@@ -653,6 +651,9 @@ header .logo {
   margin-left: 1.3157894737%;
   margin-right: 1.3157894737%;
   margin-left: 17.9824561404%;
+  font-size: 54px;
+  line-height: 1.15;
+  margin-bottom: 0;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -662,6 +663,7 @@ header .logo {
     margin-left: 3.9473684211%;
     margin-right: 3.9473684211%;
     margin-left: 3.9473684211%;
+    font-size: 31px;
   }
 }
 
@@ -866,7 +868,7 @@ header .logo {
   font-weight: 500;
 }
 
-.collection__list > p {
+.collection__list > article {
   width: 80.701754386%;
   margin-bottom: 0;
   position: relative;
@@ -875,14 +877,20 @@ header .logo {
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
-  .collection__list > p {
+  .collection__list > article {
     width: 92.1052631579%;
     font-size: 16px;
   }
 }
 
-.collection__list > p > a {
+.collection__list > article > h4 {
   font-family: "malaga", sans-serif;
+  position: relative;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.collection__list > article > h4 a {
   font-size: 23px;
 }
 
@@ -1749,7 +1757,7 @@ header a.active {
 
 .resource__list > li {
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);
 }
 
 .resource__list > li .sponsored {
@@ -1759,6 +1767,10 @@ header a.active {
 .resource__list > li .sponsored:after {
   background: #FFE546;
   color: rgba(0, 0, 0, 0.55);
+}
+
+.resource__list > li:last-child {
+  border-bottom: 0;
 }
 
 .resource__list > li ul li:after {
