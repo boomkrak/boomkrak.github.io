@@ -3,6 +3,11 @@ Since Jan 26, 2017
 TOOLS
 -----
 	- Mockup Generator: Presentation
+	- Fullstory: User research
+	- ProdPad: Collaboration
+	- Bizplan: Business
+	- Looped: Presentation
+	- Mockflow: Prototyping
 
 JOBS
 ----

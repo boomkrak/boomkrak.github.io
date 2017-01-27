@@ -89,6 +89,12 @@
 			"url": "https://crisp.im/",
 			"desc": "Crisp is customer chat app which is available on all devices and can connect with popular services like Slack, Messenger, Telegram, and more.",
 			"sticky": false
+		},
+		{
+			"title": "Fullstory",
+			"url": "https://www.fullstory.com/",
+			"desc": "With Fullstory you can capture every click, swipe, and scroll. Session replay tells you everything you want to know about your customer’s online experience.",
+			"sticky": false
 		}
 	]
 }

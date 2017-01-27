@@ -23,6 +23,7 @@ BUSINESS
 	- Crisp
 	- IQBoxy
 	- Tagove
+	- Bizplan
 
 COLLABORATION
 -------------
@@ -52,6 +53,7 @@ COLLABORATION
 	- Yossarian
 	- Inboard
 	- Bynder
+	- ProdPad
 	
 COLOR SCHEME
 ------------
@@ -143,6 +145,7 @@ PRESENTATION
 	- LaunchKit
 	- WebSlides
 	- Mockup Generator
+	- Looped
 
 PROTOTYPING
 -----------
@@ -177,7 +180,8 @@ PROTOTYPING
 	- Prott
 	- Notable Prototypes (formerly Solidify)
 	- UX app
-	- UXPin	 
+	- UXPin	
+	- Mockflow 
 
 STOCK IMAGE
 -----------
@@ -273,6 +277,7 @@ USER RESEARCH
 	- Hotjar
 	- Validately
 	- Crisp
+	- Fullstory
 
 durung ublem:
 	- UsabilityTools
