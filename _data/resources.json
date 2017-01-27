@@ -1,5 +1,22 @@
 {"resources": [
 	{
+		"date": "Jan 30",
+		"content": [
+			{
+			"articleTitle":"Screenshots are so Last Year: How to Write a Case Study That Wins You Clients",
+	        "articleUrl":"https://blog.prototypr.io/screenshots-are-so-last-year-how-to-write-a-case-study-that-wins-you-clients-68997f295ef9#.ish4zmpzp/?ref=boomkrak.com",
+	        "articleAuthor": "Lauren Holliday",
+	        "articleTag": "case-study"
+			},
+			{
+			"articleTitle":"Shh! Don’t Tell Them There’s No Magic In Design Thinking",
+	        "articleUrl":"https://medium.com/ux-immersion-interactions/ssh-dont-tell-them-there-s-no-magic-in-design-thinking-b95f33867656#.6isx6u9w1/?ref=boomkrak.com",
+	        "articleAuthor": "Jared M. Spool",
+	        "articleTag": "essay"
+			},
+		]
+	},
+	{
 		"date": "Jan 23",
 		"content": [
 			{
