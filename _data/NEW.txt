@@ -1,13 +1,14 @@
-Since Jan 18, 2017
+Since Jan 26, 2017
 
 TOOLS
 -----
-	- WebSlides: Presentation
-	- uiGradients: Colorscheme
-	- Typography Supply: Typography
-	- Crisp: Business, User Research
-	- IQBoxy: Business
-	- Tagove: Business
+	- Mockup Generator: Presentation
+	- Fullstory: User research
+	- ProdPad: Collaboration
+	- Bizplan: Business
+	- Looped: Presentation
+	- Mockflow: Prototyping
+	- Element: Framework
 
 JOBS
 ----

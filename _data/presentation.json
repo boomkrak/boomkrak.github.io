@@ -83,6 +83,18 @@
 			"url": "https://webslides.tv/",
 			"desc": "WebSlides makes HTML presentations easy. Just the essentials and using lovely CSS.",
 			"sticky": false
+		},
+		{
+			"title": "Mockup Generator",
+			"url": "https://github.com/andypotts/mockup-generator",
+			"desc": "Mockup Generator is a macOS app that sits in your menu bar allowing you to capture screenshots of your favourite websites and wrap them in device mock-ups.",
+			"sticky": false
+		},
+		{
+			"title": "Looped Live Mockups",
+			"url": "https://lstore.graphics/livemockups/",
+			"desc": "You can make live mockup with smooth animation with Looped.",
+			"sticky": false
 		}
 	]
 }

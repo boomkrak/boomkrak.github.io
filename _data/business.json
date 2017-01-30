@@ -137,6 +137,12 @@
 			"url": "https://www.tagove.com/",
 			"desc": "Live chat software provide video chat, voice call and text chat with co browsing and screen sharing features.",
 			"sticky": false
+		},
+		{
+			"title": "Bizplan",
+			"url": "https://www.bizplan.com/",
+			"desc": "Bizplan is modern business planning software for startups.",
+			"sticky": false
 		}
 	]
 }

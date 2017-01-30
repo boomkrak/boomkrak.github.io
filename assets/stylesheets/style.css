@@ -1599,6 +1599,11 @@ footer .logo a {
   padding-left: 30px;
 }
 
+.new-discover .collection__list a {
+  font-family: "malaga", sans-serif;
+  font-size: 23px;
+}
+
 body {
   color: #56502B;
   background: #F9F9F9;

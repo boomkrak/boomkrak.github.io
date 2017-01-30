@@ -191,6 +191,12 @@
 			"url": "https://www.uxpin.com/",
 			"desc": "UXPin was created for designers and non-designers alike, making it easy to go from static design to fully animated prototypes.",
 			"sticky": false
+		},
+		{
+			"title": "Mockflow",
+			"url": "https://www.mockflow.com/",
+			"desc": "Actually the product is not only a wireframing tools but also included another tools like design collaboration, styleguide creator, banner maker, sitemap maker, and website builder.",
+			"sticky": false
 		}
 	]
 }
