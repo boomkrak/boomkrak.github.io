@@ -14,6 +14,36 @@
 	        "articleAuthor": "Jared M. Spool",
 	        "articleTag": "essay"
 			},
+			{
+			"articleTitle":"Color of the Year 2017",
+	        "articleUrl":"http://www.pantone.com/color-of-the-year-2017/?ref=boomkrak.com",
+	        "articleAuthor": "Pantone",
+	        "articleTag": "ui"
+			},
+			{
+			"articleTitle":"Designing a product with mental health issues in mind",
+	        "articleUrl":"https://monzo.com/blog/2017/01/27/designing-product-mental-health-mind/?ref=boomkrak.com",
+	        "articleAuthor": "Zander Brade",
+	        "articleTag": "ux"
+			},
+			{
+			"articleTitle":"The Basics of Branding",
+	        "articleUrl":"https://www.entrepreneur.com/article/77408/?ref=boomkrak.com",
+	        "articleAuthor": "John Williams",
+	        "articleTag": "branding"
+			},
+			{
+			"articleTitle":"How companies should treat their most enthusiastic customers",
+	        "articleUrl":"http://www.economist.com/news/business-and-finance/21711011-research-shows-firms-ignore-passionate-consumers-their-peril-how-companies-should/?ref=boomkrak.com",
+	        "articleAuthor": "The Economist",
+	        "articleTag": "business"
+			},
+			{
+			"articleTitle":"Case study: Peek Launcher",
+	        "articleUrl":"https://medium.com/@polkuijken/case-study-peek-launcher-220f0e505d51#.1z22jwy6v/?ref=boomkrak.com",
+	        "articleAuthor": "Pol Kuijken",
+	        "articleTag": "case-study"
+			}
 		]
 	},
 	{

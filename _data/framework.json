@@ -86,8 +86,14 @@
 		},
 		{
 			"title": "EQCSS",
-			"url": "http://elementqueries.com",
+			"url": "http://elementqueries.com/",
 			"desc": "A CSS Extension for Element Queries & More.",
+			"sticky": false
+		},
+		{
+			"title": "Element",
+			"url": "http://element.eleme.io/",
+			"desc": "Element, a Vue 2.0 based component library for developers, designers and product managers, with a set of design resources.",
 			"sticky": false
 		}
 	]

@@ -87,6 +87,7 @@ FRAMEWORK
 	- Ensembles
 	- Themifyflow
 	- Pagelines
+	- Element
 
 ICONSET
 -------
