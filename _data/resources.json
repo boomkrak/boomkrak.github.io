@@ -1,5 +1,52 @@
 {"resources": [
 	{
+		"date": "Feb 6",
+		"content": [
+			{
+			"articleTitle":"“I didn’t know Sketch could do that!”",
+	        "articleUrl":"https://medium.com/ux-power-tools/i-didnt-know-sketch-could-do-that-182f2f2d811e#.9l2v5ski6/?ref=boomkrak.com",
+	        "articleAuthor": "Jon Moore",
+	        "articleTag": "ui, learning"
+			},
+			{
+			"articleTitle":"Data Humanism, the Revolution will be Visualized.",
+	        "articleUrl":"https://medium.com/@giorgialupi/data-humanism-the-revolution-will-be-visualized-31486a30dbfb#.18exidmld/?ref=boomkrak.com",
+	        "articleAuthor": "Giorgia Lupi",
+	        "articleTag": "essay"
+			},
+			{
+			"articleTitle":"Three Level Design Approach",
+	        "articleUrl":"https://blog.prototypr.io/three-level-design-approach-73602a99bc68#.yhd6i4ram/?ref=boomkrak.com",
+	        "articleAuthor": "Stewart Curry",
+	        "articleTag": "ui, ux, collaboration"
+			},
+			{
+			"articleTitle":"What We Learned Designing a Chatbot for Banking",
+	        "articleUrl":"https://chatbotsmagazine.com/what-we-learned-designing-a-chatbot-for-banking-2dd2c51d7c2c#.8ycc9smgm/?ref=boomkrak.com",
+	        "articleAuthor": "Maciej Lipiec",
+	        "articleTag": "case-study"
+			},
+			{
+			"articleTitle":"Why we never sold Basecamp by the seat",
+	        "articleUrl":"https://m.signalvnoise.com/why-we-never-sold-basecamp-by-the-seat-4482f3e6a195#.a57etb7vb/?ref=boomkrak.com",
+	        "articleAuthor": "DHH",
+	        "articleTag": "business"
+			},
+			{
+			"articleTitle":"",
+	        "articleUrl":"http://www.bonappetit.com/story/the-secret-history-of-the-lacroix-label/?ref=boomkrak.com",
+	        "articleAuthor": "Ashlea Halpern",
+	        "articleTag": "branding"
+			},
+			{
+			"articleTitle":"37 Alternatives to “Subscribe” for Button Text CTA",
+	        "articleUrl":"https://entrepreneurshandbook.co/37-alternatives-to-subscribe-for-button-text-ctas-c65c11cc4c92#.vifnaxgqa/?ref=boomkrak.com",
+	        "articleAuthor": "Dave Schools",
+	        "articleTag": "content-strategy"
+			}
+		]
+	},
+	{
 		"date": "Jan 30",
 		"content": [
 			{

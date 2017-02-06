@@ -281,7 +281,7 @@ USER RESEARCH
 	- Fullstory
 
 durung ublem:
-	- UsabilityTools
+	- UsabilityTools v
 	- Crowdtap
 	- Typeform
 	- UserBrain
