@@ -143,6 +143,12 @@
 			"url": "https://www.bizplan.com/",
 			"desc": "Bizplan is modern business planning software for startups.",
 			"sticky": false
+		},
+		{
+			"title": "Nuage",
+			"url": "https://www.nuage.email/",
+			"desc": "Create a custom address redirected to your Gmail.",
+			"sticky": false
 		}
 	]
 }

@@ -95,6 +95,24 @@
 			"url": "https://www.fullstory.com/",
 			"desc": "With Fullstory you can capture every click, swipe, and scroll. Session replay tells you everything you want to know about your customer’s online experience.",
 			"sticky": false
+		},
+		{
+			"title": "Formspree",
+			"url": "https://formspree.io/",
+			"desc": "Functional HTML forms. Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required.",
+			"sticky": false
+		},
+		{
+			"title": "JotForm",
+			"url": "https://www.jotform.com/",
+			"desc": "Form builder lets you build a customized online form.",
+			"sticky": false
+		},
+		{
+			"title": "UsabilityTools",
+			"url": "http://usabilitytools.com/",
+			"desc": "UsabilityTools will tell you why people leave your website with video playbacks.",
+			"sticky": false
 		}
 	]
 }
