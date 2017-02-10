@@ -260,6 +260,7 @@ TYPOGRAPHY
 	- WebFonter
 	- What the Font
 	- Typography Supply
+	- Typography Insight
 	
 USER RESEARCH
 -------------
