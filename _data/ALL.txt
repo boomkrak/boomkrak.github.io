@@ -24,6 +24,9 @@ BUSINESS
 	- IQBoxy
 	- Tagove
 	- Bizplan
+	- Mailjoy
+	- Hivy
+	- Mailblast
 
 COLLABORATION
 -------------
@@ -54,6 +57,8 @@ COLLABORATION
 	- Inboard
 	- Bynder
 	- ProdPad
+	- Milanote
+	- Hivy
 	
 COLOR SCHEME
 ------------
@@ -70,6 +75,8 @@ COLOR SCHEME
 	- Skala Color
 	- BrandColors
 	- uiGradients
+	- Webgradients
+	- Colour Lovers
 
 FRAMEWORK
 ---------
@@ -88,6 +95,7 @@ FRAMEWORK
 	- Themifyflow
 	- Pagelines
 	- Element
+	- Spacegrid
 
 ICONSET
 -------
