@@ -1,5 +1,52 @@
 {"resources": [
 	{
+		"date": "Feb 20",
+		"content": [
+			{
+			"articleTitle":"Creative Characters Creative Characters Interview with Akira Kobayashi",
+	        "articleUrl":"https://www.myfonts.com/newsletters/cc/20170204.html?ref=boomkrak.com",
+	        "articleAuthor": "MyFonts",
+	        "articleTag": "typography"
+			},
+			{
+			"articleTitle":"Most of the web really sucks if you have a slow connection",
+	        "articleUrl":"https://danluu.com/web-bloat/?ref=boomkrak.com",
+	        "articleAuthor": "Dan Luu",
+	        "articleTag": "essay, learning, ux"
+			},
+			{
+			"articleTitle":"7 Toxic People to Avoid When Starting in Design",
+	        "articleUrl":"https://creativemarket.com/blog/toxic-people-design/?ref=boomkrak.com",
+	        "articleAuthor": "Kevin Whipps",
+	        "articleTag": "productivity"
+			},
+			{
+			"articleTitle":"Tips on Applying Copy Content in User Interfaces",
+	        "articleUrl":"https://uxplanet.org/tips-on-applying-copy-content-in-user-interfaces-8d039c231dc5#.dl2oric69/?ref=boomkrak.com",
+	        "articleAuthor": "Tubik Studio",
+	        "articleTag": "ui, ux"
+			},
+			{
+			"articleTitle":"Branding Lessons from a Design Agency Part 1",
+	        "articleUrl":"https://onbrand.me/strategy/branding-lessons-from-a-design-agency/?ref=boomkrak.com",
+	        "articleAuthor": "The Owen Agency",
+	        "articleTag": "branding"
+			},
+			{
+			"articleTitle":"Perfectionism Killed my Productivity",
+	        "articleUrl":"https://medium.com/desk-of-van-schneider/perfectionism-killed-my-productivity-b9240aec5d2f#.5r1rky7bl/?ref=boomkrak.com",
+	        "articleAuthor": "Tobias van Schneider",
+	        "articleTag": "productivity, essay"
+			},
+			{
+			"articleTitle":"A short explanation of a branding tool for everything and everyone",
+	        "articleUrl":"https://medium.muz.li/a-short-explanation-of-a-branding-tool-for-everything-and-everyone-57578305f94b#.5e9hhk2pw/?ref=boomkrak.com",
+	        "articleAuthor": "Carl Dackö",
+	        "articleTag": "branding"
+			}
+		]
+	},
+	{
 		"date": "Feb 6",
 		"content": [
 			{
@@ -33,7 +80,7 @@
 	        "articleTag": "business"
 			},
 			{
-			"articleTitle":"",
+			"articleTitle":"The Secret History of the LaCroix Label",
 	        "articleUrl":"http://www.bonappetit.com/story/the-secret-history-of-the-lacroix-label/?ref=boomkrak.com",
 	        "articleAuthor": "Ashlea Halpern",
 	        "articleTag": "branding"

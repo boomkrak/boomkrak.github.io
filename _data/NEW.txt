@@ -1,11 +1,14 @@
-Since Feb 6, 2017
+Since Feb 20, 2017
 
 TOOLS
 -----
-	- Formspree: User-research
-	- Jotform: User-research
-	- Usability tools: User-research
-	- Nuage: Business
+	- Typography Insight: Typography
+	- webgradients: Color Scheme
+	- Milanote: Collaboration
+	- Spacegrid: Framework
+	- Mailhoy: business
+	- Hivy: business, collaboration
+	- Mailblast: business
 	
 JOBS
 ----

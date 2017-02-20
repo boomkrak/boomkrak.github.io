@@ -149,6 +149,24 @@
 			"url": "https://www.nuage.email/",
 			"desc": "Create a custom address redirected to your Gmail.",
 			"sticky": false
+		},
+		{
+			"title": "Mailjoy",
+			"url": "http://www.mailjoy.com/",
+			"desc": "Mailchimp for physical mail. Send direct mail as easily as email.",
+			"sticky": false
+		},
+		{
+			"title": "Hivy",
+			"url": "https://hivyapp.com/",
+			"desc": "The office management platform, to interact with employees and vendors.",
+			"sticky": false
+		},
+		{
+			"title": "Mailblast",
+			"url": "https://mailblast.io/",
+			"desc": "Email marketing on a budget using Amazon SES.",
+			"sticky": false
 		}
 	]
 }
