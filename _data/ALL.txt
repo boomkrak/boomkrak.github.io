@@ -27,6 +27,12 @@ BUSINESS
 	- Mailjoy
 	- Hivy
 	- Mailblast
+	- Reflect.io
+	- Getmailto
+	- Sendout
+	- Branch.io
+	- Textpuff
+	- Salesflare
 
 COLLABORATION
 -------------
@@ -59,6 +65,7 @@ COLLABORATION
 	- ProdPad
 	- Milanote
 	- Hivy
+	- Walky
 	
 COLOR SCHEME
 ------------
@@ -77,6 +84,7 @@ COLOR SCHEME
 	- uiGradients
 	- Webgradients
 	- Colour Lovers
+	- Built By Emblem
 
 FRAMEWORK
 ---------
@@ -125,6 +133,8 @@ INSPIRATION
 	- UI Interactions
 	- Ecomm.design
 	- Redsgn
+	- Built By Emblem
+	- Bestfolios
 
 MOTION
 ------
@@ -155,6 +165,7 @@ PRESENTATION
 	- WebSlides
 	- Mockup Generator
 	- Looped
+	- Quickstart
 
 PROTOTYPING
 -----------
@@ -191,6 +202,8 @@ PROTOTYPING
 	- UX app
 	- UXPin	
 	- Mockflow 
+	- Zenkit mindmap
+	- Kiteapp
 
 STOCK IMAGE
 -----------
@@ -269,6 +282,7 @@ TYPOGRAPHY
 	- What the Font
 	- Typography Supply
 	- Typography Insight
+	- Built By Emblem
 	
 USER RESEARCH
 -------------
@@ -288,6 +302,8 @@ USER RESEARCH
 	- Validately
 	- Crisp
 	- Fullstory
+	- Callingly
+	- Canny
 
 durung ublem:
 	- UsabilityTools v

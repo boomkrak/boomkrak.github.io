@@ -3,6 +3,11 @@ $(document).ready(function(){
 		
 	});
 
+	$('#search').hideseek({
+		nodata: 'No results found',
+		highlight:  true
+	});
+
 	$('.btn-subscribe').click(function(){
 		$('#mce-EMAIL').focus();
 	});

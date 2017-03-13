@@ -179,6 +179,12 @@
 			"url": "https://hivyapp.com/",
 			"desc": "The Office Management Platform, to interact with employees and vendors.",
 			"sticky": false
+		},
+		{
+			"title": "Walky",
+			"url": "https://walky.io/",
+			"desc": "Instant video communication for remote team.",
+			"sticky": false
 		}
 	]
 }
