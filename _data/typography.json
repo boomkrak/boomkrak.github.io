@@ -191,6 +191,12 @@
 			"url": "http://typeinsight.org/",
 			"desc": "Typography Insight ia an app and toolkit for learning and teaching typography.",
 			"sticky": false
+		},
+		{
+			"title": "Emblem",
+			"url": "https://builtbyemblem.com/",
+			"desc": "Built your own brand in minutes.",
+			"sticky": false
 		}
 	]
 }

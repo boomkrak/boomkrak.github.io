@@ -1,0 +1,88 @@
+{
+	"tools": [
+		{
+			"title": "Reflect",
+			"url": "https://reflect.io/",
+			"desc": "Reflect makes it easy to embed analytics, reporting, and data storytelling into your web and mobile products.",
+			"sticky": false
+		},
+		{
+			"title": "Mailto",
+			"url": "http://www.getmailto.com/",
+			"desc": "A collecition of email templates compatible with Mailchimp, SendGrid and other major email marketing platforms.",
+			"sticky": false
+		},
+		{
+			"title": "SendOut",
+			"url": "https://sendout.io/",
+			"desc": "SendOut is a marketing tool tailored for bloggers and course creators to get more subscribers using optin forms and drip email campaigns.",
+			"sticky": false
+		},
+		{
+			"title": "Branch Metrics",
+			"url": "https://branch.io/",
+			"desc": "Branch increases mobile conversion, retention, and engagement through deep linking, user routing, and personalized app experiences.",
+			"sticky": false
+		},
+		{
+			"title": "TextPuff",
+			"url": "https://textpuff.com/",
+			"desc": "Another tools to convert your website visitors into app downloads.",
+			"sticky": false
+		},
+		{
+			"title": "Salesflare",
+			"url": "https://salesflare.com/",
+			"desc": "Intelligent sales CRM for startups who thrive on technology.",
+			"sticky": false
+		},
+		{
+			"title": "Emblem",
+			"url": "https://builtbyemblem.com/",
+			"desc": "Built your own brand in minutes.",
+			"sticky": false
+		},
+		{
+			"title": "Walky",
+			"url": "https://walky.io/",
+			"desc": "Instant video communication for remote team.",
+			"sticky": false
+		},
+		{
+			"title": "Zenkit Mind Maps",
+			"url": "https://zenkit.com/mindmap",
+			"desc": "Zenkit. Where mind maps meet project management.",
+			"sticky": false
+		},
+		{
+			"title": "Kite Compositor",
+			"url": "https://kiteapp.co/",
+			"desc": "Animation and prototyping application for Mac & iOS.",
+			"sticky": false
+		},
+		{
+			"title": "Callingly",
+			"url": "https://callingly.com",
+			"desc": "Turn your phone number into a link you can post, control, and track, from anywhere in the world.",
+			"sticky": false
+		},
+		{
+			"title": "Canny",
+			"url": "https://canny.io/",
+			"desc": "Collect feedback to learn what your users want most.",
+			"sticky": false
+		},
+		{
+			"title": "Quickstart",
+			"url": "https://craigbarber.co/powerpoint-template",
+			"desc": "Collection of multipurpose powerpoint template.",
+			"sticky": false
+		},
+		{
+			"title": "Bestfolios",
+			"url": "http://bestfolios.com/",
+			"desc": "Bestfolios is a gallery featuring the best portfolios from product designers, ui/ux designers and graphic designers.",
+			"sticky": false
+		}
+	]
+}

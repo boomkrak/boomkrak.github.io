@@ -4,147 +4,49 @@ title: New Resources
 bannertext: We discovered new resources for you
 ---
 
-<h3>Week of Feb 20</h3>
+<h3>Week of Mar 13</h3>
 <h5 id="new-tools">New Tools</h5>
+
+{% assign tools = site.data.new-discover.tools | sort: 'title' %}
+
 <ul class="collection">
-	<li class="collection__list">
-		<article>
-			<a href="http://typeinsight.org/?ref=boomkrak.com" title="Typography Insight" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=http://typeinsight.org/" alt="Typography Insight">
-				Typography Insight
-			</a>
-			<br>
-			Typography Insight ia an app and toolkit for learning and teaching typography.
-		</article>
-		<a href="http://typeinsight.org/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://webgradients.com/?ref=boomkrak.com" title="WebGradients" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://webgradients.com/" alt="WebGradients">
-				WebGradients
-			</a>
-			<br>
-			WebGradients contains 180 fresh backdrop gradients lovely served in Sketch, PSD, CSS and PNG formats.
-		</article>
-		<a href="https://webgradients.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="http://milanote.com/?ref=boomkrak.com" title="Milanote" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=http://milanote.com/" alt="Milanote">
-				Milanote
-			</a>
-			<br>
-			The notes app for research, thinking and planning behind your next great piece of work. For individuals & teams.
-		</article>
-		<a href="http://milanote.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://github.com/jonathanspeek/spacegrid/?ref=boomkrak.com" title="Spacegrid" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://github.com/jonathanspeek/spacegrid" alt="Spacegrid">
-				Spacegrid
-			</a>
-			<br>
-			A basic, responsive grid layout.
-		</article>
-		<a href="https://github.com/jonathanspeek/spacegrid/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	
-	<li class="collection__list">
-		<article>
-			<a href="http://www.mailjoy.com/?ref=boomkrak.com" title="Mailjoy" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=http://www.mailjoy.com/" alt="Mailjoy">
-				Mailjoy
-			</a>
-			<br>
-			Mailchimp for physical mail. Send direct mail as easily as email.
-		</article>
-		<a href="http://www.mailjoy.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://hivyapp.com/?ref=boomkrak.com" title="Hivy" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://hivyapp.com/" alt="Hivy">
-				Hivy
-			</a>
-			<br>
-			The office management platform, to interact with employees and vendors.
-		</article>
-		<a href="https://hivyapp.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://mailblast.io/?ref=boomkrak.com" title="Mailblast" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://mailblast.io/" alt="Mailblast">
-				Mailblast
-			</a>
-			<br>
-			Email marketing on a budget using Amazon SES.
-		</article>
-		<a href="https://mailblast.io/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	
+	{% for tool in tools %}
+		<li class="collection__list">
+			<article>
+				<h4>
+					<a href="{{ tool.url }}?ref=boomkrak.com" title="{{ tool.title }}" target="_blank">
+						<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+						{{ tool.title }}
+					</a>
+				</h4>
+				{{ tool.desc }}
+			</article>
+			<a href="{{ tool.url }}?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
+		</li>
+	{% endfor %}
 </ul>
 
 <h5 id="new-articles">New Articles</h5>
+{% assign resources = site.data.resources.resources | %}
 <ul class="resource__list">
+  	{% for resource in resources %}
+  	{% if resource.date contains "Mar 13" %}
     <li>
 		<ul>
-			<li>
-				<h6><a href="https://www.myfonts.com/newsletters/cc/20170204.html?ref=boomkrak.com" target="_blank"><span>Creative Characters Creative Characters Interview with Akira Kobayashi</span></a></h6>
-				<p>An article by MyFonts</p>
+			{% for article in resource.content %}
+			<li {% if article.promo == "true" %} class="sponsored" {% endif %}>
+				<h6><a href="{{ article.articleUrl }}" target="_blank"><span>{{ article.articleTitle }}</span></a></h6>
+				<p>An article by {{ article.articleAuthor }}</p>
 				<div class="resource__tag">
-					<span>typography</span>
+					{% assign tags = article.articleTag | split:", " %}
+					{% for tag in tags %}
+						<a href="{{ site.baseurl }}/tag/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
+					{% endfor %}
 				</div>
 			</li>
-			<li>
-				<h6><a href="https://danluu.com/web-bloat/?ref=boomkrak.com" target="_blank"><span>Most of the web really sucks if you have a slow connection</span></a></h6>
-				<p>An article by Dan Luu</p>
-				<div class="resource__tag">
-					<span>essay</span>
-					<span>learning</span>
-					<span>ux</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://creativemarket.com/blog/toxic-people-design/?ref=boomkrak.com" target="_blank"><span>7 Toxic People to Avoid When Starting in Design</span></a></h6>
-				<p>An article by Kevin Whipps</p>
-				<div class="resource__tag">
-					<span>productivity</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://uxplanet.org/tips-on-applying-copy-content-in-user-interfaces-8d039c231dc5#.dl2oric69/?ref=boomkrak.com" target="_blank"><span>Tips on Applying Copy Content in User Interfaces</span></a></h6>
-				<p>An article by Tubik Studio</p>
-				<div class="resource__tag">
-					<span>ui</span>
-					<span>ux</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://onbrand.me/strategy/branding-lessons-from-a-design-agency/?ref=boomkrak.com" target="_blank"><span>Branding Lessons from a Design Agency Part 1</span></a></h6>
-				<p>An article by The Owen Agency</p>
-				<div class="resource__tag">
-					<span>branding</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://medium.com/desk-of-van-schneider/perfectionism-killed-my-productivity-b9240aec5d2f#.5r1rky7bl/?ref=boomkrak.com" target="_blank"><span>Perfectionism Killed my Productivity</span></a></h6>
-				<p>An article by Tobias van Schneider</p>
-				<div class="resource__tag">
-					<span>productivity</span>
-					<span>essay</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://medium.muz.li/a-short-explanation-of-a-branding-tool-for-everything-and-everyone-57578305f94b#.5e9hhk2pw/?ref=boomkrak.com" target="_blank"><span>A short explanation of a branding tool for everything and everyone</span></a></h6>
-				<p>An article by Carl Dackö</p>
-				<div class="resource__tag">
-					<span>branding</span>
-				</div>
-			</li>
+			{% endfor %}
 		</ul>
     </li>
+    {% endif %}
+  	{% endfor %}
 </ul>

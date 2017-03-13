@@ -1,7 +1,11 @@
 {% assign sticky_tools = site.data[include.title].tools | where: "sticky", true | sort: 'title' %}
 {% assign tools = site.data[include.title].tools | where: "sticky", false | sort: 'title' %}
 
-<ul>
+<div class="search-wrap">
+	<input type="text" id="search" data-list=".searchable" placeholder="Search here and hit enter...">
+</div>
+
+<ul class="searchable">
 	{% for tool in sticky_tools %}
 		<li class="collection__list sponsored">
 			<article>

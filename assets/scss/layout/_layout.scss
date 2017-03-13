@@ -116,6 +116,23 @@ header{
 	}
 }
 
+.search-wrap{
+	text-align: right;
+	margin-bottom: 20px;
+	#search{
+		border: 1px solid rgba(black, 0.2);
+		font-size: 14px;
+		height: 35px;
+		width: 250px;
+		padding: 5px;
+		border-radius: 2px;
+		&:focus{
+			outline: none;
+			border-color: $c-red;
+		}
+	}
+}
+
 .btn-subscribe{
 	font-weight: 500;
 	text-transform: uppercase;
