@@ -7,27 +7,9 @@
 			"sticky": false
 		},
 		{
-			"title": "GlyphsCo Photos",
-			"url": "https://glyphs.co/photos",
-			"desc": "Free photos by Glyphs Company.",
-			"sticky": false
-		},
-		{
-			"title": "Foodshot",
-			"url": "http://foodshot.co/",
-			"desc": "Handpicked high resolution food photos.",
-			"sticky": false
-		},
-		{
 			"title": "Nomad Picture",
 			"url": "https://nomad.pictures/",
 			"desc": "Free High-Res Stock Images and Cinemagraphs.",
-			"sticky": false
-		},
-		{
-			"title": "Vladimir Kudinov's Collection",
-			"url": "https://photos.google.com/share/AF1QipMqTdSXxVJsc8pVpPlwktz8XFNATPiIWX8VHYuOA_MSKfxa3J_Or5YMtOIG-4B_Bg?key=dXRMUWpDeE9zT01yRWxzY2ZEMzlSRE95UF81YWRn/",
-			"desc": "Free photography by Vladimir Kudinov.",
 			"sticky": false
 		},
 		{
@@ -115,21 +97,9 @@
 			"sticky": false
 		},
 		{
-			"title": "Nobl Web",
-			"url": "http://www.noblweb.com/",
-			"desc": "Providing you with free, high-resolution photos and textures, for all your web design projects.",
-			"sticky": false
-		},
-		{
 			"title": "PhotoStockEditor",
 			"url": "http://photostockeditor.com/",
 			"desc": "Free images for personal and commercial use",
-			"sticky": false
-		},
-		{
-			"title": "BossFight",
-			"url": "https://bossfight.co/",
-			"desc": "Free high-res stock photos.",
 			"sticky": false
 		},
 		{
@@ -208,12 +178,6 @@
 			"title": "Stock Photos for Free",
 			"url": "http://www.stockphotosforfree.com/",
 			"desc": "Free stock photos by GraphicStock.",
-			"sticky": false
-		},
-		{
-			"title": "Good Stock Photos",
-			"url": "https://goodstock.photos/",
-			"desc": "Free images for personal or commercial use.",
 			"sticky": false
 		},
 		{

@@ -26,18 +26,6 @@ html {
   /* 1 */
 }
 
-@-webkit-keyframes animation-background-gradient {
-  0% {
-    background-position: 0% 99%;
-  }
-  50% {
-    background-position: 100% 2%;
-  }
-  100% {
-    background-position: 0% 99%;
-  }
-}
-
 @keyframes animation-background-gradient {
   0% {
     background-position: 0% 99%;
@@ -50,15 +38,6 @@ html {
   }
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -68,48 +47,16 @@ html {
   }
 }
 
-@-webkit-keyframes zoomfadeIn {
-  0% {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
 @keyframes zoomfadeIn {
   0% {
     opacity: 0;
     visibility: hidden;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     opacity: 1;
     visibility: visible;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@-webkit-keyframes zoomfadeOut {
-  0% {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(1);
   }
 }
 
@@ -117,74 +64,36 @@ html {
   0% {
     opacity: 1;
     visibility: visible;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   100% {
     opacity: 0;
     visibility: hidden;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-}
-
-@-webkit-keyframes rightfadeIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: scale(0.5);
   }
 }
 
 @keyframes rightfadeIn {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    transform: translateX(-100px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@-webkit-keyframes leftfadeIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: scale(1);
+    transform: translateY(0);
   }
 }
 
 @keyframes leftfadeIn {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    transform: translateX(100px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: scale(1);
+    transform: translateY(0);
   }
 }
 
@@ -203,14 +112,12 @@ html {
 .vertical-align--relative {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .vertical-align--absolute {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -249,11 +156,9 @@ html {
   left: 0;
   opacity: 0.7;
   background: #f4a6e1;
-  background: -webkit-linear-gradient(55deg, #f4a6e1 0%, #88d8f0 45%, #63acef 75%, #88d8f0 100%);
   background: linear-gradient(35deg, #f4a6e1 0%, #88d8f0 45%, #63acef 75%, #88d8f0 100%);
   background-size: 500% 500%;
-  -webkit-animation: animation-background-gradient 30s ease infinite;
-          animation: animation-background-gradient 30s ease infinite;
+  animation: animation-background-gradient 30s ease infinite;
   position: absolute;
   top: 0;
   left: 0;
@@ -447,8 +352,7 @@ a:hover {
 html {
   font-size: 100%;
   font-size: 18px;
-  -webkit-transition: opacity 400ms;
-          transition: opacity 400ms;
+  transition: opacity 400ms;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -556,8 +460,7 @@ header .logo {
   top: 0;
   padding: 5px 0;
   text-align: left;
-  -webkit-transition: 300ms;
-          transition: 300ms;
+  transition: 300ms;
 }
 
 .header__menu li .submenu:hover {
@@ -692,8 +595,7 @@ header .logo {
   width: 26.5350877193%;
   margin-left: 1.3157894737%;
   float: left;
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -897,7 +799,6 @@ header .logo {
 .collection__list .ion-android-open {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 0;
   padding: 5px 10px;
@@ -912,8 +813,7 @@ header .logo {
 .collection__list .ion-android-open:before {
   position: relative;
   z-index: 5;
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 .collection__list .ion-android-open:after {
@@ -924,10 +824,8 @@ header .logo {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: 300ms;
-          transition: 300ms;
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  transition: 300ms;
+  transform: scale(0);
 }
 
 .resource {
@@ -1492,7 +1390,6 @@ footer .logo a {
 .popup #mc_embed_signup {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 22.3684210526%;
   left: 50%;
@@ -1650,8 +1547,7 @@ header a.active {
   background: #FFE546;
   box-shadow: 2px 3px 0 #F38181;
   color: rgba(0, 0, 0, 0.75);
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 .btn-subscribe:hover {
@@ -1684,8 +1580,7 @@ header a.active {
 }
 
 .content__right {
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 @media (min-width: 0em) and (max-width: 47.9375em) {
@@ -1696,8 +1591,7 @@ header a.active {
 
 .collections li {
   background: white;
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 .collections li:hover {
@@ -1725,7 +1619,6 @@ header a.active {
 }
 
 .collection__list:after {
-  background: -webkit-linear-gradient(0deg, #F9F9F9 5%, rgba(0, 0, 0, 0.1));
   background: linear-gradient(90deg, #F9F9F9 5%, rgba(0, 0, 0, 0.1));
 }
 
@@ -1743,8 +1636,7 @@ header a.active {
 }
 
 .collection__list .ion-android-open:hover:after {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .collection__list.sponsored {
@@ -1779,7 +1671,6 @@ header a.active {
 }
 
 .resource__list > li ul li:after {
-  background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.1), #F9F9F9);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), #F9F9F9);
 }
 
@@ -1810,8 +1701,7 @@ header a.active {
 .resource__tag a, .resource__tag span {
   border: 1px solid #F38181;
   color: #F38181;
-  -webkit-transition: 300ms;
-          transition: 300ms;
+  transition: 300ms;
 }
 
 .resource__tag a:hover, .resource__tag span:hover {
@@ -1908,8 +1798,7 @@ header a.active {
 
 .sidebar__subscribe {
   background: #A9EEE6;
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 .sidebar__subscribe:hover {
@@ -1963,15 +1852,13 @@ footer a:hover {
   color: #fff;
   font-weight: 500;
   box-shadow: 2px 3px 0 #FFE546;
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 .typeform-share:before {
   border-right: 1px solid #fff;
   color: #fff;
-  -webkit-transition: 400ms;
-          transition: 400ms;
+  transition: 400ms;
 }
 
 .typeform-share:hover {

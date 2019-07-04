@@ -79,12 +79,6 @@
 			"sticky": false
 		},
 		{
-			"title": "Laps",
-			"url": "http://getlaps.com/",
-			"desc": "Laps is tool for freelancers and small businesses to manage their clients, projects, and invoices.",
-			"sticky": false
-		},
-		{
 			"title": "Drift",
 			"url": "http://www.drift.com/",
 			"desc": "Drift is a messaging app that makes it easy for businesses to talk to their website visitors and customers in real-time, from anywhere.",
@@ -133,21 +127,9 @@
 			"sticky": false
 		},
 		{
-			"title": "Tagove",
-			"url": "https://www.tagove.com/",
-			"desc": "Live chat software provide video chat, voice call and text chat with co browsing and screen sharing features.",
-			"sticky": false
-		},
-		{
 			"title": "Bizplan",
 			"url": "https://www.bizplan.com/",
 			"desc": "Bizplan is modern business planning software for startups.",
-			"sticky": false
-		},
-		{
-			"title": "Nuage",
-			"url": "https://www.nuage.email/",
-			"desc": "Create a custom address redirected to your Gmail.",
 			"sticky": false
 		}
 	]

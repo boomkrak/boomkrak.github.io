@@ -31,12 +31,6 @@
 			"sticky": false
 		},
 		{
-			"title": "Color Farm",
-			"url": "http://color.farm/",
-			"desc": "Handpicked colors from the popular Dribbble shots for your daily inspiration.",
-			"sticky": false
-		},
-		{
 			"title": "Material Colors",
 			"url": "http://materialcolors.com/",
 			"desc": "A resource for testing and quickly copying Material Design colors.",
@@ -46,12 +40,6 @@
 			"title": "LOL Colors",
 			"url": "http://www.lolcolors.com/",
 			"desc": "Curated color palette inspiration.",
-			"sticky": false
-		},
-		{
-			"title": "Drop",
-			"url": "http://dropcolorpicker.com/",
-			"desc": "A color picker tools for macOS.",
 			"sticky": false
 		},
 		{

@@ -61,12 +61,6 @@
 			"sticky": false
 		},
 		{
-			"title": "Mindmeister",
-			"url": "http://www.mindmeister.co/",
-			"desc": "Mindmeister is a mind-mapping tool, but also has the functionality of many collaboration tools.",
-			"sticky": false
-		},
-		{
 			"title": "Amium",
 			"url": "http://www.amium.com/",
 			"desc": "Amium turns any file into a real-time activity feed and conversation.",
@@ -115,12 +109,6 @@
 			"sticky": false
 		},
 		{
-			"title": "Webscope",
-			"url": "http://webscopeapp.com/",
-			"desc": "Webscope is a communication platform for web developers and their clients. Developers can upload projects and discuss them with their clients.",
-			"sticky": false
-		},
-		{
 			"title": "Notion",
 			"url": "http://www.notion.so/",
 			"desc": "A Mac app that helps teams organize docs, wikis, and tasks from various tools in single place.",
@@ -130,18 +118,6 @@
 			"title": "Duco",
 			"url": "http://duco.newhaircut.com/",
 			"desc": "Duco helps everyone runs successful design sprints.",
-			"sticky": false
-		},
-		{
-			"title": "Canvas",
-			"url": "http://usecanvas.com/",
-			"desc": "Use Canvas to create and share notes or memos.",
-			"sticky": false
-		},
-		{
-			"title": "Yossarian",
-			"url": "http://yossarian.co/",
-			"desc": "Yossarian is creative search engine, it uses AI to return diverse and unexpected concepts that share loose associations to your search. It's helpful for mind-mapping and brainstorming process.",
 			"sticky": false
 		},
 		{

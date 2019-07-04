@@ -37,21 +37,9 @@
 			"sticky": false
 		},
 		{
-			"title": "CanvasFlip",
-			"url": "https://www.canvasflip.com/",
-			"desc": "CanvasFlip is a mobile/web protoyping tool which improve user experience with real-time usabilty testing. ",
-			"sticky": false
-		},
-		{
 			"title": "Creator",
 			"url": "http://ionic.io/products/creator/",
 			"desc": "CanvasFlip is a mobile/web protoyping tool which improve user experience with real-time usabilty testing. ",
-			"sticky": false
-		},
-		{
-			"title": "Demonstrate",
-			"url": "http://nfnlabs.in/demonstrate/",
-			"desc": "Demonstrate is a free prototyping app allowing users to create native app demos without writing any code.",
 			"sticky": false
 		},
 		{
@@ -74,8 +62,8 @@
 		},
 		{
 			"title": "Framer",
-			"url": "https://framerjs.com/",
-			"desc": "Design interactive high-fidelity prototypes for iOS, Android, desktop or the web.",
+			"url": "https://framer.com/",
+			"desc": "Framer is the only tool you need to create interactive designs for any platform. Powering the product teams at Dropbox, Pinterest, Twitter, and thousands more.",
 			"sticky": false
 		},
 		{
@@ -142,12 +130,6 @@
 			"title": "Pidoco",
 			"url": "https://pidoco.com/en",
 			"desc": "Pidoco is software that lets you quickly create click-through wireframes and fully interactive UX prototypes.",
-			"sticky": false
-		},
-		{
-			"title": "Pop",
-			"url": "https://popapp.in/",
-			"desc": "Pop helps you transform your pen + papes ideas into a real working prototype.",
 			"sticky": false
 		},
 		{

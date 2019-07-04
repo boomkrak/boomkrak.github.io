@@ -43,21 +43,9 @@
 			"sticky": false
 		},
 		{
-			"title": "Scenery",
-			"url": "https://www.getscenery.com/",
-			"desc": "Mockup template generator on mac to showcase your design with free and premium template.",
-			"sticky": false
-		},
-		{
 			"title": "Dropmock",
 			"url": "http://dropmock.com/",
 			"desc": "Cloud-based video and image mockup generator.",
-			"sticky": false
-		},
-		{
-			"title": "iSweetIt",
-			"url": "http://www.isweetit.com/",
-			"desc": "iOS app to create product screenshots in real environment.",
 			"sticky": false
 		},
 		{
@@ -70,12 +58,6 @@
 			"title": "Mockuuups",
 			"url": "https://www.mockuuups.com/",
 			"desc": "Free and premium mockups, available on Sketch and Photoshop.",
-			"sticky": false
-		},
-		{
-			"title": "LaunchKit",
-			"url": "https://launchkit.io/",
-			"desc": "Create product screenshot for the App Store or Google Play.",
 			"sticky": false
 		},
 		{

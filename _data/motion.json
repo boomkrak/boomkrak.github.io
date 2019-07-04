@@ -41,12 +41,6 @@
 			"url": "http://snapsvg.io",
 			"desc": "Snap.svg is designed for modern browsers and therefore supports the newest SVG features like masking, clipping, patterns, full gradients, groups, and more.",
 			"sticky": false
-		},
-		{
-			"title": "MotionComposer",
-			"url": "https://www.aquafadas.com/motioncomposer/",
-			"desc": "MotionComposer bridges the gap between enthusiasts and professional designers with animations tools.",
-			"sticky": false
 		}
 	]
 }
