@@ -131,25 +131,11 @@
 			"url": "https://www.bizplan.com/",
 			"desc": "Bizplan is modern business planning software for startups.",
 			"sticky": false
-<<<<<<< HEAD
-=======
-		},
-		{
-			"title": "Nuage",
-			"url": "https://www.nuage.email/",
-			"desc": "Create a custom address redirected to your Gmail.",
-			"sticky": false
 		},
 		{
 			"title": "Mailjoy",
 			"url": "http://www.mailjoy.com/",
 			"desc": "Mailchimp for physical mail. Send direct mail as easily as email.",
-			"sticky": false
-		},
-		{
-			"title": "Hivy",
-			"url": "https://hivyapp.com/",
-			"desc": "The office management platform, to interact with employees and vendors.",
 			"sticky": false
 		},
 		{
@@ -193,7 +179,6 @@
 			"url": "https://salesflare.com/",
 			"desc": "Intelligent sales CRM for startups who thrive on technology.",
 			"sticky": false
->>>>>>> 8dc57751db9a002841763e02077b8a5bb2f968db
 		}
 	]
 }
