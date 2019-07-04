@@ -113,6 +113,18 @@
 			"url": "http://usabilitytools.com/",
 			"desc": "UsabilityTools will tell you why people leave your website with video playbacks.",
 			"sticky": false
+		},
+		{
+			"title": "Callingly",
+			"url": "https://callingly.com",
+			"desc": "Turn your phone number into a link you can post, control, and track, from anywhere in the world.",
+			"sticky": false
+		},
+		{
+			"title": "Canny",
+			"url": "https://canny.io/",
+			"desc": "Collect feedback to learn what your users want most.",
+			"sticky": false
 		}
 	]
 }

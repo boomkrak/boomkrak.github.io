@@ -71,6 +71,18 @@
 			"url": "http://www.colourlovers.com/",
 			"desc": "A creative community where people from around the world create and share colors, palettes and patterns.",
 			"sticky": false
+		},
+		{
+			"title": "WebGradients",
+			"url": "https://webgradients.com/",
+			"desc": "WebGradients contains 180 fresh backdrop gradients lovely served in Sketch, PSD, CSS and PNG formats.",
+			"sticky": false
+		},
+		{
+			"title": "Emblem",
+			"url": "https://builtbyemblem.com/",
+			"desc": "Built your own brand in minutes.",
+			"sticky": false
 		}
 	]
 }

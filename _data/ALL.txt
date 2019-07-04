@@ -24,6 +24,15 @@ BUSINESS
 	- IQBoxy
 	- Tagove
 	- Bizplan
+	- Mailjoy
+	- Hivy
+	- Mailblast
+	- Reflect.io
+	- Getmailto
+	- Sendout
+	- Branch.io
+	- Textpuff
+	- Salesflare
 
 COLLABORATION
 -------------
@@ -54,6 +63,9 @@ COLLABORATION
 	- Inboard
 	- Bynder
 	- ProdPad
+	- Milanote
+	- Hivy
+	- Walky
 	
 COLOR SCHEME
 ------------
@@ -70,6 +82,9 @@ COLOR SCHEME
 	- Skala Color
 	- BrandColors
 	- uiGradients
+	- Webgradients
+	- Colour Lovers
+	- Built By Emblem
 
 FRAMEWORK
 ---------
@@ -88,6 +103,7 @@ FRAMEWORK
 	- Themifyflow
 	- Pagelines
 	- Element
+	- Spacegrid
 
 ICONSET
 -------
@@ -117,6 +133,8 @@ INSPIRATION
 	- UI Interactions
 	- Ecomm.design
 	- Redsgn
+	- Built By Emblem
+	- Bestfolios
 
 MOTION
 ------
@@ -147,6 +165,7 @@ PRESENTATION
 	- WebSlides
 	- Mockup Generator
 	- Looped
+	- Quickstart
 
 PROTOTYPING
 -----------
@@ -183,6 +202,8 @@ PROTOTYPING
 	- UX app
 	- UXPin	
 	- Mockflow 
+	- Zenkit mindmap
+	- Kiteapp
 
 STOCK IMAGE
 -----------
@@ -260,6 +281,8 @@ TYPOGRAPHY
 	- WebFonter
 	- What the Font
 	- Typography Supply
+	- Typography Insight
+	- Built By Emblem
 	
 USER RESEARCH
 -------------
@@ -279,6 +302,8 @@ USER RESEARCH
 	- Validately
 	- Crisp
 	- Fullstory
+	- Callingly
+	- Canny
 
 durung ublem:
 	- UsabilityTools v

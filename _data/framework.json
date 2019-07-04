@@ -95,6 +95,12 @@
 			"url": "http://element.eleme.io/",
 			"desc": "Element, a Vue 2.0 based component library for developers, designers and product managers, with a set of design resources.",
 			"sticky": false
+		},
+		{
+			"title": "Spacegrid",
+			"url": "https://github.com/jonathanspeek/spacegrid",
+			"desc": "A basic, responsive grid layout.",
+			"sticky": false
 		}
 	]
 }

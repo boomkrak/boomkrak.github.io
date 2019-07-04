@@ -1,5 +1,111 @@
 {"resources": [
 	{
+		"date": "Mar 13",
+		"content": [
+			{
+			"articleTitle":"Naval Ravikant on The Power of Habit Loops",
+	        "articleUrl":"https://journal.thriveglobal.com/habits-have-the-power-to-make-or-break-your-life-c2494a667ff#.eaakok2o9?ref=boomkrak.com",
+	        "articleAuthor": "Shane Parrish",
+	        "articleTag": "interview, productivity"
+			},
+			{
+			"articleTitle":"How to make money from your mailing list",
+	        "articleUrl":"https://medium.pjrvs.com/how-to-make-money-from-your-mailing-list-f26bbce3fd68#.u22xz7c3x?ref=boomkrak.com",
+	        "articleAuthor": "Paul Jarvis",
+	        "articleTag": "business, content-strategy"
+			},
+			{
+			"articleTitle":"Don’t Call it a Newsletter: Tips from Tobias van Schneider",
+	        "articleUrl":"https://medium.com/mailchimp-for-agencies/dont-call-it-a-newsletter-tips-from-tobias-van-schneider-afcef8a799d7#.rtwcetdth?ref=boomkrak.com",
+	        "articleAuthor": "Mailchimp",
+	        "articleTag": "interview, content-strategy"
+			},
+			{
+			"articleTitle":"Running a design company for 3 years — the things I have learned so far.",
+	        "articleUrl":"https://medium.com/building-wonderland/running-a-design-company-for-3-years-the-things-i-have-learned-so-far-2ca101b2fb49#.ma439fxv2?ref=boomkrak.com",
+	        "articleAuthor": "Martijn van der Does",
+	        "articleTag": "learning, business"
+			},
+			{
+			"articleTitle":"The sins of our UIs.",
+	        "articleUrl":"https://medium.com/startup-grind/the-sins-of-our-uis-908cd99940d9#.u6q0xspjp?ref=boomkrak.com",
+	        "articleAuthor": "Max Kilb",
+	        "articleTag": "ui, ux"
+			},
+			{
+			"articleTitle":"How to Talk About Your Side Projects.",
+	        "articleUrl":"https://medium.freecodecamp.com/how-to-talk-about-your-side-projects-18b96f192817#.n15kgul7h?ref=boomkrak.com",
+	        "articleAuthor": "Tanner Christensen",
+	        "articleTag": "essay"
+			},
+			{
+			"articleTitle":"How to Talk About Your Side Projects.",
+	        "articleUrl":"https://medium.freecodecamp.com/how-to-talk-about-your-side-projects-18b96f192817#.n15kgul7h?ref=boomkrak.com",
+	        "articleAuthor": "Tanner Christensen",
+	        "articleTag": "essay"
+			},
+			{
+			"articleTitle":"The 28 Most-Loved Products That Launched This Past Month.",
+	        "articleUrl":"https://medium.com/product-hunt/the-28-most-loved-products-that-launched-this-past-month-f43c7acdbf58#.wt8lx37i7?ref=boomkrak.com",
+	        "articleAuthor": "Product Hunt",
+	        "articleTag": ""
+			},
+			{
+			"articleTitle":"Avoid Wasting Resources with this 7-Step A/B Testing Process.",
+	        "articleUrl":"https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/?ref=boomkrak.com",
+	        "articleAuthor": "Richard Eckles",
+	        "articleTag": "ux"
+			}
+		]
+	},
+	{
+		"date": "Feb 20",
+		"content": [
+			{
+			"articleTitle":"Creative Characters Creative Characters Interview with Akira Kobayashi",
+	        "articleUrl":"https://www.myfonts.com/newsletters/cc/20170204.html?ref=boomkrak.com",
+	        "articleAuthor": "MyFonts",
+	        "articleTag": "typography, interview"
+			},
+			{
+			"articleTitle":"Most of the web really sucks if you have a slow connection",
+	        "articleUrl":"https://danluu.com/web-bloat/?ref=boomkrak.com",
+	        "articleAuthor": "Dan Luu",
+	        "articleTag": "essay, learning, ux"
+			},
+			{
+			"articleTitle":"7 Toxic People to Avoid When Starting in Design",
+	        "articleUrl":"https://creativemarket.com/blog/toxic-people-design/?ref=boomkrak.com",
+	        "articleAuthor": "Kevin Whipps",
+	        "articleTag": "productivity"
+			},
+			{
+			"articleTitle":"Tips on Applying Copy Content in User Interfaces",
+	        "articleUrl":"https://uxplanet.org/tips-on-applying-copy-content-in-user-interfaces-8d039c231dc5#.dl2oric69/?ref=boomkrak.com",
+	        "articleAuthor": "Tubik Studio",
+	        "articleTag": "ui, ux"
+			},
+			{
+			"articleTitle":"Branding Lessons from a Design Agency Part 1",
+	        "articleUrl":"https://onbrand.me/strategy/branding-lessons-from-a-design-agency/?ref=boomkrak.com",
+	        "articleAuthor": "The Owen Agency",
+	        "articleTag": "branding"
+			},
+			{
+			"articleTitle":"Perfectionism Killed my Productivity",
+	        "articleUrl":"https://medium.com/desk-of-van-schneider/perfectionism-killed-my-productivity-b9240aec5d2f#.5r1rky7bl/?ref=boomkrak.com",
+	        "articleAuthor": "Tobias van Schneider",
+	        "articleTag": "productivity, essay"
+			},
+			{
+			"articleTitle":"A short explanation of a branding tool for everything and everyone",
+	        "articleUrl":"https://medium.muz.li/a-short-explanation-of-a-branding-tool-for-everything-and-everyone-57578305f94b#.5e9hhk2pw/?ref=boomkrak.com",
+	        "articleAuthor": "Carl Dackö",
+	        "articleTag": "branding"
+			}
+		]
+	},
+	{
 		"date": "Feb 6",
 		"content": [
 			{
@@ -33,7 +139,7 @@
 	        "articleTag": "business"
 			},
 			{
-			"articleTitle":"",
+			"articleTitle":"The Secret History of the LaCroix Label",
 	        "articleUrl":"http://www.bonappetit.com/story/the-secret-history-of-the-lacroix-label/?ref=boomkrak.com",
 	        "articleAuthor": "Ashlea Halpern",
 	        "articleTag": "branding"

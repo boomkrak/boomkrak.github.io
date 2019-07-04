@@ -143,6 +143,24 @@
 			"url": "https://www.prodpad.com/",
 			"desc": "With ProdPad you can build and share your flexible product roadmap, and prioritize your backlog.",
 			"sticky": false
+		},
+		{
+			"title": "Milanote",
+			"url": "http://milanote.com/",
+			"desc": "The notes app for research, thinking and planning behind your next great piece of work. For individuals & teams.",
+			"sticky": false
+		},
+		{
+			"title": "Hivy",
+			"url": "https://hivyapp.com/",
+			"desc": "The Office Management Platform, to interact with employees and vendors.",
+			"sticky": false
+		},
+		{
+			"title": "Walky",
+			"url": "https://walky.io/",
+			"desc": "Instant video communication for remote team.",
+			"sticky": false
 		}
 	]
 }

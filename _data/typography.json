@@ -185,6 +185,18 @@
 			"url": "http://typography.supply/",
 			"desc": "An inventory of typographic tools.",
 			"sticky": false
+		},
+		{
+			"title": "Typography Insight",
+			"url": "http://typeinsight.org/",
+			"desc": "Typography Insight ia an app and toolkit for learning and teaching typography.",
+			"sticky": false
+		},
+		{
+			"title": "Emblem",
+			"url": "https://builtbyemblem.com/",
+			"desc": "Built your own brand in minutes.",
+			"sticky": false
 		}
 	]
 }

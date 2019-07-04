@@ -179,6 +179,18 @@
 			"url": "https://www.mockflow.com/",
 			"desc": "Actually the product is not only a wireframing tools but also included another tools like design collaboration, styleguide creator, banner maker, sitemap maker, and website builder.",
 			"sticky": false
+		},
+		{
+			"title": "Zenkit Mind Maps",
+			"url": "https://zenkit.com/mindmap",
+			"desc": "Zenkit. Where mind maps meet project management.",
+			"sticky": false
+		},
+		{
+			"title": "Kite Compositor",
+			"url": "https://kiteapp.co/",
+			"desc": "Animation and prototyping application for Mac & iOS.",
+			"sticky": false
 		}
 	]
 }

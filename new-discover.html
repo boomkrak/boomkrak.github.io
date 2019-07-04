@@ -4,146 +4,49 @@ title: New Resources
 bannertext: We discovered new resources for you
 ---
 
-<h3>Week of Feb 6</h3>
+<h3>Week of Mar 13</h3>
 <h5 id="new-tools">New Tools</h5>
+
+{% assign tools = site.data.new-discover.tools | sort: 'title' %}
+
 <ul class="collection">
-	<li class="collection__list">
-		<article>
-			<a href="https://formspree.io/?ref=boomkrak.com" title="Formspree" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://formspree.io/" alt="Formspree">
-				Formspree
-			</a>
-			<br>
-			Functional HTML forms. Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required.
-		</article>
-		<a href="https://formspree.io/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://www.jotform.com/?ref=boomkrak.com" title="JotForm" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://www.jotform.com/" alt="JotForm">
-				JotForm
-			</a>
-			<br>
-			Form builder lets you build a customized online form.
-		</article>
-		<a href="https://www.jotform.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="http://usabilitytools.com/?ref=boomkrak.com" title="UsabilityTools" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=http://usabilitytools.com/" alt="UsabilityTools">
-				UsabilityTools
-			</a>
-			<br>
-			UsabilityTools will tell you why people leave your website with video playbacks.
-		</article>
-		<a href="http://usabilitytools.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://www.nuage.email/?ref=boomkrak.com" title="Nuage" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://www.nuage.email/" alt="Nuage">
-				Nuage
-			</a>
-			<br>
-			Create a custom address redirected to your Gmail.
-		</article>
-		<a href="https://www.nuage.email/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<!--
-	<li class="collection__list">
-		<article>
-			<a href="https://www.bizplan.com/?ref=boomkrak.com" title="Bizplan" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://www.bizplan.com/" alt="Bizplan">
-				Bizplan
-			</a>
-			<br>
-			Bizplan is modern business planning software for startups.
-		</article>
-		<a href="https://www.bizplan.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="https://www.mockflow.com/?ref=boomkrak.com" title="Mockflow" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=https://www.mockflow.com/" alt="Mockflow">
-				Mockflow
-			</a>
-			<br>
-			Actually the product is not only a wireframing tools but also included another tools like design collaboration, styleguide creator, banner maker, sitemap maker, and website builder.
-		</article>
-		<a href="https://www.mockflow.com/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	<li class="collection__list">
-		<article>
-			<a href="http://element.eleme.io/?ref=boomkrak.com" title="Element" target="_blank">
-				<img src="https://www.google.com/s2/favicons?domain=http://element.eleme.io/" alt="Element">
-				Element
-			</a>
-			<br>
-			Element, a Vue 2.0 based component library for developers, designers and product managers, with a set of design resources.
-		</article>
-		<a href="http://element.eleme.io/?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
-	</li>
-	-->
+	{% for tool in tools %}
+		<li class="collection__list">
+			<article>
+				<h4>
+					<a href="{{ tool.url }}?ref=boomkrak.com" title="{{ tool.title }}" target="_blank">
+						<img src="https://www.google.com/s2/favicons?domain={{ tool.url }}" alt="{{ tool.title }}">
+						{{ tool.title }}
+					</a>
+				</h4>
+				{{ tool.desc }}
+			</article>
+			<a href="{{ tool.url }}?ref=boomkrak.com" target="_blank" class="ion-android-open"></a>
+		</li>
+	{% endfor %}
 </ul>
 
 <h5 id="new-articles">New Articles</h5>
+{% assign resources = site.data.resources.resources | %}
 <ul class="resource__list">
+  	{% for resource in resources %}
+  	{% if resource.date contains "Mar 13" %}
     <li>
 		<ul>
-			<li>
-				<h6><a href="https://medium.com/ux-power-tools/i-didnt-know-sketch-could-do-that-182f2f2d811e#.9l2v5ski6/?ref=boomkrak.com" target="_blank"><span>I Didn’t Know Sketch Could Do that!</span></a></h6>
-				<p>An article by Jon Moore</p>
+			{% for article in resource.content %}
+			<li {% if article.promo == "true" %} class="sponsored" {% endif %}>
+				<h6><a href="{{ article.articleUrl }}" target="_blank"><span>{{ article.articleTitle }}</span></a></h6>
+				<p>An article by {{ article.articleAuthor }}</p>
 				<div class="resource__tag">
-					<span>ui</span>
-					<span>learning</span>
+					{% assign tags = article.articleTag | split:", " %}
+					{% for tag in tags %}
+						<a href="{{ site.baseurl }}/tag/{{ tag |  replace: ' ', '-'}}">{{ tag }}</a>
+					{% endfor %}
 				</div>
 			</li>
-			<li>
-				<h6><a href="https://medium.com/@giorgialupi/data-humanism-the-revolution-will-be-visualized-31486a30dbfb#.18exidmld/?ref=boomkrak.com" target="_blank"><span>Data Humanism, the Revolution will be Visualized.</span></a></h6>
-				<p>An article by Giorgia Lupi</p>
-				<div class="resource__tag">
-					<span>essay</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://blog.prototypr.io/three-level-design-approach-73602a99bc68#.yhd6i4ram/?ref=boomkrak.com" target="_blank"><span>Three Level Design Approach</span></a></h6>
-				<p>An article by Stewart Curry</p>
-				<div class="resource__tag">
-					<span>ui</span>
-					<span>ux</span>
-					<span>collaboration</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://chatbotsmagazine.com/what-we-learned-designing-a-chatbot-for-banking-2dd2c51d7c2c#.8ycc9smgm/?ref=boomkrak.com" target="_blank"><span>What We Learned Designing a Chatbot for Banking</span></a></h6>
-				<p>An article by Maciej Lipiec</p>
-				<div class="resource__tag">
-					<span>case study</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://m.signalvnoise.com/why-we-never-sold-basecamp-by-the-seat-4482f3e6a195#.a57etb7vb/?ref=boomkrak.com" target="_blank"><span>Why We Never Sold Basecamp by the Seat</span></a></h6>
-				<p>An article by DHH</p>
-				<div class="resource__tag">
-					<span>business</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="http://www.bonappetit.com/story/the-secret-history-of-the-lacroix-label/?ref=boomkrak.com" target="_blank"><span>The Secret History of the LaCroix Label</span></a></h6>
-				<p>An article by Ashlea Halpern</p>
-				<div class="resource__tag">
-					<span>branding</span>
-				</div>
-			</li>
-			<li>
-				<h6><a href="https://entrepreneurshandbook.co/37-alternatives-to-subscribe-for-button-text-ctas-c65c11cc4c92#.vifnaxgqa/?ref=boomkrak.com" target="_blank"><span>37 Alternatives to “Subscribe” for Button Text CTA</span></a></h6>
-				<p>An article by Dave Schools</p>
-				<div class="resource__tag">
-					<span>content strategy</span>
-				</div>
-			</li>
+			{% endfor %}
 		</ul>
     </li>
+    {% endif %}
+  	{% endfor %}
 </ul>
